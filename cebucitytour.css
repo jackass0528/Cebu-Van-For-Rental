@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+.hero{
+    background: rgb(192, 95, 95);
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+
+.contac{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    } 
+    .contac ul{
+        flex: 1;
+        text-align: center;
+    
+    }
+    .contac ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0 20px; 
+    }
+    .contac ul li a{
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+
+nav{
+background-color: rgba(184, 197, 197, 0.521);
+display: flex;
+align-items: center;
+padding: 20px 8%;
+}
+nav .logo {
+    width: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+font-size: 13px;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.first-content{
+padding: 20px 10px;
+}
+
+table tr td{
+    
+}
