@@ -1,77 +1,150 @@
 *{
-    margin:0;
+margin: 0;
+padding: 0;
+font-family: 'Roboto Slab', serif;
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
-    box-sizing: border-box;
-}
-.hero{
-    background: rgb(192, 95, 95);
-    min-height: 100vh;
-    width: 100%;
-    color: #fff;
-    position: relative;
 }
 
-
-.contac{
-    background-color: black;
-    display: flex;
-    align-items: center;
-    padding: 20px 8%;
-    } 
-    .contac ul{
-        flex: 1;
-        text-align: center;
-    
-    }
-    .contac ul li{
-        display: inline-block;
-        list-style: none;
-        margin: 0 20px; 
-    }
-    .contac ul li a{
-        text-decoration: none;
-        color: #fff;
-
-    }
-
-
-nav{
-background-color: rgba(184, 197, 197, 0.521);
-display: flex;
-align-items: center;
-padding: 20px 8%;
-}
-nav .logo {
-    width: 100px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-nav ul{
-    flex: 1;
-    text-align: right;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 20px;
-    position: relative;
-}
-nav ul li a{
-text-decoration: none;
-color: black;
-font-size: 13px;
-}
-
-
-h1{
-    text-align: center;
-    padding-top: 30px;
-}
 .first-content{
-padding: 20px 10px;
+margin: 0px;
+padding: 0px;
 }
 
-table tr td{
-    
+.table-content{
+margin: 10px;
+padding: 10px;
+display: flex;
+
 }
+
+.list-1 li{
+ list-style: none;
+}
+
+.list-2 ul{
+    list-style: none;
+}
+.list-3 ul{
+    list-style: none;
+}
+.list-4 ul{
+    list-style: none;
+}
+.list-5 ul{
+    list-style: none;
+}
+
+
+
+
+/* Header Section*/
+.header{
+    background-color: black;
+}
+.header ul{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-around;
+}
+.header li{
+    list-style: none;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+}
+/* Header End Section*/
+
+
+
+/* Navar Section*/
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: white;
+}
+
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-link ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-link li{
+list-style: none;
+
+}
+
+.navbar-link li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+
+.navbar-link li:hover{
+background-color: lightgray;
+
+}
+
+.toggle-button{
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: white;
+border-radius: 10px;
+
+}
+
+@media (max-width: 600px) {
+.toggle-button {
+    display: flex;
+}
+.navbar-link{
+    display: none;
+    width: 100%;
+}
+.navbar {
+flex-direction: column;
+align-items: flex-start;
+}
+.navbar-link ul{
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-link li{
+    text-align: center;
+}
+.navbar-link li a{
+    padding: .5rem 1rem;
+}
+.navbar-link.active{
+    display: flex;
+}
+}
+
+/* Navar End Section*/
+
