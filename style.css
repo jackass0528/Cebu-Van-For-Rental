@@ -44,6 +44,8 @@ background-color: #333;
 color: white;
 }
 
+
+
 .brand-title{
     font-size: 1.5rem;
     margin: .5rem;
@@ -175,11 +177,12 @@ left: 50%;
 /* banner 1 Section*/
 .banner-1{
     height: 30%;
-    background-image: url(image/CCLEX.jpg);
+    background-image: url(image/page2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding-top: -10%;
+    
     }
     
     .banner-highlights-1{
@@ -225,20 +228,45 @@ margin-top: 20px;
 
 /* banner 2 End Section*/
 
-/* User Reviews*/
-.user-feedback{
-padding: 10% 0;
-text-align: center;
+/* footer Reviews*/
+.footer{
+    padding: 100px 20px 20px;
+    background-image: linear-gradient(#48abecaf,#fb101096);
+    color: #fff;
+}
+
+.footer-logo{
+width: 120px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+.footer h4{
+text-align: left;
+margin-top: 15px;
+margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+}
+.footer .row .fa{
+padding-right: 20px;
+font-size: 20px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: lightgray;
+}
+.fa-taxi{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright{
+    text-align: center;
 }
 
 
-
-.user-review{
-text-align: center;
-box-shadow: 0 0 10px 0 rgb(253, 32, 32);
-
-}
-
-
-
-/* User end Reviews*/
+/* footer end Reviews*/
