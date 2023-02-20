@@ -123,74 +123,188 @@ align-items: flex-start;
 /* Navar End Section*/
 
 /* content Section*/
-.content h1{
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    text-shadow: -2px 2px 2px #fffefe;
-    background: rgba(214, 212, 212, 0.7);
+.container{
+max-width: 1200px;
+margin: 0 auto;
+text-align: center;
 }
-.content-1{
-    margin: 10px;
-    padding: 10px;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+.container .heading{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: gray;
 }
-button{
-    background-color: rgb(253, 32, 32);
-    font-size: 14px;
-    margin: 10px;
-    padding: 10px;
- 
+.container .box-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+gap: 20px;
+} 
+
+.container .box-container .box{
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 5px 10px rgba(0,0,0,0.2 );
+display: none;
 }
 
-.gallarey-box img{
+.container .box-container .box:nth-child(1),
+.container .box-container .box:nth-child(2),
+.container .box-container .box:nth-child(3){
+display: inline-block;
+
+}
+
+.container .box-container .box .image{
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 5px;
+
+    }
+
+    .container .box-container .box .image img{
+height: 100%;
 width: 100%;
-border-radius: 10px;
+object-fit: cover;
+
+    }
+
+    .container .box-container .box:hover .image img{
+       transform: scale(1.1); 
+    }
+
+    .container .box-container .box .content-box h3{
+font-size: 15px;
+color: #777;
+    }
+
+    .container .box-container .box .content-box p{
+        font-size: 20px;
+        color: #333;
+        line-height: 2;
+        padding: 15px 0;
+            }
+.container .box-container .box .content-box .btn{
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid #334;
+    color: #334;
+    font-size: 16px;
+
+}
+
+.container .box-container .box .content-box .btn:hover{
+    background-color: crimson;
+    border-color: crimson;
+    color: #fff;
+}
+
+.container .box-container .box .content-box .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #334;
+}
+
+.container .box-container .box .content-box .icon span{
+font-size: 14px;
+color: #777;
+}
+
+.container .box-container .box .content-box .icon span i{
+    color: crimson;
+  
+    }
+
+    #load-more{
+margin-top: 20px;
+display: inline-block;
+padding: 13px 40px;
+border: 1px solid #334;
+color: rgb(254, 254, 255);
+font-size: 16px;
+background-color: #ff0202;
 cursor: pointer;
-transition: 1s;
+
+    }
+    #load-more:hover{
+        background-color: rgb(253, 17, 0);
+        border-color: rgb(248, 248, 248);
+        color: #fff;
+    }
+  
+@media (max-width:600px) {
+    .container{
+    padding-top: 20%;
+    }
+    .container .heading{
+font-size: 25px;
+    }
+    .container .box-container{
+grid-template-columns: 1fr;
+    }
+    .container .box-container .box .image{
+height: 200px;
+    }
+    .container .box-container .box .content-box p{
+        font-size: 12px;
+        
+    }
+    .container .box-container .box .content-box .icon span{
+        font-size: 12px;
+        
+    }
+
 }
 
-.gallarey-box img:hover{
-    transform: scale(1.1);
-}
-
-.gallarey-box h2{
-display: block;
-font-size: 20px;
-color: #fff;
-text-shadow: -2px 2px 2px #000;
-font-weight: 600;
-position: absolute;
-transform: translate(-50%,-50%);
-top: 50%;
-left: 50%;
-
-}
-.gallarey-box{
-   position: relative; 
-   margin-bottom: 30px;
-}
 /* content end Section*/
+
 
 /* banner 1 Section*/
 .banner-1{
-    height: 30%;
-    background-image: url(image/page2.jpg);
+    height: 40%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: -10%;
+    margin-bottom: 60px;
     
     }
     
     .banner-highlights-1{
-    padding: 30px 0;
     text-align: center;
     color: #fff;
+    position: relative;
+
+    }
+    .heading-1{
+        color: rgb(247, 245, 245);
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0,0,0,0.3);
     
     }
+    .heading-1 h1{
+        font-size: 3rem;   
+    
+    }
+    .heading-1 .p2{
+        font-size: 1.5rem;
+
+    }
+ 
+    .row-1 img{
+        width: 100%;
+        height: 350px;
+    }
+
+
+
+    
     
 
 /* banner 1 End Section*/
@@ -199,11 +313,12 @@ left: 50%;
 /* banner 2 Section*/
 .banner{
 height: 50%;
-background-image: url(image/CCLEX.jpg);
 background-position: center;
+background-image: url(image/CCLEX.jpg);
 background-size: cover;
 background-attachment: fixed;
 padding-top: 10%;
+margin-top: 40px;
 }
 
 .banner-highlights{
@@ -231,9 +346,11 @@ margin-top: 20px;
 /* footer Reviews*/
 .footer{
     padding: 100px 20px 20px;
-    background-image: linear-gradient(#48abecaf,#fb101096);
+    background-image: linear-gradient(#75bff0af,#31303096);
     color: #fff;
+
 }
+
 
 .footer-logo{
 width: 120px;
@@ -256,17 +373,37 @@ margin-bottom: 25px;
 padding-right: 20px;
 font-size: 20px;
 }
-.footer hr{
-    margin-top: 10px;
-    background: lightgray;
+.footer .fa-phone-square img{
+    width: 20px;
+    height: 20px;
 }
-.fa-taxi{
-    margin: 0 5px;
-    color: #f44336;
+.footer .fa-enevelope img{
+    width: 20px;
+    height: 20px;
+
 }
-.footer .copyright{
-    text-align: center;
+
+.footer .fa-home img{
+    width: 20px;
+    height: 20px;
+
 }
+.footer .fa-facebook img{
+    width: 20px;
+    height: 20px; 
+}
+.footer .fa-youtube-play img{
+    width: 20px;
+    height: 20px; 
+
+}
+.footer .fa-instagram img{
+    width: 20px;
+    height: 20px;
+
+}
+
+
 
 
 /* footer end Reviews*/
