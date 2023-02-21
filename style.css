@@ -15,21 +15,47 @@ padding: 0;
 
 /* Header Section*/
 .header{
-    background-color: white;
+    background-color: rgb(0,0,0.07);
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    
 }
+.header-a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: auto;
+
+}
+
 .header ul{
 margin: 0;
 padding: 0;
-display: flex;
-justify-content: space-around;
+
 }
 .header li{
     list-style: none;
-    
+    display: inline-block;
+    margin: 0px 10px;
 }
 .header li a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+
+}
+@media (max-width: 600px){
+.header{
+display: block;
+}
+.header-a{
+   margin: 150px;
+}
+.header li{
+display: inline-block;
+padding: 0px 10px;
+
+}
+
 }
 /* Header End Section*/
 
@@ -238,7 +264,7 @@ cursor: pointer;
   
 @media (max-width:600px) {
     .container{
-    padding-top: 20%;
+    padding-top: 40%;
     }
     .container .heading{
 font-size: 25px;
@@ -269,7 +295,7 @@ height: 200px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     
     }
     
@@ -317,7 +343,7 @@ background-position: center;
 background-image: url(image/CCLEX.jpg);
 background-size: cover;
 background-attachment: fixed;
-padding-top: 10%;
+padding-top: 4%;
 margin-top: 40px;
 }
 
@@ -338,6 +364,13 @@ border-radius: 50px;
 background: transparent;
 color: #fff;
 margin-top: 20px;
+
+}
+
+@media (max-width:600px){
+.banner {
+    padding-top: 5%;
+}
 
 }
 
