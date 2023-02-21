@@ -25,6 +25,7 @@ padding: 0;
     color: #fff;
     text-decoration: none;
     margin-right: auto;
+    
 
 }
 
@@ -48,11 +49,17 @@ padding: 0;
 display: block;
 }
 .header-a{
-   margin: 150px;
+   margin: 140px;
+   font-size: 14px;
 }
 .header li{
 display: inline-block;
 padding: 0px 10px;
+
+}
+
+.header li a{
+    font-size: 14px;
 
 }
 
@@ -343,7 +350,7 @@ background-position: center;
 background-image: url(image/CCLEX.jpg);
 background-size: cover;
 background-attachment: fixed;
-padding-top: 4%;
+padding-top: 10%;
 margin-top: 40px;
 }
 
@@ -368,8 +375,10 @@ margin-top: 20px;
 }
 
 @media (max-width:600px){
-.banner {
-    padding-top: 5%;
+
+.container{
+padding-top: 30px;
+
 }
 
 }
@@ -433,6 +442,13 @@ font-size: 20px;
 .footer .fa-instagram img{
     width: 20px;
     height: 20px;
+
+}
+
+@media (max-width:600px){
+   .container-footer{
+     
+    }
 
 }
 
