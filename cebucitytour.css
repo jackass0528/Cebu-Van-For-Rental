@@ -10,36 +10,33 @@ body{
     padding: 0;
 }
 
-.first-content{
-margin: 0px;
-padding: 0px;
-}
-
 .table-content{
-margin: 10px;
-padding: 10px;
+padding: 20px 40px;
 display: flex;
 flex-wrap: wrap;
-
+justify-content: space-between;
 }
 
-.list-1 li{
+.list-1{
  list-style: none;
+ flex: 3;
+
 }
 
-.list-2 ul{
-    list-style: none;
+.rigth-side{
+    display: flex;
+    flex-direction: column;
 }
-.list-3 ul{
-    list-style: none;
+.list-2{
+    flex: 1;
+background-color: #911717;
 }
-.list-4 ul{
-    list-style: none;
-}
-.list-5 ul{
-    list-style: none;
+.list-3{
+    flex: 1;
+    background-color: aqua;
 }
 
+    
 
 
 
