@@ -46,21 +46,22 @@ padding: 0;
 }
 @media (max-width: 600px){
 .header{
-display: block;
+justify-content: space-evenly;
+
 }
 .header-a{
-   margin: 140px;
    font-size: 14px;
+   display: none;
 }
 .header li{
 display: inline-block;
-padding: 0px 10px;
+padding: 0px 5px;
 
 }
 
 .header li a{
     font-size: 14px;
-
+   
 }
 
 }
@@ -293,6 +294,7 @@ height: 200px;
 
 }
 
+
 /* content end Section*/
 
 
@@ -387,7 +389,7 @@ padding-top: 30px;
 
 /* footer Reviews*/
 .footer{
-    padding: 100px 20px 20px;
+    padding: 50px 20px 20px;
     background-image: linear-gradient(#75bff0af,#31303096);
     color: #fff;
 
@@ -408,7 +410,7 @@ margin-bottom: 25px;
 }
 
 .footer p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: justify;
 }
 .footer .row .fa{
@@ -446,7 +448,8 @@ font-size: 20px;
 }
 
 
-
-
-
 /* footer end Reviews*/
+
+/* back to top start*/
+
+/* back to top end*/
