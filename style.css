@@ -92,8 +92,11 @@ padding: 3px;
 
 /* Header 2 Section*/
 .header-2{
-margin: 0 auto;
-padding-top: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .header-text{
