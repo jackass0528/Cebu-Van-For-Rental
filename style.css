@@ -96,13 +96,14 @@ padding: 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 50px;
+    flex-direction: column;
+    padding-top: 60px;
 }
 
 .header-text{
     text-align: center;
     color: #333 ;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 
