@@ -66,6 +66,28 @@ padding: 0px 4px;
 }
 
 }
+
+@media (max-width: 400px){
+    .header{
+    justify-content: space-evenly;
+    
+    }
+    .header-a{
+       font-size: 12px;
+       display: none;
+    }
+    .header li{
+    display: inline-block;
+    margin: 0;
+    
+    }
+    
+    .header li a{
+        font-size: 14px;
+       
+    }
+    
+    }
 /* Header 1 End Section*/
 
 /* Header 2 Section*/
@@ -118,6 +140,19 @@ text-align: center;
 }
 
         }
+
+        
+        @media (max-width:400px){
+            .header-2{
+                padding-top: 20px;
+            }
+            .header-text{
+                padding-top: 100px;
+            }
+            
+                    }
+
+        
 /* end Header 2 Section*/
 
 /* Header 3 payment Section*/
@@ -126,6 +161,7 @@ margin: auto;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+padding-top: 40px;
 }
 .payment-title{
 text-align: center;
@@ -145,6 +181,7 @@ margin: 10px 20px;
 .payment ul li img{
 width: 150px;
 height: 100px;
+margin: 10px;
     }
 
 
@@ -153,7 +190,8 @@ height: 100px;
     margin: auto;
     text-align: center;
     }
- 
+
+
 
 /* end Header 3 payment Section*/
 
@@ -438,8 +476,22 @@ height: 200px;
             height: 30%;
             
         }
+
+        .heading-1{
+            top: 3%;
+        }
      
     }
+    @media (max-width:400px){
+
+        .heading-1{
+        top: 2%;
+        
+        }
+        
+        }
+ 
+
 
 
     
@@ -487,6 +539,7 @@ padding-top: 30px;
 }
 
 }
+
 
 /* banner 3 End Section*/
 
