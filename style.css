@@ -126,7 +126,8 @@ text-align: center;
     .header-list ul li a{
        text-decoration: none;
        color: rgb(46, 44, 44);
-       border: 1px solid #333;
+       border: 2px solid #333;
+       border-radius: 15px;
        padding: 20px 40px;
        margin: 10px; 
         }
