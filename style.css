@@ -97,15 +97,11 @@ margin: 0 auto;
 
 .header-text{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 80px;
     color: #333 ;
     font-size: 22px;
 }
 
-.header-2 .header-list{
-    width: 100%;
-    margin: auto;
-}
 
 .header-list ul{
 margin: 10px;
@@ -132,12 +128,13 @@ text-align: center;
         }
 
         @media (max-width:600px){
-.header-2{
-    padding-top: 20px;
-}
 .header-text{
-    padding-top: 60px;
+    padding-top: 10px;
 }
+.header-2{
+    padding-bottom: 20px;
+}
+
 
         }
 
@@ -147,7 +144,18 @@ text-align: center;
                 padding-top: 20px;
             }
             .header-text{
-                padding-top: 100px;
+                padding-top: 120px;
+            }
+            
+                    }
+
+  
+        @media (max-width:912px){
+            .header-2{
+                padding-top: 20px;
+            }
+            .header-text{
+                padding-top: 10px;
             }
             
                     }
@@ -473,7 +481,7 @@ height: 200px;
 
     @media (max-width:600){
         .banner-1{
-            height: 30%;
+            height: 20%;
             
         }
 
