@@ -265,10 +265,15 @@ background-color: white;
 border-radius: 10px;
 
 }
+.brand-title img{
+    width: 100px;
+    height: 80px;
+}
 
 @media (max-width: 600px) {
 .toggle-button {
     display: flex;
+    margin: 60px 20px;
 }
 .navbar-link{
     display: none;
