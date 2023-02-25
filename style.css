@@ -287,6 +287,12 @@ text-align: center;
     color: rgb(255, 251, 251);
     padding: 20px 40px;
 }
+
+.head-style{
+    color: red;
+
+}
+
 .container .box-container{
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
@@ -539,7 +545,8 @@ padding-top: 30px;
 
 
 .footer-logo{
-width: 120px;
+width: 75px;
+height: 50px;
 margin-top: 15px;
 margin-bottom: 15px;
 
