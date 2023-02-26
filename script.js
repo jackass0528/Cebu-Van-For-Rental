@@ -10,6 +10,5 @@ const navLinks = document.querySelectorAll('nav a').
 forEach(link => {
 if(link.href.include('${activePage}')){
 link.classList.add ('active');
-console.log(link);
 }
 })
