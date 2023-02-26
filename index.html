@@ -18,9 +18,9 @@
 <div class="header">
     <a href="#" class="header-a"><i class="fa fa-map-marker">Maracas Lahug Cebu City</i></a>
     <ul>
-        <li><a href="#" class="fa fa-phone-square"> 09279882639</a></li>
-        <li><a href="#" class="fa fa-phone-square">09333577889</a></li>
-        <li><a href="#" class="fa fa-phone-square">+032 2661606</a></li>
+        <li><a href="tel:+639279882639" class="fa fa-phone-square"> 09279882639</a></li>
+        <li><a href="https://wa.me/639333577889" class="fa fa-phone-square">09333577889</a></li>
+        <li><a href="tel:+0322661606" class="fa fa-phone-square">+032 2661606</a></li>
     </ul>
 </div>
 <!---header 1 end Section---->
@@ -72,9 +72,9 @@
 </div>
 <div class="header-list" >
     <ul>
-        <li><a href="#" class="fa fa-mobile-phone"> 09279882639</a></li>
-        <li><a href="#" class="fa fa-whatsapp"> 09333577889</a></li>
-        <li><a href="#" class="fa fa-phone">+032 2661606</a></li>
+        <li><a href="tel:+639279882639" class="fa fa-mobile-phone"> 09279882639</a></li>
+        <li><a href="https://wa.me/639333577889" class="fa fa-whatsapp"> 09333577889</a></li>
+        <li><a href="tel:+0322661606" class="fa fa-phone">+032 2661606</a></li>
     </ul>
 </div>
 </div>
@@ -461,6 +461,36 @@
 </section>
 <!---footer End Section---->
 
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "106861580760829");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v16.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 <!--- back to top Section---->
 <!--- back to top Section---->
 
