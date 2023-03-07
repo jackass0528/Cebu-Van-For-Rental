@@ -117,8 +117,6 @@ margin: 10px;
 }
 
 /* Navar Section*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
-
 body{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
@@ -146,35 +144,12 @@ a{
 /*header*/
 .header{
 	position: absolute;
-    background-color: #333333;
 	width: 100%;
 	left:0;
 	top:0;
-	z-index: 999;
+	z-index: 99;
 	padding: 15px;
 }
-.header-contact{
-	margin-bottom: 10px;
-	display: flex;
-	justify-content: center;
-}
-
-.header-contact ul li{
-	display: inline;
-	margin: 0;
-	padding: 10px 10px;
-}
-
-.header-contact ul li a{
-	color: #ffffff;
-}
-
-.Text-Slogan{
-	background-color: orangered;
-	margin-bottom: 10px;
-	padding: 10px;
-}
-
 .header-main{
 	background-color: #ffffff;
 	display: flex;
@@ -185,10 +160,6 @@ a{
 }
 .header .logo{
 	padding: 0 15px;
-}
-.header .logo img{
-	width: 75px;
-	height: 40px;
 }
 .header .logo a{
 	font-size: 30px;
@@ -344,6 +315,7 @@ a{
 	width: 100%;
 	display: block;
 	min-height: 100vh;
+	background-image: url('../img/home.jpg');
 	background-position: center top;
 	background-size: cover;
 }
@@ -351,16 +323,16 @@ a{
 
 /* responsive */
 
-@media(max-width: 991px){
+@media(max-width: 600px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
 }
 	.header .nav-menu{
 		position: fixed;
-		right: -100%;
+		right: -280px;
 		visibility: hidden;
-		width: 100%;
+		width: 280px;
 		height: 100%;
 		top:0;
 		overflow-y: auto;
@@ -422,6 +394,7 @@ a{
 		display: flex;
 	}
 }
+
 
 
     
