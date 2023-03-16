@@ -113,6 +113,9 @@ position: fixed;
         display: flex;
         justify-content: center;
     }
+    .header-contact ul li a{
+        font-size: 14px;
+    }
 }
 
 
@@ -610,7 +613,7 @@ padding-top: 30px;
         padding-top: 20%;    
     }
     .banner-1{
-        margin-top: 170px;
+        margin-top: 180px;
     }
     
     }
