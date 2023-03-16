@@ -160,8 +160,13 @@ a{
 	padding: 10px 0;
 	border-radius: 4px;
 }
+.logo img{
+    width: 80px;
+    height: 50px;
+}
 .header .logo{
 	padding: 0 15px;
+
 }
 .header .logo a{
 	font-size: 30px;
