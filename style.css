@@ -73,6 +73,50 @@ margin: 10px;
 }
 
 /* Navar Section*/
+
+/*Contact section*/
+.header-contact{
+    background-color: #000000;  
+}
+
+.header-contact-map{
+color: #ffffff;
+margin-left: 15px;
+position: fixed;
+}
+
+.header-contact ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+
+.header-contact ul li{
+    margin-left: 10px;
+}
+.header-contact ul li a{
+    color: #ffffff;
+}
+
+@media(max-width: 992px){
+
+    .header-contact{
+        padding-top: 5px;
+    }
+    .header-contact-map{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-contact ul{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
 
 body{
@@ -127,7 +171,7 @@ a{
 .header .logo a{
 	font-size: 30px;
 	text-transform: capitalize;
-	color: #e91e63;
+	color: crimson;
 	font-weight: 600;
 }
 .header .nav-menu{
@@ -170,14 +214,14 @@ a{
 }
 .header .menu > .menu-item:hover > a .plus:before,
 .header .menu > .menu-item:hover > a .plus:after{
-   background-color: #e91e63;
+   background-color: crimson;
 }
 .header .menu > .menu-item > a .plus:after{
    transform: translate(-50%,-50%) rotate(-90deg);	
 }
 .header .menu > .menu-item > .sub-menu > .menu-item > a:hover,
 .header .menu > .menu-item:hover > a{
-	color: #e91e63;
+	color: crimson;
 }
 .header .menu > .menu-item > .sub-menu{
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -187,7 +231,7 @@ a{
 	top:100%;
 	background-color: #ffffff;
 	padding: 10px 0;
-	border-top: 3px solid #e91e63;
+	border-top: 3px solid crimson;
 	transform: translateY(10px);
 	transition: all 0.3s ease;
 	opacity:0;
@@ -543,7 +587,7 @@ padding-top: 30px;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 10% 0 10% 0;
-    margin-top: 100px;
+    margin-top: 120px;
     }
     
     .banner-highlights-1{
@@ -566,7 +610,7 @@ padding-top: 30px;
         padding-top: 20%;    
     }
     .banner-1{
-        margin-top: 130px;
+        margin-top: 170px;
     }
     
     }
