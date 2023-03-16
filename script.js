@@ -80,13 +80,14 @@ var chatbox = document.getElementById('fb-customer-chat');
        // if menuItemHasChildren is expanded , collapse it
        if(navMenu.querySelector(".menu-item-has-children.active")){
             collapseSubMenu();
-       }
+       }    
     }
   
     window.addEventListener("resize", function(){
        if(this.innerWidth > mediaSize){
          resizeFix();
        }
+       
     });
   
   })();

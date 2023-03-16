@@ -94,27 +94,7 @@ margin: 10px;
 /* end Header 3 payment Section*/
 
 /*header background image start*/
-.header-image-Background{
-	max-width: 100%;
-	padding-top: 12%;
-	position: relative;
-	text-align: center;
-	color: white;
-	font-size: 30px;
-}
-.header-image-Background p{
-	font-size: 20px;
-}
 
-.header-image-paragraph{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: rgba(0,0,0,0.5);
-	width: 100%;
-
-}
 
 /* Navar Section*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
