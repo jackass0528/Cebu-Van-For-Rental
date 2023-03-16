@@ -7,51 +7,7 @@
 }
 
 
-/* Header 2 Section*/
-.header-2{
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 250px;
-}
 
-.header-text{
-    text-align: center;
-    color: #333 ;
-    font-size: 22px;
-}
-
-
-.header-list ul{
-margin: 10px;
-padding: 10px;
-text-align: center;
-
-}
-
-.header-list li{
-    display: inline;
-    list-style: none;
-    margin: 20px;
-    font-size: 25px;
-
-    
-    }
-
-    .header-list ul li a{
-       text-decoration: none;
-       color: rgb(46, 44, 44);
-       border: 2px solid #333;
-       border-radius: 15px;
-       padding: 20px 40px;
-       margin: 10px; 
-        }
-
-    
-
-/* end Header 2 Section*/
 
 /* Header 3 payment Section*/
 .container-payment{
@@ -94,7 +50,27 @@ margin: 10px;
 /* end Header 3 payment Section*/
 
 /*header background image start*/
+.header-image-Background{
+	width: 100%;
+	padding-top: 12%;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.header-image-Background p{
+	font-size: 20px;
+}
 
+.header-image-paragraph{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+
+}
 
 /* Navar Section*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
@@ -520,23 +496,19 @@ cursor: pointer;
 /* content end Section*/
 
 
-/* banner 1 Section*/
-/* banner 1 End Section*/
 
-
-/* banner 3 Section*/
+/* banner  Section*/
 .banner{
-height: 50%;
 background-position: center;
 background-image: url(image/CCLEX.jpg);
 background-size: cover;
 background-attachment: fixed;
-padding-top: 10%;
+padding: 20px 0 20px 0;
 margin-top: 40px;
 }
 
 .banner-highlights{
-padding: 50px 0;
+padding: 10% ;
 background: rgba(0,0,0,0.7);
 text-align: center;
 color: #fff;
@@ -564,8 +536,85 @@ padding-top: 30px;
 
 }
 
+/* banner 1 Section*/
+.banner-1{
+    background-position: center;
+    background-image: url(image/CCLEX.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 100px;
+    }
+    
+    .banner-highlights-1{
+    padding: 16%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    
+    }
 
-/* banner 3 End Section*/
+    .container-1 h2{
+        font-size: 40px;
+    }
+
+    
+    
+    @media (max-width:992px){
+    
+    .container-1{
+        padding-top: 20%;    
+    }
+    .banner-1{
+        margin-top: 130px;
+    }
+    
+    }
+    /* Header 2 Section*/
+.header-2{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.header-text{
+    text-align: center;
+    color: #333 ;
+    font-size: 22px;
+}
+
+
+.header-list ul{
+margin: 10px;
+padding: 10px;
+text-align: center;
+
+}
+
+.header-list li{
+    display: inline;
+    list-style: none;
+    margin: 20px;
+    font-size: 25px;
+
+    
+    }
+
+    .header-list ul li a{
+       text-decoration: none;
+       color: rgb(46, 44, 44);
+       border: 2px solid #333;
+       border-radius: 15px;
+       padding: 20px 40px;
+       margin: 10px; 
+        }
+
+    
+
+/* banner  End Section*/
 
 /* footer Reviews*/
 .footer{
