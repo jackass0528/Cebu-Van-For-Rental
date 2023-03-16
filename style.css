@@ -117,6 +117,8 @@ margin: 10px;
 }
 
 /* Navar Section*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
 body{
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
@@ -323,7 +325,7 @@ a{
 
 /* responsive */
 
-@media(max-width: 600px){
+@media(max-width: 991px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -397,7 +399,6 @@ a{
 
 
 
-    
 /* Navar End Section*/
     
 
