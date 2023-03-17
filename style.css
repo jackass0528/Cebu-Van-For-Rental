@@ -333,7 +333,7 @@ a{
 
 /* responsive */
 
-@media(max-width: 991px){
+@media(max-width: 992px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -574,7 +574,7 @@ margin-top: 20px;
 
 }
 
-@media (max-width:993px){
+@media (max-width:992px){
 
 .container{
 padding-top: 30px;

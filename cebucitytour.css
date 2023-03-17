@@ -9,6 +9,42 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* banner 1 Section*/
+.banner-1{
+    background-position: center;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 120px;
+    }
+    
+    .banner-highlights-1{
+    padding: 12%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    
+    }
+
+    .container-1 h2{
+        font-size: 40px;
+    }
+
+    
+    
+    @media (max-width:991px){
+    
+    .container-1{
+        padding-top: 20%;    
+    }
+    .banner-1{
+        margin-top: 180px;
+    }
+    
+    }
+
 /*start content */
 
 .table-content{
