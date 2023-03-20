@@ -622,15 +622,18 @@ padding-top: 30px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     padding-top: 30px;
+
+	
 }
 
 .header-text{
     text-align: center;
     color: #333 ;
     font-size: 22px;
+	
 }
 
 

@@ -1,12 +1,10 @@
-
-
-  (() =>{
+(() =>{
     
     const openNavMenu = document.querySelector(".open-nav-menu"),
     closeNavMenu = document.querySelector(".close-nav-menu"),
     navMenu = document.querySelector(".nav-menu"),
     menuOverlay = document.querySelector(".menu-overlay"),
-    mediaSize = 991;
+    mediaSize = 992;
   
     openNavMenu.addEventListener("click", toggleNav);
     closeNavMenu.addEventListener("click", toggleNav);
@@ -55,15 +53,17 @@
        // if menuItemHasChildren is expanded , collapse it
        if(navMenu.querySelector(".menu-item-has-children.active")){
             collapseSubMenu();
-       }    
+     
+          }    
     }
   
     window.addEventListener("resize", function(){
-       if(this.innerWidth > mediaSize){
-         resizeFix();
-       }
-       
-    });
+      if(this.innerWidth > mediaSize){
+        resizeFix();
+        
+      }
+      
+   });
 
 
   })();
