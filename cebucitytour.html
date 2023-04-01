@@ -165,9 +165,22 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ex aperiam deserunt cumque eum amet.</p>
      </div>
 
-<div class="list-3">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ex aperiam deserunt cumque eum amet.</p>
+<!--Contact Form Start-->
+
+<div class="container-form">
+<form onsubmit="sendEmail(); reset(); return false;">
+    <h3>GET IN TOUCH</h3>
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="email id" required>
+    <input type="text" id="phone" placeholder="Phone no." required>
+    <textarea id="message" rows="4" placeholder="How Can we Help you?"></textarea>
+    <button type="submit">Send</button>
+</form>
+    
 </div>
+
+
+<!--Contact Form End-->
 
 <div class="list-4">
     <div class="container">
@@ -213,6 +226,9 @@
 
 </div>
 <!--Content End-->
+
+
+
 <!---table Section----> 
  
 <div class="container-payment">
@@ -299,7 +315,8 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
-
+<script src=" https://smtpjs.com/v3/smtp.js"></script>
+<script src="loadmore.js"></script>
 
 </body>
 
