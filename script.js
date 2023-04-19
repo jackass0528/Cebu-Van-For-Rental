@@ -51,8 +51,9 @@
          toggleNav();
        }
        // if menuItemHasChildren is expanded , collapse it
-       if(navMenu.querySelector(".menu-item-has-children.active")){
+       if(navMenu.querySelector(".menu-item-has-children.active ")){
             collapseSubMenu();
+            
      
           }    
     }
@@ -64,7 +65,7 @@
       }
       
    });
-
+    
 
   })();
   
