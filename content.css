@@ -199,6 +199,13 @@ width: 100%;
 height: 100vh;
     }
 
+    @media(max-width: 992px){
+        #form-content {
+            background-color: #ffffff;
+            width: 100%;
+            height: 100vh;
+    }
+
     .list-4{
         flex: 1;
         display: flex;
