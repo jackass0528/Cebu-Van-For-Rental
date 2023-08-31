@@ -338,6 +338,10 @@ a{
 	visibility: visible;
 	opacity: 1;
 }
+
+#hide{
+visibility: hidden;
+}
 	.header .nav-menu{
 		position: fixed;
 		right: -280px;
