@@ -259,7 +259,7 @@ background-color: #0000004d;
 }
 @media(max-width: 992px){
     .carousel-button.next{
-        right: -15rem;
+        right: -5rem;
         margin-top: 70px;
     
 
@@ -268,8 +268,8 @@ background-color: #0000004d;
 @media(max-width: 992px){
     .carousel{
 margin: 30px;
-width: 200px;
-height: 100px;
+width: 100px;
+height: 80px;
 margin-top: -10px;
 
 
