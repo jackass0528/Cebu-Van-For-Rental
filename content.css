@@ -230,6 +230,16 @@ background-color: #333;
     right: 1rem;
 }
 
+@media(max-width: 992px){
+    .carousel-button:hover, 
+    .carousel-button:focus {
+        color: white;
+        background-color: #334;
+       
+        
+}
+
+
 
 /*End Slideshow*/
 
