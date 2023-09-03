@@ -166,16 +166,27 @@ cursor: pointer;
 /* content end Section*/   
 
 /*Slideshow*/
+
+.slider-sec{
+
+
+}
+
  .carousel {
     width: 500px;
     height: 500px;
     position: relative;
+     margin-left: 30%;
+     margin-top: 20px;
+   
+ 
  }
 
  .carousel > ul {
 margin: 0;
 padding: 0;
 list-style: none;
+
  }
 
  .slide {
@@ -185,12 +196,13 @@ list-style: none;
  }
 
  .slide > img {
-
     display: block;
-    width: 300px;
+    width: 500px;
     height: 200px;
+    margin-top: 50px;
     object-fit: cover;
     object-position: center;
+
  }
 
  .slide[data-active] {
@@ -203,19 +215,19 @@ z-index: 2;
 background: none;
 border: none;
 font-size: 4rem;
-top: 5%;
+top: 20%;
 transform: translateY(-5%);
-color: rgba(12, 12, 12, 0.5);
+color: rgba(12, 12, 12, 0.719);
 cursor: pointer;
 border-radius: .25rem;
 padding: 0 .5rem;
-background-color: #333;
+background-color: #0000004d;
  }
 
  .carousel-button:hover,
  .carousel-button:focus {
     color: white;
-    background-color: #334;
+    background-color: rgb(17, 17, 17);
  }
 .carousel-button:focus {
     outline: 1px solid black;
@@ -223,11 +235,11 @@ background-color: #333;
 
 .carousel-button.prev {
 
-    left: 1rem;
+    left: -5rem;
 }
 .carousel-button.next {
 
-    right: 1rem;
+    right: -5rem;
 }
 
 @media(max-width: 992px){
@@ -238,6 +250,24 @@ background-color: #333;
        
         
 }
+
+@media(max-width: 992px){
+    .carousel-button.prev{
+        left: 5rem;
+
+}
+@media(max-width: 992px){
+    .carousel-button.next{
+        right: 5rem;
+
+}
+
+@media(max-width: 992px){
+    .carousel{
+margin: 20px;
+
+    }
+        
 
 
 
