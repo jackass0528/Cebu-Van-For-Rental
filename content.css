@@ -198,8 +198,8 @@ list-style: none;
  .slide > img {
     display: block;
     width: 500px;
-    height: 200px;
-    margin-top: 50px;
+    height: 300px;
+    margin-top: 0px;
     object-fit: cover;
     object-position: center;
 
@@ -253,13 +253,13 @@ background-color: #0000004d;
 
 @media(max-width: 992px){
     .carousel-button.prev{
-        left: 1rem;
+        left: -2rem;
         margin-top: 70px;
 
 }
 @media(max-width: 992px){
     .carousel-button.next{
-        right: -11rem;
+        right: -15rem;
         margin-top: 70px;
     
 
@@ -268,11 +268,22 @@ background-color: #0000004d;
 @media(max-width: 992px){
     .carousel{
 margin: 30px;
-width: 300px;
-height: 200px;
+width: 200px;
+height: 100px;
 margin-top: -10px;
 
 
+    }
+
+    @media(max-width: 992px) {
+        .slide > img{
+            display: block;
+            width: 300px;
+            height: 200px;         
+            margin: 20px 0 0 50px ;
+            object-fit: cover;
+            object-position: center;
+        
     }
 
         
