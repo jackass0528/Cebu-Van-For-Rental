@@ -167,11 +167,6 @@ cursor: pointer;
 
 /*Slideshow*/
 
-.slider-sec{
-
-
-}
-
  .carousel {
     width: 500px;
     height: 500px;
@@ -269,7 +264,7 @@ background-color: #0000004d;
     .carousel{
 width: 100px;
 height: 80px;
-margin: 20px auto 0 80px ;
+margin: 20px auto 0 60px ;
 
     }
 
@@ -296,10 +291,16 @@ margin: 20px auto 0 80px ;
   /*start table content */
     
   .table-content{
-    padding: 20px 40px;
+    padding: 20px 40px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    }
+
+    @media(max-width: 992px) {
+        .table-content{
+            padding: 150px 40px;
+        
     }
     
     .list-1{
