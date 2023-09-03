@@ -168,8 +168,8 @@ cursor: pointer;
 /*Slideshow*/
 
  .carousel {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 360px;
     position: relative;
      margin-left: 30%;
      margin-top: 20px;
@@ -230,11 +230,13 @@ background-color: #0000004d;
 
 .carousel-button.prev {
 
-    left: -5rem;
+    left: -4.8rem;
+    margin-top: 40px;
 }
 .carousel-button.next {
 
-    right: -5rem;
+    right: -11rem;
+    margin-top: 40px;
 }
 
 
@@ -261,14 +263,13 @@ background-color: #0000004d;
 .carousel{
     width: 100px;
     height: 80px;
-    margin: 20px auto 0 60px ;
+    margin: 20px auto 0 80px ;
     }
 
     .slide > img {
         display: block;
         width: 300px;
         height: 200px;
-        margin-top: 0px;
         object-fit: cover;
         object-position: center;
     
@@ -285,7 +286,7 @@ background-color: #0000004d;
   /*start table content */
     
   .table-content{
-    padding: 20px 40px ;
+    padding: 0 40px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -294,14 +295,8 @@ background-color: #0000004d;
 
     @media(max-width: 992px) {
         .table-content{
-            padding: 150px 40px;
+            padding: 130px 40px;
         
-    }
-    
-    .list-1{
-     list-style: none;
-     flex: 1;
-     
     }
 }
 
