@@ -81,6 +81,18 @@ margin: 10px;
 color: #ffffff;
 margin-left: 15px;
 position: fixed;
+display: none;
+}
+
+.header-contact-map-1{
+	display: block;
+	margin-right: 1000px ;
+}
+
+@media(max-width: 922px) {
+	.header-contact-map-1{
+		display: none;
+	}
 }
 
 .header-contact ul{
