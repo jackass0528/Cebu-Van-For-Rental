@@ -632,6 +632,9 @@ padding-top: 30px;
     .container-1 h2{
         font-size: 30px;
     }
+	.container-1 p{
+        font-size: 14px;
+    }
 }
     /* Header 2 Section*/
 .header-2{
