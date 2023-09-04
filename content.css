@@ -293,6 +293,10 @@ background-color: #0000004d;
     
     }
 
+    .table-content ul li{
+        margin: 10px;
+    }
+
     @media(max-width: 992px) {
         .table-content{
             padding: 130px 40px;
@@ -300,6 +304,11 @@ background-color: #0000004d;
     }
 }
 
+.list-1{
+
+    flex: 1;
+ 
+}
 
     .rigth-side{
         display: flex;
@@ -309,13 +318,14 @@ background-color: #0000004d;
     .list-2{
         
         flex: 1;
-    background-color: #911717;
+  
     }
     
     .list-3{
         flex: 1;
-        background-color: #334; 
+        flex-direction: column;
     }
+
     #form-content{
 background-color: #ffffff;
 width: 100%;
@@ -332,7 +342,6 @@ height: 100vh;
 
     .list-4{
         flex: 1;
-        display: flex;
         
     }
     

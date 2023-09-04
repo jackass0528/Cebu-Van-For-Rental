@@ -629,8 +629,10 @@ padding-top: 30px;
     .banner-1{
         margin-top: 180px;
     }
-    
+    .container-1 h2{
+        font-size: 10px;
     }
+}
     /* Header 2 Section*/
 .header-2{
     margin: auto;
