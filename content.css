@@ -318,15 +318,15 @@ background-color: #0000004d;
 
 .Duration-time ul li{
     display: inline-block; 
-    margin: 10px; 
-    font-size: 14px;
+    margin: 5px; 
+    font-size: 12px;
 }
 .Duration-time .fa-clock-o{
-    font-size: 30px;
+    font-size: 20px;
    
 }
 .Duration-time .fa-calendar{
-    font-size: 30px;
+    font-size: 20px;
    
 }
 }
