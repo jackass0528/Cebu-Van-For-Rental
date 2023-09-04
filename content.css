@@ -318,7 +318,7 @@ background-color: #0000004d;
 
 .Duration-time ul li{
     display: inline-block; 
-    margin: 5px; 
+    margin: 12px; 
     font-size: 12px;
 }
 .Duration-time .fa-clock-o{
@@ -333,8 +333,26 @@ background-color: #0000004d;
 
 /*End Duration*/
 
+/*Start table content*/
+.Table-rate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    text-align: center;  
+   
+}
+
+.Table-rate tr td{
+    border: 1px #777 solid;
+    
+  }
+  .Table-rate .row{
+    text-align: start;
+
+  }
 
 
+/*end table content*/
     
   /*start table content */
     
