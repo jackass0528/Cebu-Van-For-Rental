@@ -317,7 +317,7 @@ background-color: #0000004d;
  }
 
 .Duration-time ul li{
-    display: inline; 
+    display: inline-block; 
     margin: 10px; 
     font-size: 14px;
 }
