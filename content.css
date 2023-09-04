@@ -285,6 +285,54 @@ background-color: #0000004d;
 
 /*End Slideshow*/
 
+/*Start Duration*/
+
+ .Duration-time{
+    padding-left: 550px;
+    margin-bottom: 30px;
+    
+ }
+
+.Duration-time ul li{
+    display: inline; 
+    margin: 40px; 
+  
+}
+
+.Duration-time .fa-clock-o{
+    font-size: 40px;
+   
+}
+.Duration-time .fa-calendar{
+    font-size: 40px;
+   
+}
+
+@media(max-width: 992px) {
+
+     .Duration-time{
+    padding-left: 60px;
+    margin-top: 140px;   
+     
+ }
+
+.Duration-time ul li{
+    display: inline; 
+    margin: 10px; 
+    font-size: 14px;
+}
+.Duration-time .fa-clock-o{
+    font-size: 30px;
+   
+}
+.Duration-time .fa-calendar{
+    font-size: 30px;
+   
+}
+}
+
+/*End Duration*/
+
 
 
     
@@ -304,7 +352,7 @@ background-color: #0000004d;
 
     @media(max-width: 992px) {
         .table-content{
-            padding: 130px 40px;
+            padding: 10px 20px;
         
     }
 }

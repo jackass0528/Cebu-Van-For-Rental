@@ -74,7 +74,8 @@ margin: 10px;
 
 /*Contact section*/
 .header-contact{
-    background-color: #000000;  
+    background-color: #000000; 
+	 
 }
 
 .header-contact-map{
@@ -87,12 +88,6 @@ display: none;
 .header-contact-map-1{
 	display: block;
 	margin-right: 1000px ;
-}
-
-@media(max-width: 922px) {
-	.header-contact-map-1{
-		display: none;
-	}
 }
 
 .header-contact ul{
@@ -126,6 +121,9 @@ display: none;
     .header-contact ul li a{
         font-size: 14px;
     }
+	.header-contact-map-1{
+		display: none;
+	}
 }
 
 
@@ -635,6 +633,9 @@ padding-top: 30px;
 	.container-1 p{
         font-size: 14px;
     }
+	.front-page{
+		font-size: 40px;
+	}
 }
     /* Header 2 Section*/
 .header-2{
