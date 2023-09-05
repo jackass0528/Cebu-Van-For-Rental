@@ -387,6 +387,14 @@ background-color: #0000004d;
     height: 200px;
 }
 
+@media(max-width: 992px) {
+    .list-expect img{
+        margin: 20px;
+        width: 200px;
+        height: 150px;
+    }
+}
+
     .rigth-side{
         display: flex;
         flex-direction: column;
