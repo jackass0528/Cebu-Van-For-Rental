@@ -390,8 +390,8 @@ background-color: #0000004d;
 @media(max-width: 992px) {
     .list-expect img{
         margin: 20px;
-        width: 250px;
-        height: 180px;
+        width: 320px;
+        height: 200px;
     }
 }
 
