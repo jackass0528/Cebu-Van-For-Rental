@@ -338,19 +338,14 @@ background-color: #0000004d;
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    text-align: center;  
    
 }
 
 .Table-rate tr td{
     border: 1px #777 solid;
+    padding-left: 10px;
     
   }
-  .Table-rate .row{
-    text-align: start;
-
-  }
-
 
     
   .table-content{
@@ -365,6 +360,9 @@ background-color: #0000004d;
         margin: 10px;
     }
 
+
+
+
     @media(max-width: 992px) {
         .table-content{
             padding: 10px 20px;
@@ -376,6 +374,10 @@ background-color: #0000004d;
 
     flex: 1;
  
+}
+.sample li{
+list-style: square;
+
 }
 
 .list-expect{
