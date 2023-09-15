@@ -125,6 +125,28 @@ display: none;
 	.header-contact-map-1{
 		display: none;
 	}
+
+}
+@media(max-width: 1024px){
+	.header-contact{
+        padding-top: 5px;
+    }
+    .header-contact-map{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-contact ul{
+        display: flex;
+        justify-content: center;
+    }
+    .header-contact ul li a{
+        font-size: 14px;
+    }
+	.header-contact-map-1{
+		display: none;
+	}
 }
 
 
