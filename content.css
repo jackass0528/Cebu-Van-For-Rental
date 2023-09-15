@@ -288,7 +288,7 @@ background-color: #0000004d;
 /*Start Duration*/
 
  .Duration-time{
-    padding-left: 550px;
+    padding-left: 380px;
     margin-bottom: 30px;
     
  }
@@ -307,11 +307,15 @@ background-color: #0000004d;
     font-size: 40px;
    
 }
+.Duration-time .fa-close{
+    font-size: 40px;
+   
+}
 
 @media(max-width: 992px) {
 
      .Duration-time{
-    padding-left: 60px;
+    padding-left: 30px;
     margin-top: 140px;   
      
  }
@@ -326,6 +330,10 @@ background-color: #0000004d;
    
 }
 .Duration-time .fa-calendar{
+    font-size: 20px;
+   
+}
+.Duration-time .fa-close{
     font-size: 20px;
    
 }
