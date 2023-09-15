@@ -73,6 +73,7 @@ margin: 10px;
 /* Navar Section*/
 
 /*Contact section*/
+
 .header-contact{
     background-color: #000000; 
 	 
@@ -156,15 +157,15 @@ a{
 }
 /*header*/
 .header{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	left:0;
 	top:0;
 	z-index: 99;
 	padding: 15px;
+	background-color: #ffffff;
 }
 .header-main{
-	background-color: #ffffff;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
