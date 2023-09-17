@@ -212,6 +212,7 @@ a{
 	z-index: 99;
 	padding: 15px;
 	background-color: #ffffff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 }
 .header-main{
 	display: flex;
