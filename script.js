@@ -91,8 +91,7 @@ delete activeSlide.dataset.active
 })
   
 
-// Back to top 
-
+// Back to top
 const backToTopButton = document.querySelector("#back-to-top-btn");
 
 window.addEventListener("scroll", scrollFunction);
@@ -110,6 +109,7 @@ function scrollFunction() {
   function backToTop() {
 window.scrollTo(0, 0);
   }
+  
 
 
 
