@@ -403,6 +403,10 @@ list-style: square;
     height: 350px;
 }
 
+#list-expect-JVR img{
+    width: 500px;
+    height: auto;
+}
 
     .rigth-side{
         display: flex;
