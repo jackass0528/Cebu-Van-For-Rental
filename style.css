@@ -857,12 +857,12 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
-		margin-left: 160px;
+		margin-left: 140px;
 	}
 	.google-reviews .reviews-row ul li img{
 		width: 400px;
 	     height: auto;
-		 margin-left: 20px;
+		
 	}
 
 }
