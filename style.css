@@ -827,7 +827,7 @@ font-size: 20px;
 
 }
 .google-reviews .reviews-row ul li img{
-	width: 300px;
+	width: 320px;
 	height: auto;
 }
 .reviews-btn{
@@ -871,8 +871,8 @@ font-size: 20px;
 		margin-left: 100px;
 	}
 	.google-reviews .reviews-row ul li img{
-		width: 350px;
-	     height: auto;
+		width: 340px;
+	     height: 300px;
 		
 	}
 	.reviews-btn{
