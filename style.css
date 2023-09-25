@@ -837,7 +837,18 @@ font-size: 20px;
 .reviews-btn .booking-btn{
 	color: #000000;
 	border: 1px solid #000000;
+	
 }
+.reviews-btn .booking-btn a{
+	color: #222222;
+}
+
+.reviews-btn .booking-btn:hover{
+	background-color: rgb(253, 17, 0);
+	border-color: rgb(248, 248, 248);
+	color: #fff;
+}
+
 .reviews-star{
 	margin-left: 740px;
 }
