@@ -298,16 +298,6 @@ a{
 	opacity:0;
 	visibility: hidden;
 }
-@media(min-width: 992px){
-.header .menu > .menu-item-has-children:hover > .sub-menu{
-	transform: translateY(0);
-	opacity: 1;
-	visibility: visible;
- }
- .header .menu > .menu-item-has-children:hover > a .plus:after{
-    transform: translate(-50%,-50%) rotate(0deg);		
- }
-}
 .header .menu > .menu-item > .sub-menu > .menu-item{
 	display: block;
 }
@@ -377,6 +367,18 @@ a{
 	opacity:0;
 	transition: all 0.3s ease;
 }
+
+@media(min-width: 992px){
+	.header .menu > .menu-item-has-children:hover > .sub-menu{
+		transform: translateY(0);
+		opacity: 1;
+		visibility: visible;
+	 }
+	 .header .menu > .menu-item-has-children:hover > a .plus:after{
+		transform: translate(-50%,-50%) rotate(0deg);		
+	 }
+	}
+
 
 /*home section*/
 .home-section{
@@ -491,6 +493,13 @@ text-align: center;
     color: red;
 
 }
+.heading-Book-Now{
+	margin: 0 auto;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.897);
+    padding: 20px 40px;
+	font-size: 25px;	
+}
 
 .container .box-container{
 display: grid;
@@ -596,12 +605,13 @@ color: rgb(254, 254, 255);
 font-size: 16px;
 background-color: #ff0202;
 cursor: pointer;
+font-weight: 600;
 
     }
     #load-more:hover{
         background-color: rgb(253, 17, 0);
         border-color: rgb(248, 248, 248);
-        color: #fff;
+        color: #7c7676;
     }
   
 
