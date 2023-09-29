@@ -114,12 +114,16 @@ text-align: center;
         margin: 10px 10px;
     }
     #accordion {
-        width: 350px;
+        width: 350px;       
        
     }
 
     #accordion .content{
         font-size: large;
+    }
+
+    #accordion li label span{
+        
     }
 
 }
