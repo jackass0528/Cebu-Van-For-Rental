@@ -68,7 +68,7 @@ text-align: center;
 }
 #accordion {
     margin: 100px auto;
-    width: 600px;
+    width: 100%;
 }
 
 #accordion li{
@@ -105,6 +105,13 @@ text-align: center;
 }
 #accordion label + input[type="radio"]:checked + .content{
     max-height: 400px;
+}
+
+@media(max-width: 992px){
+    #accordion {
+        margin: 10px;
+        width: 400px;
+    }
 }
 
 /* End FAQ */
