@@ -99,7 +99,10 @@ text-align: center;
 #accordion .content{
     padding: 0 10px;
     line-height: 26px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #fff;
     max-height: 0;
+    font-size: larger;
     overflow: hidden;
     transition: max-heigth 0.5s;
 }
@@ -108,9 +111,16 @@ text-align: center;
 }
 @media(max-width: 992px){
 
+    .section-faq{
+        margin: 0 10px;
+    }
     #accordion {
         width: 350px;
        
+    }
+
+    #accordion .content{
+        font-size: large;
     }
 
 }
