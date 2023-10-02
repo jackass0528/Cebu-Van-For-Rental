@@ -75,7 +75,7 @@ margin: 10px;
 /*Contact section*/
 
 .header-contact{
-    background-color: #000000; 
+    background-color: red; 
 	 
 }
 
@@ -130,6 +130,7 @@ display: none;
 }
 
 @media(max-width: 992px){
+
 
     .header-contact{
         padding-top: 5px;
@@ -210,7 +211,7 @@ a{
 	left:0;
 	top:0;
 	z-index: 99;
-	padding: 15px;
+	padding: 12px;
 	background-color: #ffffff;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 }
