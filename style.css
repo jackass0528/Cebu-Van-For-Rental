@@ -659,12 +659,18 @@ color: #fff;
 margin-top: 20px;
 
 }
+.booking-btn a{
+	color: #fff;
+}
 
 @media (max-width:992px){
 
 .container{
 padding-top: 30px;
 
+}
+.booking-btn a{
+	color: #fff;
 }
 
 }
