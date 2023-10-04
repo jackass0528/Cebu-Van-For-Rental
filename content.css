@@ -404,7 +404,7 @@ list-style: square;
 }
 
 #list-expect-JVR img{
-    width: 320px;
+    width: 500px;
     height: auto;
 }
 
@@ -413,6 +413,13 @@ list-style: square;
         flex-wrap: wrap;
         justify-content: space-between;
    
+    }
+
+    @media (max-width: 992px) {
+        #list-expect-JVR img{
+            width: 320px;
+            height: auto;
+        }
     }
 
 
