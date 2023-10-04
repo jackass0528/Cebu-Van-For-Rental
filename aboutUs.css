@@ -57,20 +57,20 @@ text-align: center;
 
 /* start About us*/
 
-.about-content{
+.about-Us-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px;
-    background-color: #333;
 }
 
-.meet-the-team{
-    background-color: #ee1c1c;
-}
-.meet-the-team p{
+.meet-the-team h2{
     text-align: center;
 }
+.meet-the-team {
+    text-align: center;
+}
+
 .meet-the-team-img{
     display: flex;
     flex-wrap: wrap;
@@ -89,16 +89,13 @@ border-radius: 150px;
 
 
 .meet-the-team-drivers{
-    background-color: #fff;
     margin-top: 40px;
 }
 
 @media (max-width: 992px){
     .meet-the-team-img{
         padding-left: 40px;
-        
     }
-  
 }
 
 
