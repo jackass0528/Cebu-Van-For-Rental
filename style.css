@@ -481,8 +481,8 @@ max-width: 1200px;
 margin: 0 auto;
 text-align: center;
 }
-     .heading{
-    margin: 0 auto;
+.heading{
+	margin: 0 auto;
     text-align: center;
     background-color: #000000e3;
     margin-bottom: 20px;

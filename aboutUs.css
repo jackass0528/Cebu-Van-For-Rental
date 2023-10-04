@@ -55,6 +55,55 @@ text-align: center;
     height: 330px;
 }
 
+/* start About us*/
+
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: #333;
+}
+
+.meet-the-team{
+    background-color: #ee1c1c;
+}
+.meet-the-team p{
+    text-align: center;
+}
+.meet-the-team-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 320px;
+    
+}
+.meet-the-team-img img{
+margin: 20px;
+width: 300px;
+height: 300px;
+border-radius: 150px;
+-webkit-border-radius: 150px;
+-moz-border-radius: 150px;
+
+}
+
+
+.meet-the-team-drivers{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+@media (max-width: 992px){
+    .meet-the-team-img{
+        padding-left: 40px;
+        
+    }
+  
+}
+
+
+
+/* end About us*/
 
 /* start FAQ */
 .section-faq{
