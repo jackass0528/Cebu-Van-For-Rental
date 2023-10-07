@@ -1,29 +1,24 @@
 /*Start Car and Van Rental*/
 
-.contact{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-   
-}
 .contact-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100%;
     margin: 10px;
+    
 }
 
 .contact-list-1{
-    width: 100%;
-    min-height: 600px;
-    margin-bottom: 10px;  
-    align-self: center;
+    width: 600px;
+    min-height: 400px; 
     margin: 20px;
   
 }
 .contact-list-2{
-    margin-bottom: 20px;
     width: 800px;
     height: auto;
-    padding-left: 80px;
+    padding-left: 100px;
     
    
    
@@ -32,7 +27,6 @@
 
 #rate-prov{
     min-height: 600px;
-    margin-bottom: 10px;
     font-size: small;
     margin: 20px;
 
@@ -78,7 +72,7 @@
         
     }
     .contact-list-4{
-        width: 400px; 
+        width: 100%; 
         height: auto;
         margin: 20px;
         
@@ -92,10 +86,9 @@
    
 }
 .contact-list-4{
-    margin-bottom: 20px;
-    width: 100%;
+    width: 800px;
     height: auto;
- 
+    background-color: aqua;
    
 }
 /*End Car and Van Rental*/
