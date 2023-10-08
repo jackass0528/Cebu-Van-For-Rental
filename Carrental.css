@@ -16,12 +16,18 @@
   
 }
 .contact-list-2{
+    display: fixed;
+    width: 100%px;
+    height: auto;
+   
+   
+}
+.rate-prov-main{
     width: 800px;
     height: auto;
+    overflow-x: scroll;
     padding-left: 100px;
-    
-   
-   
+  
 }
 
 
@@ -34,23 +40,30 @@
 }
 
 #rate-prov table tr td{
+    display: fixed;
   border: 1px solid black;
     text-align: center;
-
-    
 }
+
+tr{
+    position: sticky;
+    top: 0px;
+}
+
 @media (max-width: 992px){
 
 
     #rate-prov{
         min-height: 400px;
         margin-bottom: 10px;
-        margin-left: -60px;
+        margin-left: -90px;
        
     }
-    #rate-prov table tr td{     
+    #rate-prov table tr td{    
+        position: sticky; 
           color: black;
-          font-size: xx-small;
+          font-size: small;
+          margin-left: 10px;
       }
 
       .contact-list-1{
@@ -61,9 +74,18 @@
     .contact-list-2{
         width: 400px; 
         height: auto;
-       
-          
+    
+            
     }
+
+    .rate-prov-main{
+        width: 350px;
+        height: auto;
+        margin: 10px;
+    
+    }
+
+
     .contact-list-3{
         width: 400px; 
         height: auto;
