@@ -109,7 +109,7 @@ tr{
         }
 
     #rate-prov{
-        min-height: 400px;
+        min-height: 350px;
         margin-bottom: 10px;
         margin-left: -90px;
        
@@ -127,12 +127,12 @@ tr{
     
     }
       .contact-list-1{
-        width: 400px; 
+        width: 350px; 
         height: auto;
       
     }
     .contact-list-content-2{
-        width: 400px;
+        width: 350px;
         height: auto;
       
     }
