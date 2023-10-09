@@ -445,8 +445,9 @@ tr{
     position: absolute;
     top: -30px;
   }
-  .timeline-ma ul li:hover::before {
+  .timeline-main ul li:hover::before {
     background-color: aqua;
   }
+  /*end How to book timeline*/
 
 
