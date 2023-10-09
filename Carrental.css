@@ -367,6 +367,18 @@ tr{
   position: relative;
 }
 
+.timeline-main img{
+    width: 300px;
+    height: 500px;
+}
+
+@media (max-width: 922px){
+    .timeline-main img{
+        width: 100px;
+        height: 200px;
+    }
+}
+
 .timeline-main ul {
   list-style: none;
 }
