@@ -131,6 +131,11 @@ tr{
         height: auto;
       
     }
+    .contact-list-content-1{
+        width: 350px;
+        height: auto;
+      
+    }
     .contact-list-content-2{
         width: 350px;
         height: auto;
@@ -138,9 +143,19 @@ tr{
     }
 
     .contact-list-2{
-        width: 400px; 
+        width: 350px; 
         height: auto;
     
+    }
+    .contact-list-content-3{
+        width: 350px;
+        height: auto;
+      
+    }
+    .contact-list-content-4{
+        width: 350px;
+        height: auto;
+      
     }
     .form-content-rental iframe{
         width: 350px;
@@ -230,31 +245,24 @@ tr{
     width: 600px;
     height: 1800px;
 }
-.contact-list-content-4{
-    width: 800px;
-    height: auto;
-    margin: 10px;
-  
-}
 
-.rate-prov-main{
-    width: 800px;
+.City-limit-rate-prov-main{
+    width: auto;
     height: auto;
-    overflow-x: scroll;
-    padding-left: 100px;
+    padding-left: 20px;
   
 }
 
 
-#rate-prov{
+#City-limit-rate-prov{
     min-height: 600px;
-    font-size: small;
+    font-size: x-small;
     margin: 20px;
 
  
 }
 
-#rate-prov table tr td{
+#City-limit-rate-prov table tr td{
     display: fixed;
     border: 1px solid black;
     text-align: center;
