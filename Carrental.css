@@ -285,13 +285,12 @@ tr{
     #City-limit-rate-prov{
         min-height: 350px;
         margin-bottom: 10px;
-        margin-left: -40px;
+        margin-left: -20px;
        
     }
     #City-limit-rate-prov table tr td{    
-         width: auto!important;
+         width: auto;
          height: auto;
-         border: 2px solid black;
           color: black;
           font-size: small;
        
@@ -314,7 +313,7 @@ tr{
     }
     .contact-list-city-limit-2{
         width: 350px;
-        height: auto;
+        height: 250px;
       
     }
 
@@ -339,7 +338,7 @@ tr{
         height: 1800px;
     }
     .form-content-rental{
-        padding-left: 20px;
+        padding-left: 40px;
     }
 
   
