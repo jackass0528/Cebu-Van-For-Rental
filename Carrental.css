@@ -367,13 +367,13 @@ tr{
   position: relative;
 }
 
-.timeline-main img{
+.timeline-main .timeline-content img{
     width: 300px;
     height: 500px;
 }
 
 @media (max-width: 922px){
-    .timeline-main img{
+    .timeline-main .timeline-content img{
         width: 100px;
         height: 200px;
     }
