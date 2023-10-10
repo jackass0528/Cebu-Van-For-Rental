@@ -368,7 +368,7 @@ background-color: #0000004d;
 
     .table-content ul li{
         margin: 10px;
-      
+       display: block;
     }
 
 
@@ -377,7 +377,13 @@ background-color: #0000004d;
     @media(max-width: 992px) {
         .table-content{
             padding: 10px 20px;
-        
+
+    }
+
+    .list-rate-expect ul li iframe{
+        width: 350px;
+        height: 646px;
+      
     }
 }
 
@@ -393,6 +399,11 @@ background-color: #0000004d;
 list-style: square;
 
 }
+.saple iframe{
+    width: 500px;
+    height: 646px;
+
+}
 
 .list-expect{
     display: block;
@@ -405,7 +416,7 @@ list-style: square;
 
 #list-expect-JVR img{
     width: 500px;
-    height: auto;
+    height: 600px;
 }
 
     .rigth-side{
@@ -419,6 +430,11 @@ list-style: square;
         #list-expect-JVR img{
             width: 320px;
             height: auto;
+        }
+        .saple iframe{
+            width: 350px;
+            height: 200px;
+
         }
     }
 
