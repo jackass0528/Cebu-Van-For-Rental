@@ -1,3 +1,13 @@
+.banner-car-aboutUs{
+    background-position: center;
+    background-image: url(image/aboutUS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 160px;
+    }
+
 .contact{
     display: flex;
     width: 100%;
