@@ -302,6 +302,7 @@ tr{
         width: 100px;
         height: 200px;
     }
+
 }
 
 .timeline-main ul {
@@ -323,20 +324,22 @@ tr{
   line-height: 30px;
   margin-bottom: 10px;
 }
+
+
 .timeline-content p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
 }
 .timeline-content .date {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 10px;
-  letter-spacing: 2px;
+  letter-spacing: normal;
   color: black;
   
 }
-  .timeline-main:before {
+  .timeline-main:before{
     content: "";
     position: absolute;
     top: 0;
