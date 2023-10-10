@@ -281,6 +281,7 @@ tr{
   align-items: center;
   justify-content: center;
   padding: 100px 0;
+
   
 }
 .timeline-main{
@@ -328,10 +329,12 @@ tr{
   font-weight: 300;
 }
 .timeline-content .date {
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 600;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  color: black;
+  
 }
   .timeline-main:before {
     content: "";
