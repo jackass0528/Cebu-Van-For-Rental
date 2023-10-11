@@ -786,6 +786,7 @@ margin-bottom: 25px;
 }
 
 .footer p{
+	margin-left: 20px;
     font-size: 14px;
     text-align: justify;
 }
@@ -829,6 +830,7 @@ font-size: 20px;
 .col-md-3 p a{
 	color: #ffffff;
 }
+
 
 
 /* footer end Reviews*/
