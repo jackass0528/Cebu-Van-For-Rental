@@ -105,7 +105,7 @@ display: none;
 }
 
 
-@media(max-width: 1280px){
+@media (max-width: 640px){
 
     .header-contact{
         padding-top: 5px;
@@ -129,7 +129,7 @@ display: none;
 
 }
 
-@media(max-width: 992px){
+@media(max-width: 640px){
 
 
     .header-contact{
@@ -153,7 +153,7 @@ display: none;
 	}
 
 }
-@media(max-width: 354px){
+@media(max-width: 640px){
 	.header-contact{
         padding-top: 5px;
     }
@@ -369,7 +369,7 @@ a{
 	transition: all 0.3s ease;
 }
 
-@media(min-width: 992px){
+@media (min-width: 992px){
 	.header .menu > .menu-item-has-children:hover > .sub-menu{
 		transform: translateY(0);
 		opacity: 1;
@@ -394,7 +394,7 @@ a{
 
 /* responsive */
 
-@media(max-width: 992px){
+@media(max-width: 640px){
 	.header .menu-overlay.active{
 	visibility: visible;
 	opacity: 1;
@@ -471,7 +471,6 @@ visibility: hidden;
 }
 
 
-
 /* Navar End Section*/
     
 
@@ -501,7 +500,7 @@ text-align: center;
     padding: 20px 40px;
 	font-size: 25px;	
 }
-@media(min-width: 992px){
+@media(min-width: 640px){
 	.heading-Book-Now{
 		margin: 0 auto;
 		text-align: center;
@@ -663,7 +662,7 @@ margin-top: 20px;
 	color: #fff;
 }
 
-@media (max-width:992px){
+@media (max-width:640px){
 
 .container{
 padding-top: 30px;
@@ -699,7 +698,7 @@ padding-top: 30px;
 
     
     
-    @media (max-width:992px){
+    @media (max-width:640px){
     
     .container-1{
         padding-top: 20%;    
@@ -889,7 +888,7 @@ font-size: 20px;
 	margin-left: 20px;
 }
 
-@media (max-width:992px){
+@media (max-width:640px){
 	.google-reviews .reviews-row ul{
 		display: flex;
 		flex-wrap: wrap;
@@ -940,7 +939,7 @@ font-size: 20px;
 	color: #f7f2f2;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 640px) {
 	#back-to-top-btn {
 		font-size: 10px;
 		width: 50px;
