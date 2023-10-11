@@ -833,8 +833,14 @@ font-size: 20px;
 
 .row .col-md-3 p a{
 	color: #ffffff;
-	background-color: red;
-	margin-left: 20px;
+	margin-left: 10px;
+}
+
+@media (max-width:992px){
+	.row .col-md-3 p a{
+		color: #ffffff;
+		padding-left: 20px;
+	}
 }
 
 
