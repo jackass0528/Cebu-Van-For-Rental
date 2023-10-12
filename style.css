@@ -965,6 +965,24 @@ font-size: 20px;
 	
 }
 
+/* Start Promo logo*/
+.promo-logo {
+	position: absolute;
+	margin: 10px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: red;
+}
 
+.promo-logo b{
+	color: #f7f2f2;
+	font-size: 30px;
+	text-align: center;
+	
+}
+.promo-logo b p{
+font-size: 15px;	
+}
 
 
