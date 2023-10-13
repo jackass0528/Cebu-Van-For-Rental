@@ -184,11 +184,50 @@ text-align: center;
     }
 }
 
-/* start About us*/
-
-
 
 /* end About us*/
+
+/* Start Contact us*/
+.contact-us-main{
+    margin: 20px;
+    width: 100%;
+    height: auto;
+ 
+}
+.contact-us-contact-table{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.contact-us-list-1{
+
+margin-right: 40px;
+}
+.contact-us-list-2{
+  
+    margin-bottom: 40px;
+}
+.contact-us-list-2 iframe{
+    margin-top: 50px;
+    padding-left: 180px;
+}
+.contact-us-list-3{
+position: absolute;
+padding-top: 300px;
+margin: 20px;
+}
+
+.contact-us-list-4{
+    padding-left: 700px;
+    margin-top: 50px;
+}
+.contact-us-list-4 iframe{
+    position: relative;
+    
+}
+
+
+/* end Contact us*/
 
 /* start FAQ */
 
