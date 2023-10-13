@@ -553,7 +553,7 @@ object-fit: cover;
        transform: scale(1.1); 
     }
 	.container .box-container .box:hover .image img .promo-logo{
-		transform: scale(1.1); 
+		transform: scale(-1.1); 
 	 }
 
     .container .box-container .box .content-box h3{
@@ -1007,6 +1007,7 @@ margin-top: -10px;
 	.promo-content{
 		margin: 20px;
 	}
+	
 	
 }
 
