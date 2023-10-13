@@ -35,6 +35,10 @@ margin: 20px;
     height: 330px;
    
 }
+.contact-list-2 iframe{
+margin: 20px;
+
+}
 .contact-list-3{
     width: 800px;
     height: auto;
@@ -88,6 +92,8 @@ margin-bottom: 20px;
     }
 
 .contact-list-4{
+   
+    padding-top: 650px;
     margin-bottom: 20px;
     width: 800px;
     height: auto;
