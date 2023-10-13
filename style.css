@@ -552,6 +552,9 @@ object-fit: cover;
     .container .box-container .box:hover .image img{
        transform: scale(1.1); 
     }
+	.container .box-container .box:hover .image img .promo-logo{
+		transform: scale(1.1); 
+	 }
 
     .container .box-container .box .content-box h3{
 font-size: 15px;
