@@ -192,6 +192,7 @@ text-align: center;
     margin: 20px;
     width: 100%;
     height: auto;
+    background-color: #333;
  
 }
 .contact-us-contact-table{
@@ -200,11 +201,10 @@ text-align: center;
   
 }
 .contact-us-list-1{
-
-margin-right: 40px;
+margin-right: 60px;
 }
 .contact-us-list-2{
-  
+  padding-left: 90px;
     margin-bottom: 40px;
 }
 .contact-us-list-2 iframe{
@@ -212,19 +212,18 @@ margin-right: 40px;
     padding-left: 180px;
 }
 .contact-us-list-3{
-position: absolute;
-padding-top: 300px;
+position: unset;
+padding-top: 180px;
 margin: 20px;
 }
 
 .contact-us-list-4{
-    padding-left: 700px;
+    padding-left: 100px;
     margin-top: 50px;
-}
-.contact-us-list-4 iframe{
-    position: relative;
+    background-color: #333;
     
 }
+
 
 
 /* end Contact us*/

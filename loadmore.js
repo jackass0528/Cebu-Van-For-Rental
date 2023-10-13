@@ -14,4 +14,5 @@ loadMoreBtn.style.display = 'none';
 }
 }
 
-
+/* URL linking*/
+import "../North Cebu/BantanIslandCebu.html";
