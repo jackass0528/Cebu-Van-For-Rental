@@ -297,15 +297,16 @@ tr{
     height: 500px;
 }
 
-#booking-2{
-    width: 300px;
-    height: auto;
-}
+
 
 @media (max-width: 922px){
     .timeline-main .timeline-content img{
         width: 120px;
         height: 250px;
+    }
+    #booking-2{
+        width: 120px;
+        height: 320px;
     }
 
 }
