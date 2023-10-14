@@ -998,10 +998,11 @@ margin-top: -10px;
 		margin: 10px;
 	}
 	
+	.promo-content{
+		margin: 50px;
+	}
 }
-.promo-content{
-	margin: 50px;
-}
+
 @media (max-width:992px){
 	
 	.promo-content{
