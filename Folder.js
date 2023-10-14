@@ -1,4 +1,4 @@
 
-/* URL linking*/
-import "/North Cebu/BantanIslandCebu.html";
-import "/North Cebu/NortCebuMain.html";
+/* URL linking
+import "../North Cebu/BantanIslandCebu.html";
+import "../North Cebu/NortCebuMain.html";*/
