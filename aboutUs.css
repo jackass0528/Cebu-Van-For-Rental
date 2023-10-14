@@ -190,38 +190,52 @@ text-align: center;
 /* Start Contact us*/
 .contact-us-main{
     margin: 20px;
-    width: 100%;
-    height: auto;
-    background-color: #333;
- 
-}
-.contact-us-contact-table{
     display: flex;
     flex-wrap: wrap;
-  
+ 
 }
-.contact-us-list-1{
-margin-right: 60px;
+.contact-Us-main-list-1{
+    background-color: green;
+}
+
+.contact-Us-main-list-1 .contact-us-list-1{
+    margin: 20px 10px;
+
 }
 .contact-us-list-2{
-  padding-left: 90px;
-    margin-bottom: 40px;
+    position: relative;
+    margin: 20px;
+    padding-bottom: 50px;
+    background-color: #fff;
 }
-.contact-us-list-2 iframe{
-    margin-top: 50px;
-    padding-left: 180px;
-}
+
 .contact-us-list-3{
-position: unset;
-padding-top: 180px;
 margin: 20px;
 }
 
+.contact-us-list-3 .form-content iframe{
+padding-left: 200px;
+margin-top: 20px;
+}
 .contact-us-list-4{
-    padding-left: 100px;
-    margin-top: 50px;
-    background-color: #333;
-    
+margin: 20px;
+ 
+}
+
+@media(max-width: 992px){
+    .contact-us-list-3 .form-content iframe{
+        width: 350px;
+        height: 870px;
+        padding-left: 20px;
+     
+        }
+        .contact-us-list-4 iframe{
+            width: 350px;
+            height: 250px;
+            
+             
+            }
+
 }
 
 
