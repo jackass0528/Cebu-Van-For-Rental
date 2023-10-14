@@ -368,7 +368,7 @@ background-color: #0000004d;
 
     .table-content ul li{
         margin: 10px;
-       display: block;
+        list-style: inside;
     }
 
 
@@ -396,7 +396,7 @@ background-color: #0000004d;
 
 
 .sample li{
-list-style: square;
+list-style: inside;
 
 }
 .saple iframe{
