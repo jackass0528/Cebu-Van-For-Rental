@@ -600,11 +600,12 @@ list-style: inside;
             padding: 0 10px;
             line-height: 26px;
             color: black;
-            max-height: 0;
+            max-height: fit-content ;
             font-size: medium;
             overflow: hidden;
             transition: max-heigth 0.5s;
         }
+     
         #day-destinations li{
          list-style: inside;
         }
