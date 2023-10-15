@@ -555,6 +555,7 @@ list-style: inside;
         
         
         /*end table content*/
+      
 
         .accordion-distinaion{
             min-height: 100vh;
@@ -571,7 +572,7 @@ list-style: inside;
         }
 
         #accordion-distinaion li{
-            list-style: none;
+    list-style: none;
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
@@ -598,9 +599,9 @@ list-style: inside;
         }
         #accordion-distinaion .destination-content{
             padding: 0 10px;
-            line-height: 26px;
+            line-height: normal;
             color: black;
-            max-height: fit-content ;
+            max-height: 0;
             font-size: medium;
             overflow: hidden;
             transition: max-heigth 0.5s;
