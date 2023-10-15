@@ -626,7 +626,9 @@ list-style: inside;
             #accordion-distination .destination-content{
                 font-size: 14px;
             }
-         
+            #accordion-distinaion .destination-content{
+                line-height: 12px;
+            }
         
         }
 
