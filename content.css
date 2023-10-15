@@ -599,7 +599,7 @@ list-style: inside;
         }
         #accordion-distinaion .destination-content{
             padding: 0 10px;
-            line-height: normal;
+            line-height: 12px;
             color: black;
             max-height: 0;
             font-size: medium;
@@ -626,9 +626,7 @@ list-style: inside;
             #accordion-distination .destination-content{
                 font-size: 14px;
             }
-            #accordion-distinaion .destination-content{
-                line-height: normal;
-            }
+         
         
         }
 
