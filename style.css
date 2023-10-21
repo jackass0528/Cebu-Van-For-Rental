@@ -626,6 +626,9 @@ font-weight: 600;
 
 
 /* content end Section*/
+
+
+/* start terms and conditions Section*/
 #termsAndconditions{
 	background-color: rgba(128, 128, 128, 0.5);
 	margin: 50px 50px ;
@@ -636,6 +639,8 @@ font-weight: 600;
 	padding-top: 8px;
 }
 
+
+/* end terms and conditions Section*/
 
 /* banner  Section*/
 .banner{
