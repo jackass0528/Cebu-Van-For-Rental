@@ -237,10 +237,17 @@ margin: 20px;
             }
 
 }
-
-
-
 /* end Contact us*/
+
+/* Start Promo Content*/
+.promo-content{
+    margin: 50px 80px;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+/* end Promo Content*/
 
 
 
