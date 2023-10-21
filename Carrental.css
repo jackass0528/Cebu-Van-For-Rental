@@ -107,6 +107,24 @@ tr{
     margin: 10px;
     
 }
+.CityDrive-rate-rental{
+    width: 100%;
+    height: 200px;
+    
+}
+.CarRental-table-content{
+    margin: 20px ;
+}
+.CarRental-image-selection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px;
+}
+.CarRental-image-selection img{
+    width: 500px;
+    height: 350px;
+}
 
 .banner-car-rental{
     background-position: center;
