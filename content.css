@@ -607,10 +607,6 @@ list-style: inside;
             transition: max-heigth 0.5s;
         }
 
-
-        .Menu-Children-accordion-distinaion{
-            height: fit-content;
-        }
      
         #day-destinations li{
          list-style: inside;
