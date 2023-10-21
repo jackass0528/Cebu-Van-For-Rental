@@ -627,13 +627,13 @@ font-weight: 600;
 
 /* content end Section*/
 #termsAndconditions{
-	background-color: gray;
+	background-color: rgba(128, 128, 128, 0.5);
 	margin: 50px 50px ;
 	border-radius: 20px;
 	width: 80%;
-	height: 50px;
+	height: 60px;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 8px;
 }
 
 
