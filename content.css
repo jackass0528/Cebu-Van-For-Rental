@@ -558,7 +558,7 @@ list-style: inside;
       
 
         .accordion-distinaion{
-            min-height: 100vh;
+    min-height: 100vh;
     width: 80%;
     margin: 0 auto;
     flex-direction: column;
@@ -603,8 +603,13 @@ list-style: inside;
             color: black;
             max-height: 0;
             font-size: medium;
-            overflow: hidden;
+            overflow: scroll;
             transition: max-heigth 0.5s;
+        }
+
+
+        .Menu-Children-accordion-distinaion{
+            height: fit-content;
         }
      
         #day-destinations li{
@@ -631,5 +636,10 @@ list-style: inside;
         
         
         }
+
+
+        /*hide and show*/
+     
+
 
      
