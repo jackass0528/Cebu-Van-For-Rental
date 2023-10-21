@@ -605,11 +605,13 @@ list-style: inside;
             font-size: medium;
             overflow: scroll;
             transition: max-heigth 0.5s;
+        
         }
-
      
-        #day-destinations li{
+        #accordion-distinaion .destination-content ul li{
+
          list-style: inside;
+    
         }
 
         #accordion-distinaion label + input[type="radio"]:checked + .destination-content{
