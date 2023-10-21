@@ -626,7 +626,15 @@ font-weight: 600;
 
 
 /* content end Section*/
-
+#termsAndconditions{
+	background-color: gray;
+	margin: 50px 50px ;
+	border-radius: 20px;
+	width: 80%;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+}
 
 
 /* banner  Section*/
