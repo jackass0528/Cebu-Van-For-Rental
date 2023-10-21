@@ -599,7 +599,7 @@ list-style: inside;
         }
         #accordion-distinaion .destination-content{
             padding: 0 10px;
-            line-height: 12px;
+            line-height: 26px;
             color: black;
             max-height: 0;
             font-size: medium;
@@ -617,18 +617,18 @@ list-style: inside;
 
         @media(max-width: 992px){
 
-    
-            #accordion-distination {
-                width: 350px;       
-               
-            }
         
             #accordion-distination .destination-content{
-                font-size: 14px;
+             
+                padding: 0 10px;
+                line-height: 26px;
+                color: black;
+                max-height: 0;
+                font-size: medium;
+                overflow: hidden;
+                transition: max-heigth 0.5s;
             }
-            #accordion-distinaion .destination-content{
-                line-height: 12px;
-            }
+        
         
         }
 
