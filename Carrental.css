@@ -55,6 +55,14 @@ tr{
     top: 0px;
 }
 
+#CityDrive-rate-prov table tr td{    
+    position: sticky; 
+      color: black;
+      border: 1px solid black;
+      font-size: large;
+      margin-left: 10px;
+  }
+
 @media (max-width: 992px){
 
     .banner-car-rental{
@@ -82,6 +90,23 @@ tr{
         margin: 10px;
     
     }
+    .CityDrive-rate-prov-main{
+        width: 350px;
+        height: 200px;
+    }
+
+    #CityDrive-rate-prov{
+        min-height: 350px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+       
+    }
+    #CityDrive-rate-prov table tr td{    
+        position: sticky; 
+          color: black;
+          font-size: small;
+          margin-left: 10px;
+      }
   
     .form-content-rental iframe{
         width: 350px;
@@ -93,7 +118,6 @@ tr{
 
 
 }
-
 
 
 /*End Car and Van Rental*/
