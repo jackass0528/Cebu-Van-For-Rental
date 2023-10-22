@@ -98,14 +98,14 @@ tr{
     #CityDrive-rate-prov{
         min-height: 350px;
         margin-bottom: 10px;
-        margin-left: 10px;
+     
        
     }
     #CityDrive-rate-prov table tr td{    
         position: sticky; 
           color: black;
           font-size: small;
-          margin-left: 10px;
+         
       }
   
     .form-content-rental iframe{
