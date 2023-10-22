@@ -320,6 +320,7 @@ background-color: #0000004d;
      
  }
 
+
 .Duration-time ul li{
     display: inline-block; 
     margin: 12px; 
@@ -338,6 +339,19 @@ background-color: #0000004d;
     font-size: 20px;
    
 }
+}
+
+@media(max-width: 600px) {
+
+    .Duration-time{
+        padding-left: 120px;
+        margin-top: 140px;   
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+        padding-left: 0px;
+       
+    }
 }
 
 /*End Duration*/
