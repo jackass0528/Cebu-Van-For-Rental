@@ -5,10 +5,6 @@
     box-sizing: border-box;
     }
     
-    body{
-        margin: 0;
-        padding: 0;
-    }
     
     /* banner 1 Section*/
     .banner-1{
@@ -37,7 +33,7 @@
         @media (max-width:991px){
         
         .container-1{
-            padding-top: 20%;    
+            padding-top: 20%;   
         }
         .banner-1{
             margin-top: 180px;
@@ -245,7 +241,7 @@ background-color: #0000004d;
 }
 
 
-@media(max-width: 992px){
+@media only screen and (max-width: 992px){
 
     .carousel-button.prev{
         left: -2rem;
@@ -279,6 +275,15 @@ background-color: #0000004d;
         object-position: center;
     
      }
+
+}
+
+@media only screen and (max-width: 600px){
+    .carousel{
+        width: 100px;
+        height: 80px;
+        margin: 20px auto 0 40px ;
+        }
 
 }
     
@@ -352,6 +357,25 @@ background-color: #0000004d;
         padding-left: 0px;
        
     }
+}
+
+@media(max-width: 768px){
+
+    .Duration-time{
+        padding-left: 120px;
+        margin-top: 140px;   
+    
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+        padding-left: 0px;
+       
+    }
+    .Duration-time ul li{
+        display: block; 
+       
+    }
+
 }
 
 /*End Duration*/
