@@ -172,7 +172,7 @@ cursor: pointer;
     width: 400px;
     height: 360px;
     position: relative;
-     margin-left: 30%;
+     margin-left: 35%;
      margin-top: 20px;
    
  
@@ -242,6 +242,8 @@ background-color: #0000004d;
 
 
 @media only screen and (max-width: 992px){
+    
+
 
     .carousel-button.prev{
         left: -2rem;
@@ -264,7 +266,7 @@ background-color: #0000004d;
 .carousel{
     width: 100px;
     height: 80px;
-    margin: 20px auto 0 55px ;
+    margin: 20px auto 0 15%;
     }
 
     .slide > img {
@@ -285,7 +287,7 @@ background-color: #0000004d;
 /*Start Duration*/
 
  .Duration-time{
-    padding-left: 380px;
+    padding-left: 28%;
     margin-bottom: 30px;
     
  }
