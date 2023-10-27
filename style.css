@@ -6,6 +6,14 @@
 
 }
 
+body{
+	line-height: 1.5;
+	font-weight: 400;
+}
+body.hidden-scrolling{
+	overflow-y: hidden;
+}
+
 
 /* Header 3 payment Section*/
 .container-payment{
@@ -150,20 +158,6 @@ display: none;
 }
 
 
-
-
-body{
-	line-height: 1.5;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
-}
-body.hidden-scrolling{
-	overflow-y: hidden;
-}
-*{
-	margin:0;
-	box-sizing: border-box;
-}
 .container{
 	max-width: 1170px;
 	margin:auto;
