@@ -297,7 +297,7 @@ margin: 20px;
     cursor: pointer;
 }
 #accordion li label span{
-    transition: rotate(90deg);
+    transition: rotate(100deg);
     font-size: 22px;
     color: #333;
 }
