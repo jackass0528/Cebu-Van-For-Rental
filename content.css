@@ -385,7 +385,7 @@ background-color: #0000004d;
 
     .Duration-time{
         margin-top: 140px; 
-        padding-left: 150px;  
+        padding-left: 120px;  
     
     }
     .Duration-time .fa-calendar{
@@ -452,7 +452,7 @@ background-color: #0000004d;
 }
 @media(min-width: 992px) {
     .table-content .rigth-side {
-     margin: 100px;
+     margin: 80px;
    
     }
     
