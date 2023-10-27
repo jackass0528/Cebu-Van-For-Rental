@@ -283,6 +283,7 @@ background-color: #0000004d;
     
 
 .carousel{
+ 
     width: 100px;
     height: 80px;
     margin: 20px auto 0 30%;
@@ -297,7 +298,7 @@ background-color: #0000004d;
     .carousel{
         width: 100px;
         height: 80px;
-        margin: 20px auto 0 10%;
+        margin: 20px auto 0 15%;
         }
     
     
@@ -383,14 +384,11 @@ background-color: #0000004d;
 @media(max-width: 768px){
 
     .Duration-time{
-        padding-left: 20%;
         margin-top: 140px;   
     
     }
     .Duration-time .fa-calendar{
         font-size: 20px;
-        padding-left: 8px;
-     
        
     }
 
