@@ -465,7 +465,7 @@ background-color: #0000004d;
 }
 @media(max-width: 768px) {
     .table-content .rigth-side {
-     margin: 20px;
+     margin: 50px;
     
     }
 
@@ -475,9 +475,9 @@ background-color: #0000004d;
   
 }
 }
-@media(min-width: 992px) {
+@media(min-width: 1200px) {
     .table-content .rigth-side {
-     margin: 30px;
+     margin: 50px;
    
     }
 
