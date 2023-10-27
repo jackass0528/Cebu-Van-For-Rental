@@ -384,7 +384,8 @@ background-color: #0000004d;
 @media(max-width: 768px){
 
     .Duration-time{
-        margin-top: 140px;   
+        margin-top: 140px; 
+        padding-left: 150px;  
     
     }
     .Duration-time .fa-calendar{
@@ -441,6 +442,19 @@ background-color: #0000004d;
         height: 646px;
       
     }
+}
+
+
+@media(max-width: 768px) {
+    .table-content .rigth-side {
+     margin: 15px;
+    }
+
+.list-rate-expect ul li iframe{
+    width: 350px;
+    height: 646px;
+  
+}
 }
 
 .list-1{
