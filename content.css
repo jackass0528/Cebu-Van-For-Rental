@@ -457,6 +457,7 @@ background-color: #0000004d;
     }
 
 
+    
 }
 
 @media(min-width: 768px) {
@@ -484,7 +485,13 @@ background-color: #0000004d;
     }
 
 }
+@media(min-width: 300px) {
+    .table-content .rigth-side {
+     margin: -10px;
+   
+    }
 
+}
 .list-1{
 
     flex: 1;
