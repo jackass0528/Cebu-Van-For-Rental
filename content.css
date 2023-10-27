@@ -266,7 +266,7 @@ background-color: #0000004d;
 .carousel{
     width: 100px;
     height: 80px;
-    margin: 20px auto 0 15%;
+    margin: 20px auto 0 32%;
     }
 
     .slide > img {
@@ -279,6 +279,30 @@ background-color: #0000004d;
      }
 
 }
+@media only screen and (max-width: 768px){
+    
+
+.carousel{
+    width: 100px;
+    height: 80px;
+    margin: 20px auto 0 30%;
+    }
+
+
+
+}
+@media only screen and (max-width: 600px){
+    
+
+    .carousel{
+        width: 100px;
+        height: 80px;
+        margin: 20px auto 0 10%;
+        }
+    
+    
+    
+    }
 
     
 
@@ -299,22 +323,24 @@ background-color: #0000004d;
 }
 
 .Duration-time .fa-clock-o{
-    font-size: 40px;
+    font-size: 30px;
    
 }
 .Duration-time .fa-calendar{
-    font-size: 40px;
+    font-size: 30px;
    
 }
 .Duration-time .fa-close{
-    font-size: 40px;
+    font-size: 30px;
    
 }
+
+
 
 @media(max-width: 992px) {
 
      .Duration-time{
-    padding-left: 50px;
+    padding-left: 22%;
     margin-top: 140px;   
      
  }
@@ -331,7 +357,7 @@ background-color: #0000004d;
 }
 .Duration-time .fa-calendar{
     font-size: 20px;
-    padding-left: 80px;
+ 
    
 }
 .Duration-time .fa-close{
@@ -339,6 +365,7 @@ background-color: #0000004d;
    
 }
 }
+
 
 @media(max-width: 600px) {
 
@@ -356,21 +383,20 @@ background-color: #0000004d;
 @media(max-width: 768px){
 
     .Duration-time{
-        padding-left: 120px;
+        padding-left: 20%;
         margin-top: 140px;   
     
     }
     .Duration-time .fa-calendar{
         font-size: 20px;
-        padding-left: 0px;
-       
-    }
-    .Duration-time ul li{
-        display: block; 
+        padding-left: 8px;
+     
        
     }
 
+
 }
+
 
 /*End Duration*/
 
