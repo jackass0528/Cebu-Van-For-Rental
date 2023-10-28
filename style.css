@@ -84,12 +84,14 @@ margin: 10px;
 .moving-text{
 	width: 100%;
 	margin-top: 10px;
-	background-color: #bdff07c7;
+	background-color: #fefffd;
 	font-weight: 500;
 }
+/*  
 .moving-text marquee b{
-	color: rgb(7, 7, 7);
-}
+	color: rgb(65, 62, 62);
+}*/
+
 .moving-text marquee span{
 	margin-left: 20%;
 	color: rgb(5, 5, 5);
