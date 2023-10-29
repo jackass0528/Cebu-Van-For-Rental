@@ -182,7 +182,7 @@ padding-left: 55%;
 	}
 	
 }
-@media  (max-width: 475px){
+@media  (max-width: 412px){
 	.header-contact{
 		width: 100%;
 		height: 50px;
@@ -202,7 +202,7 @@ padding-left: 55%;
 		
 .header-contact ul{
 	display: flex;
-	margin: -4% 10px 0px -60px;
+	margin: -2% 10px 0px -60px;
 	}
 	
 }
