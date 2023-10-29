@@ -231,8 +231,8 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map ul{
-		font-size: small;
-		margin-left: 14%;
+		font-size: x-small;
+		margin-left: 21%;
 	}
 	
 	.headrer-contact-and-map ul li{
@@ -281,18 +281,6 @@ flex-wrap: wrap;
 
 
 
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-ul{
-	list-style: none;
-	margin:0;
-	padding:0;
-}
-a{
-	text-decoration: none;
-}
 /*header*/
 .header{
 	position: absolute;
@@ -577,6 +565,18 @@ text-align: center;
     margin-bottom: 20px;
     color: rgb(255, 251, 251);
     padding: 20px 40px;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
 }
 
 .head-style{
