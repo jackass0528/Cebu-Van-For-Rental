@@ -137,6 +137,37 @@ flex-wrap: wrap;
 	color: white;
 }
 
+@media (max-width: 1440px){
+
+	.headrer-contact-and-map span{
+		margin-left: 60px;
+			
+	}
+
+	.headrer-contact-and-map ul{
+		margin-left: 38%;
+	}
+	.headrer-contact-and-map ul li{
+		margin-left: 10px;
+	}
+
+}
+
+@media (max-width: 1024px){
+
+	.headrer-contact-and-map span{
+		margin-left: 60px;
+			
+	}
+
+	.headrer-contact-and-map ul{
+		margin-left: 22%;
+	}
+	.headrer-contact-and-map ul li{
+		margin-left: 10px;
+	}
+
+}
 
 @media (max-width: 992px){
 
@@ -171,11 +202,29 @@ flex-wrap: wrap;
 }
 
 
+@media (max-width: 768px){
+
+	.headrer-contact-and-map span{
+		margin-left: 200px;
+			
+	}
+
+	.headrer-contact-and-map ul{
+		margin-left: 22%;
+	}
+	.headrer-contact-and-map ul li{
+		margin-left: 10px;
+	}
+
+}
+
+
+
 @media (max-width: 475px){
 
 	.headrer-contact-and-map span{
 		font-size: small;
-		margin-left: 110px;
+		margin-left: 95px;
 			
 	}
 
@@ -211,14 +260,14 @@ flex-wrap: wrap;
 @media (max-width: 320px){
 
 	.headrer-contact-and-map span{
-		font-size: x-small;
-		margin-left: 60px;
+		font-size: xx-small;
+		margin-left: 70px;
 			
 	}
 
 	.headrer-contact-and-map ul{
-		font-size: x-small;
-		margin-left: 10%;
+		font-size: xx-small;
+		margin-left: 15%;
 	}
 
 	.headrer-contact-and-map ul li{
