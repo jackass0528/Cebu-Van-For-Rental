@@ -106,166 +106,97 @@ margin: 10px;
 
 .header-contact{
 width: 100%;
-height: 30px;
+height: auto;
 background-color: #000000; 
 }
 
-.header-contact span{
-	margin: 20px;
+.headrer-contact-and-map {
+display: flex;
+flex-wrap: wrap;
+}
+.headrer-contact-and-map ul{
+	margin-left: 60%;
+}
+
+.headrer-contact-and-map ul li{
+	display: inline;
 	
-}
-.header-contact span a{
-	color: white;
-}
+	}	
 
-
-.header-contact ul{
-display: inline-flex;
-padding-left: 55%;
-}
-.header-contact ul li{
+.headrer-contact-and-map span{
 	margin-left: 20px;
-	list-style: none;
+	
 }
 
-.header-contact ul li a{
+.headrer-contact-and-map span a{
 	color: white;
 }
 
 
-
-@media (max-width: 320px){
-	.header-contact{
-		width: 100%;
-		height: 50px;
-		background-color: #000000; 
-		}
-
-
-		.header-contact span a{
-			color: white;
-		}
-
-	.header-contact{	
-		display: flex;
-		flex-wrap: wrap;
-		}
-		
-.header-contact ul{
-	font-size: 10px;
-	display: flex;
-	margin: -5% 10px 0px 20px;
-	}
-	
+.headrer-contact-and-map ul li a{
+	color: white;
 }
-@media  (max-width: 375px){
-	.header-contact{
-		width: 100%;
-		height: 50px;
-		background-color: #000000; 
-		}
-	
-
-	
-	.header-contact{
-		font-size: 12px;
-		display: flex;
-		flex-wrap: wrap;
-		}
-
-		.header-contact span a{
-			color: white;
-		}
-
-		
-.header-contact ul{
-	display: flex;
-	margin: -4% 10px 0px -60px;
-	}
-	
-}
-@media  (max-width: 412px){
-	.header-contact{
-		width: 100%;
-		height: 50px;
-		background-color: #000000; 
-		}
-		.header-contact span{
-			font-size: 12px;
-			margin: 10px 0px 0px -30px;
-					
-		}
-
-		.header-contact span a{
-			color: white;
-		}
-
-
-	.header-contact{
-		font-size: 12px;
-		display: flex;
-		flex-wrap: wrap;
-		}
-		
-.header-contact ul{
-	display: flex;
-	margin: -2% 10px 0px -60px;
-	}
-	
-}
-
-
 
 
 @media (max-width: 992px){
-	.header-contact{
-		display: flex;
-		flex-wrap: wrap;
-		}
 
-		.header-contact span a{
-			color: white;
-		}
-
-		
-.header-contact ul{
-	display: flex;
-	padding-left: 50%;
-	}
-	.header-contact span{
-		padding-left: 30%;
-		
+	.headrer-contact-and-map span{
+		margin-left: 60px;
+		background-color: #333;
+			
 	}
 
-}
-@media (max-width: 1377px){
-
-	
-	.header-contact ul{
-	display: inline-flex;
-	padding-left: 27%;
-	}
-	.header-contact ul li{
-		margin-left: 20px;
-		list-style: none;
+	.headrer-contact-and-map ul{
+		margin-left: 24%;
 	}
 	
-	.header-contact ul li a{
-		color: white;
-	}
 
 }
 
+@media (max-width: 740px){
 
+	.headrer-contact-and-map span{
+		margin-left: 200px;
+			
+	}
 
+	.headrer-contact-and-map ul{
+		margin-left: 26%;
+	}
+	
 
+}
 
+@media (max-width: 475px){
 
+	.headrer-contact-and-map span{
+		font-size: small;
+		margin-left: 80px;
+			
+	}
 
+	.headrer-contact-and-map ul{
+		font-size: small;
+		margin-left: 16%;
+	}
+	
 
+}
+@media (max-width: 320px){
 
+	.headrer-contact-and-map span{
+		font-size: x-small;
+		margin-left: 60px;
+			
+	}
 
+	.headrer-contact-and-map ul{
+		font-size: x-small;
+		margin-left: 17%;
+	}
+	
 
+}
 
 
 
