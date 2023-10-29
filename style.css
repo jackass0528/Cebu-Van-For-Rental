@@ -210,6 +210,7 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map ul{
+	    background-color: blue;
 		margin-left: 22%;
 	}
 	.headrer-contact-and-map ul li{
@@ -229,6 +230,7 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map ul{
+		background-color: green;
 		font-size: x-small;
 		margin-left: 18%;
 	}
@@ -247,6 +249,7 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map ul{
+		background-color: #f7f2f2;
 		font-size: x-small;
 		margin-left: 18%;
 	}
