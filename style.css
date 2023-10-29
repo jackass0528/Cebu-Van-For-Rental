@@ -225,14 +225,14 @@ flex-wrap: wrap;
 @media (max-width: 475px){
 
 	.headrer-contact-and-map span{
-		font-size: small;
-		margin-left: 90px;
+		font-size: x-small;
+		margin-left: 130px;
 			
 	}
 
 	.headrer-contact-and-map ul{
 		font-size: x-small;
-		margin-left: 21%;
+		margin-left: 22%;
 	}
 	
 	.headrer-contact-and-map ul li{
