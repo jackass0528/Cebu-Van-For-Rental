@@ -142,7 +142,6 @@ flex-wrap: wrap;
 
 	.headrer-contact-and-map span{
 		margin-left: 60px;
-		background-color: #333;
 			
 	}
 
@@ -167,21 +166,40 @@ flex-wrap: wrap;
 
 }
 
+
 @media (max-width: 475px){
 
 	.headrer-contact-and-map span{
 		font-size: small;
-		margin-left: 80px;
+		margin-left: 110px;
 			
 	}
 
 	.headrer-contact-and-map ul{
 		font-size: small;
-		margin-left: 16%;
+		margin-left: 21%;
 	}
 	
 
 }
+
+@media (max-width: 375px){
+
+	.headrer-contact-and-map span{
+		font-size: x-small;
+		margin-left: 90px;
+			
+	}
+
+	.headrer-contact-and-map ul{
+		font-size: x-small;
+		margin-left: 22%;
+	}
+	
+
+}
+
+
 @media (max-width: 320px){
 
 	.headrer-contact-and-map span{
