@@ -140,21 +140,21 @@ padding-left: 55%;
 		height: 50px;
 		background-color: #000000; 
 		}
-		.header-contact span{
-			font-size: 10px;
-			margin: 10px 0px 0px -30px;
-					
+
+
+		.header-contact span a{
+			color: white;
 		}
 
-	.header-contact{
-		font-size: 10px;
+	.header-contact{	
 		display: flex;
 		flex-wrap: wrap;
 		}
 		
 .header-contact ul{
+	font-size: 10px;
 	display: flex;
-	margin: -5% 10px 0px -60px;
+	margin: -5% 10px 0px 20px;
 	}
 	
 }
@@ -164,17 +164,19 @@ padding-left: 55%;
 		height: 50px;
 		background-color: #000000; 
 		}
-		.header-contact span{
-			font-size: 12px;
-			margin: 10px 0px 0px -30px;
-					
-		}
+	
 
+	
 	.header-contact{
 		font-size: 12px;
 		display: flex;
 		flex-wrap: wrap;
 		}
+
+		.header-contact span a{
+			color: white;
+		}
+
 		
 .header-contact ul{
 	display: flex;
@@ -193,6 +195,11 @@ padding-left: 55%;
 			margin: 10px 0px 0px -30px;
 					
 		}
+
+		.header-contact span a{
+			color: white;
+		}
+
 
 	.header-contact{
 		font-size: 12px;
@@ -215,6 +222,11 @@ padding-left: 55%;
 		display: flex;
 		flex-wrap: wrap;
 		}
+
+		.header-contact span a{
+			color: white;
+		}
+
 		
 .header-contact ul{
 	display: flex;
