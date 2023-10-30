@@ -993,7 +993,7 @@ text-align: center;
        color: rgb(46, 44, 44);
        border: 2px solid #333;
        border-radius: 15px;
-       padding: 20px 40px;
+       padding: 20px 90px;
        margin: 10px; 
         }
 
@@ -1016,11 +1016,10 @@ text-align: center;
 
 
 			
-			.header-list ul li a{
-				width: 320px;
+			.header-list ul li a{     
 				border-radius: 15px;
-				padding: 5px 10px;
-				margin: 5px; 
+				padding: 20px 100px;
+				margin: 10px; 
 				 }
 
 		}
@@ -1037,7 +1036,7 @@ text-align: center;
 			.header-list ul li a{
 				width: 160px;
 				border-radius: 15px;
-				padding: 5px 10px;
+				padding: 10px 20px;
 				margin: 5px; 
 				 }
 			.header-list li{
