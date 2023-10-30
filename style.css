@@ -149,7 +149,7 @@ flex-wrap: wrap;
 }
 .headrer-contact-and-map ul{
 	margin-left: 54%;
-	margin-top: 10px;
+	
 }
 
 .headrer-contact-and-map ul li{
@@ -159,7 +159,6 @@ flex-wrap: wrap;
 
 .headrer-contact-and-map span{
 	margin-left: 70px;
-	margin-top: 10px;
 	
 }
 
@@ -277,7 +276,7 @@ flex-wrap: wrap;
 
 @media (max-width: 475px){
 	.header-contact{
-		height: 54px;
+		height: auto;
 	}
 
 	.headrer-contact-and-map span{
@@ -292,6 +291,7 @@ flex-wrap: wrap;
 		margin-left: 45px;
 		
 	}
+
 	
 
 }
