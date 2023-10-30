@@ -226,7 +226,6 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map span{
-		background-color: rgb(236, 85, 85);
 		margin-left: 200px;
 			
 	}
@@ -244,7 +243,6 @@ flex-wrap: wrap;
 @media (max-width: 768px){
 
 	.headrer-contact-and-map span{
-		background-color: rgb(110, 106, 106);
 		margin-left: 200px;
 		
 			
@@ -262,7 +260,6 @@ flex-wrap: wrap;
 	}
 
 	.headrer-contact-and-map span{
-		background-color: rgb(235, 30, 30);
 		font-size: 16px;
 		margin-left: 140px;
 				
@@ -302,7 +299,6 @@ flex-wrap: wrap;
 @media (max-width: 375px){
 
 	.headrer-contact-and-map span{
-		background-color: rgb(50, 202, 63);
 		margin-top: 5px;
 		font-size: x-small;
 		margin-left: 60px;
@@ -321,7 +317,6 @@ flex-wrap: wrap;
 @media (max-width: 320px){
 
 	.headrer-contact-and-map span{
-		background-color: red;
 		font-size: x-small;
 		margin-top: 5px;
 		margin-left: 60px;
