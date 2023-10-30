@@ -83,7 +83,7 @@ margin: 10px;
 /* Moving text */
 .moving-text{
 	position: absolute;
-	top: 30px;
+	top: 24px;
 	left: 0;
 	width: 100%;
 	height: 30px;
@@ -139,7 +139,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 30px;
+height: auto;
 font-weight: 400;
 background-color: #000000; 
 }
@@ -192,7 +192,7 @@ flex-wrap: wrap;
 
 @media (max-width: 740px){
 	.header-contact{
-		height: 70px;
+		height: auto;
 	}
 
 	.headrer-contact-and-map span{
@@ -226,7 +226,7 @@ flex-wrap: wrap;
 }
 @media (max-width: 600px){
 	.header-contact{
-		height: 90px;
+		height: auto;
 	}
 
 	.headrer-contact-and-map span{
