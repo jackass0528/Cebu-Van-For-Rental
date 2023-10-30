@@ -852,9 +852,6 @@ font-weight: 600;
 				font-size: medium;
 				
 					}
-			.container .box-container .box .content-box p{
-				font-size: small;
-			}
 	
 			.container{
 			padding-top: 30px;
@@ -1000,6 +997,9 @@ text-align: center;
        margin: 10px; 
         }
 
+
+	
+
 		@media (max-width: 475px){
 			.header-text{
 				margin: 20px;
@@ -1010,14 +1010,14 @@ text-align: center;
 			}
 			.header-list li{
 				margin: 20px;
-				font-size: x-large;		
+				font-size: large;		
 				
 				}
+
+
 			
 			.header-list ul li a{
-				text-decoration: none;
-				color: rgb(46, 44, 44);
-				border: 2px solid #333;
+				width: 240px;
 				border-radius: 15px;
 				padding: 5px 10px;
 				margin: 5px; 
