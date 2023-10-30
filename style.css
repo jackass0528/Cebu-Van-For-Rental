@@ -325,7 +325,7 @@ flex-wrap: wrap;
 	padding: 0 15px;
 }
 .header .menu > .menu-item{
-	padding-top: 70px;
+	padding-top: 10px;
 	display: inline-block;
 	margin-left: 30px;
 	position: relative;
@@ -465,18 +465,31 @@ flex-wrap: wrap;
 	 .header .menu > .menu-item-has-children:hover > a .plus:after{
 		transform: translate(-50%,-50%) rotate(0deg);		
 	 }
-	 .header .open-nav-menu{
-		height: 34px;
-		width: 40px;
-		margin-right: 15px;
-		padding-top: 60px;
-		display: none;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
+	 .header .menu > .menu-item > a{
+		padding-top: 70px;
+	}
+	.header .open-nav-menu{
+		padding-top: 70px;
+	
 	}
 	}
-
+	@media (min-width: 600px){
+		.header .menu > .menu-item-has-children:hover > .sub-menu{
+			transform: translateY(0);
+			opacity: 1;
+			visibility: visible;
+		 }
+		 .header .menu > .menu-item-has-children:hover > a .plus:after{
+			transform: translate(-50%,-50%) rotate(0deg);		
+		 }
+		 .header .menu > .menu-item > a{
+			padding-top: 70px;
+		}
+		.header .open-nav-menu{
+            padding-top: 70px;
+		
+		}
+		}
 	@media (min-width: 740px){
 		.header .menu > .menu-item-has-children:hover > .sub-menu{
 			transform: translateY(0);
@@ -486,15 +499,12 @@ flex-wrap: wrap;
 		 .header .menu > .menu-item-has-children:hover > a .plus:after{
 			transform: translate(-50%,-50%) rotate(0deg);		
 		 }
-		 .header .open-nav-menu{
-			height: 34px;
-			width: 40px;
-			margin-right: 15px;
-			padding-top: 60px;
-			display: none;
-			align-items: center;
-			justify-content: center;
-			cursor: pointer;
+		 .header .menu > .menu-item > a{
+			padding-top: 70px;
+		}
+		.header .open-nav-menu{
+            padding-top: 70px;
+		
 		}
 		}
 
