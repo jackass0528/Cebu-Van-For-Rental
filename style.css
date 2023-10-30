@@ -983,7 +983,7 @@ text-align: center;
     display: inline;
     list-style: none;
     margin: 20px;
-    font-size: 25px;
+    font-size: 20px;
 
     
     }
@@ -992,70 +992,23 @@ text-align: center;
        text-decoration: none;
        color: rgb(46, 44, 44);
        border: 2px solid #333;
-       border-radius: 15px;
-       padding: 20px 90px;
+       border-radius: 12px;
+       padding: 10px 60px;
        margin: 10px; 
         }
 
+		@media (max-width: 475px){
+.header-title{
+	margin: 20px;
+}
+.header-title h2{
+	font-size: large;
+}
+		
+
+}
 
 	
-
-		@media (max-width: 475px){
-			.header-text{
-				margin: 20px;
-				text-align: center;
-				color: #333 ;
-				font-size: large;
-				
-			}
-			.header-list li{
-				margin: 20px;
-				font-size: large;		
-				
-				}
-
-
-			
-			.header-list ul li a{     
-				border-radius: 15px;
-				padding: 20px 100px;
-				margin: 10px; 
-				 }
-
-		}
-		@media (max-width: 740px){
-			.header-text{
-				margin: 20px;
-				text-align: center;
-				color: #333 ;
-				font-size: large;
-				
-			}
-
-				
-			.header-list ul li a{
-				width: 160px;
-				border-radius: 15px;
-				padding: 10px 20px;
-				margin: 5px; 
-				 }
-			.header-list li{
-				margin: 30px;
-				font-size: large;		
-				
-				}
-			
-			.header-list ul li a{
-				text-decoration: none;
-				color: rgb(46, 44, 44);
-				border: 2px solid #333;
-				border-radius: 15px;
-				padding: 5px 10px;
-				margin: 5px; 
-				 }
-
-		}
-
 /* banner  End Section*/
 
 /* footer Reviews*/
