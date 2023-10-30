@@ -844,11 +844,25 @@ font-weight: 600;
 		padding-top: 30px;
 		
 		}
-		.booking-btn a{
-			color: #fff;
-		}
+	
 		
 		}
+		@media (max-width:740px){
+			.container .box-container .box .content-box h3{
+				font-size: medium;
+				
+					}
+			.container .box-container .box .content-box p{
+				font-size: small;
+			}
+	
+			.container{
+			padding-top: 30px;
+			
+			}
+		
+			
+			}
 
 
 /* content end Section*/
@@ -997,6 +1011,30 @@ text-align: center;
 			.header-list li{
 				margin: 20px;
 				font-size: x-large;		
+				
+				}
+			
+			.header-list ul li a{
+				text-decoration: none;
+				color: rgb(46, 44, 44);
+				border: 2px solid #333;
+				border-radius: 15px;
+				padding: 5px 10px;
+				margin: 5px; 
+				 }
+
+		}
+		@media (max-width: 740px){
+			.header-text{
+				margin: 20px;
+				text-align: center;
+				color: #333 ;
+				font-size: large;
+				
+			}
+			.header-list li{
+				margin: 30px;
+				font-size: large;		
 				
 				}
 			
