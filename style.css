@@ -669,6 +669,7 @@ margin: 0 auto;
 text-align: center;
 }
 .heading{
+	font-size: large;
 	margin: 0 auto;
     text-align: center;
     background-color: #000000e3;
@@ -698,7 +699,7 @@ a{
     text-align: center;
     color: rgba(12, 12, 12, 0.897);
     padding: 20px 40px;
-	font-size: 25px;	
+	font-size: large;	
 }
 @media(min-width: 992px){
 	.heading-Book-Now{
@@ -776,7 +777,7 @@ color: #777;
     border: 1px solid #fff;
 	background-color: rgb(228, 35, 28);
     color: #fff;
-    font-size: 18px;
+    font-size: 18;
 	font-weight: 600;
 	
 	
@@ -826,6 +827,20 @@ font-weight: 600;
         color: #7c7676;
     }
   
+	@media (max-width:992px){
+		.container .box-container .box .content-box p{
+			font-size: medium;
+		}
+
+		.container{
+		padding-top: 30px;
+		
+		}
+		.booking-btn a{
+			color: #fff;
+		}
+		
+		}
 
 
 /* content end Section*/
@@ -878,17 +893,7 @@ margin-top: 20px;
 	color: #fff;
 }
 
-@media (max-width:992px){
 
-.container{
-padding-top: 30px;
-
-}
-.booking-btn a{
-	color: #fff;
-}
-
-}
 
 /* banner 1 Section*/
 .banner-1{
@@ -936,7 +941,7 @@ padding-top: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 10px;
 
 	
 }
@@ -950,7 +955,6 @@ padding-top: 30px;
 
 
 .header-list ul{
-margin: 10px;
 padding: 10px;
 text-align: center;
 
@@ -974,7 +978,30 @@ text-align: center;
        margin: 10px; 
         }
 
-    
+		@media (max-width: 475px){
+			.header-text{
+				margin: 20px;
+				text-align: center;
+				color: #333 ;
+				font-size: large;
+				
+			}
+			.header-list li{
+				margin: 20px;
+				font-size: x-large;		
+				
+				}
+			
+			.header-list ul li a{
+				text-decoration: none;
+				color: rgb(46, 44, 44);
+				border: 2px solid #333;
+				border-radius: 15px;
+				padding: 5px 10px;
+				margin: 5px; 
+				 }
+
+		}
 
 /* banner  End Section*/
 
