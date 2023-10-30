@@ -233,18 +233,21 @@ flex-wrap: wrap;
 
 
 @media (max-width: 475px){
+	.header-contact{
+		height: 70px;
+	}
 
 	.headrer-contact-and-map span{
 		background-color: rgb(51, 20, 231);
 		margin-top: 5px;
 		font-size: small;
-		margin-left: 130px;
+		margin-left: 90px;
 			
 	}
 
 	.headrer-contact-and-map ul{
 		font-size: small;
-		margin-left: 95px;
+		margin-left: 55px;
 		
 	}
 	
