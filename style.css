@@ -83,12 +83,13 @@ margin: 10px;
 /* Moving text */
 .moving-text{
 	position: absolute;
-	top: 50px;
+	top: 30px;
 	left: 0;
 	width: 100%;
 	height: 30px;
 	background-color: #fefffd;
 	font-weight: 500;
+	
 }
 /*  
 .moving-text marquee b{
@@ -138,7 +139,7 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 50px;
+height: 30px;
 font-weight: 400;
 background-color: #000000; 
 }
@@ -171,37 +172,7 @@ flex-wrap: wrap;
 	color: white;
 }
 
-@media (max-width: 1440px){
 
-	.headrer-contact-and-map span{
-		margin-left: 60px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		margin-left: 38%;
-	}
-	.headrer-contact-and-map ul li{
-		margin-left: 10px;
-	}
-
-}
-
-@media (max-width: 1024px){
-
-	.headrer-contact-and-map span{
-		margin-left: 60px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		margin-left: 22%;
-	}
-	.headrer-contact-and-map ul li{
-		margin-left: 10px;
-	}
-
-}
 
 @media (max-width: 992px){
 
