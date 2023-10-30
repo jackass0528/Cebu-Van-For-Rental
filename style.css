@@ -232,32 +232,36 @@ flex-wrap: wrap;
 @media (max-width: 475px){
 
 	.headrer-contact-and-map span{
-		font-size: x-small;
-		margin-left: 120px;
+		margin-top: 5px;
+		font-size: small;
+		margin-left: 130px;
 			
 	}
 
 	.headrer-contact-and-map ul{
-		font-size: x-small;
-		margin-left: 19%;
+		font-size: small;
+		margin-left: 95px;
+		
 	}
 	
 	.headrer-contact-and-map ul li{
 		margin-left: 10px;
+		
 	}
 }
 
 @media (max-width: 375px){
 
 	.headrer-contact-and-map span{
+		margin-top: 5px;
 		font-size: x-small;
-		margin-left: 90px;
+		margin-left: 60px;
 			
 	}
 
 	.headrer-contact-and-map ul{
 		font-size: x-small;
-		margin-left: 18%;
+		margin-left: 30px;
 	}
 	
 	.headrer-contact-and-map ul li{
@@ -269,14 +273,15 @@ flex-wrap: wrap;
 @media (max-width: 320px){
 
 	.headrer-contact-and-map span{
-		font-size: xx-small;
-		margin-left: 70px;
+		font-size: x-small;
+		margin-top: 5px;
+		margin-left: 60px;
 			
 	}
 
 	.headrer-contact-and-map ul{
-		font-size: xx-small;
-		margin-left: 15%;
+		font-size: x-small;
+		margin-left: 30px;
 	}
 
 	.headrer-contact-and-map ul li{
@@ -883,7 +888,7 @@ padding-top: 30px;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 10% 0 10% 0;
-    margin-top: 120px;
+    margin-top: 140px;
     }
     
     .banner-highlights-1{
@@ -900,23 +905,20 @@ padding-top: 30px;
 
     
     
-    @media (max-width:992px){
+    @media (min-width:320px){
     
     .container-1{
-        padding-top: 20%;    
+        padding-top: 10%;    
     }
-    .banner-1{
-        margin-top: 180px;
-    }
+ 
     .container-1 h2{
-        font-size: 30px;
+        font-size: x-large;
     }
 	.container-1 p{
-        font-size: 14px;
+        font-size: small;
     }
-	.front-page{
-		font-size: 40px;
-	}
+
+
 }
     /* Header 2 Section*/
 .header-2{
