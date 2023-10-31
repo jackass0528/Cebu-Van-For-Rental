@@ -1285,6 +1285,28 @@ font-size: 20px;
 	}
 
 }
+@media (max-width:475px){
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 60px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star{
+		margin-left: 130px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 340px;
+	     height: 300px;
+		
+	}
+	.reviews-btn{
+	
+		margin-left: 130px;
+	}
+
+}
 @media (max-width:470px){
 	.google-reviews .reviews-row ul{
 		display: flex;
