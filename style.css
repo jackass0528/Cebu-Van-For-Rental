@@ -132,16 +132,11 @@ margin: 10px;
 }
 @media (max-width: 475px){
 	.moving-text{
-		top: 44px;
+		top: 43px;
 	}
 
 }
-@media (max-width: 470px){
-	.moving-text{
-		top: 42px;
-	}
 
-}
 @media (max-width: 375px){
 	.moving-text{
 		top: 34px;
