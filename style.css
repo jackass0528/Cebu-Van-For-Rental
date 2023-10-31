@@ -733,6 +733,7 @@ a{
 }
 }
 
+
 .container .box-container{
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
@@ -874,6 +875,52 @@ font-weight: 600;
 		
 			
 			}
+
+			@media (max-width:375px){
+				.container .box-container .box .content-box h3{
+					font-size: medium;
+					
+						}
+		
+				.container{
+				padding-top: 30px;
+				
+				}
+			
+				
+				}
+
+				@media (max-width:320px){
+					.container .box-container .box .content-box h3{
+						font-size: small;
+						
+							}
+			
+					.container{
+					padding-top: 30px;
+					
+					}
+
+					.container .box-container .box .image img{
+						height: 90%;
+						width: 90%;
+						object-fit: cover;
+						
+							}
+
+				
+.container .box-container .box{
+	width: 90%;
+	height: 100%;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2 );
+	display: none;
+	}			
+				
+					
+					}
 
 
 /* content end Section*/
@@ -1143,15 +1190,20 @@ font-size: 20px;
 }
 .reviews-btn .booking-btn{
 	color: #000000;
-	border: 1px solid #000000;
+	border: 1px solid crimson;
 	
 }
+
+.booking-btn{
+	background-color:  rgb(253, 17, 0);
+}
 .reviews-btn .booking-btn a{
-	color: #222222;
+	font-weight: 600;
+	color: #fff;
 }
 
 .reviews-btn .booking-btn:hover{
-	background-color: rgb(253, 17, 0);
+	background-color: crimson;
 	border-color: rgb(248, 248, 248);
 	color: #fff;
 }
@@ -1189,6 +1241,140 @@ font-size: 20px;
 
 }
 
+@media (max-width:740px){
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 180px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star{
+		margin-left: 260px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 340px;
+	     height: 300px;
+		
+	}
+	.reviews-btn{
+	
+		margin-left: 260px;
+	}
+
+}
+@media (max-width:600px){
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 120px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star{
+		margin-left: 200px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 340px;
+	     height: 300px;
+		
+	}
+	.reviews-btn{
+	
+		margin-left: 200px;
+	}
+
+}
+@media (max-width:470px){
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 60px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star{
+		margin-left: 130px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 340px;
+	     height: 300px;
+		
+	}
+	.reviews-btn{
+	
+		margin-left: 130px;
+	}
+
+}
+@media (max-width:375px){
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 10px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star{
+		margin-left: 80px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 340px;
+	     height: 300px;
+		
+	}
+	.reviews-btn{
+	
+		margin-left: 80px;
+	}
+
+}
+@media (max-width:320px){
+
+	.google-reviews .reviews-row ul li img{
+	background-color: red;
+		width: 120px;
+		height: 80px;
+	}
+	.google-reviews .reviews-row ul{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 30px;
+		margin-top: 20px;
+		
+	}
+	.reviews-star .fa-star{
+		font-size: small;
+	
+	}
+
+	.reviews-star h2{
+		font-size: large;
+		margin-left: 30px;
+	}
+	.google-reviews .reviews-row ul li img{
+		width: 250px;
+	     height: auto;
+		
+	}
+	.reviews-btn{
+		margin-left: 80px;
+	}
+ 
+	.reviews-btn .booking-btn a{
+		font-size: x-small;
+	}
+	.reviews-btn #reviews-btn-1{
+border-radius: 15px;
+width: 30%;
+height: auto;
+	}
+	.reviews-btn #reviews-btn-2{
+		border-radius: 15px;
+		width: 30%;
+		height: auto;
+			}
+}
 /*end google reviews*/
 
 
