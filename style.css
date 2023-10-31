@@ -1317,7 +1317,7 @@ font-size: 20px;
 	}
 	.reviews-star{
 		font-size: small;
-		margin-left: 120px;
+		margin-left: 110px;
 	}
 
 	.reviews-star h2{
@@ -1335,8 +1335,22 @@ font-size: 20px;
 	}
 	.reviews-btn{
 	
-		margin-left: 120px;
+		margin-left: 110px;
 	}
+	.reviews-btn .booking-btn a{
+		font-size: x-small;
+	}
+	.reviews-btn #reviews-btn-1{
+border-radius: 15px;
+width: 30%;
+height: auto;
+	}
+	.reviews-btn #reviews-btn-2{
+		border-radius: 15px;
+		width: 30%;
+		height: auto;
+			}
+	
 
 }
 @media (max-width:375px){
@@ -1359,6 +1373,19 @@ font-size: 20px;
 	
 		margin-left: 80px;
 	}
+	.reviews-btn .booking-btn a{
+		font-size: x-small;
+	}
+	.reviews-btn #reviews-btn-1{
+border-radius: 15px;
+width: 30%;
+height: auto;
+	}
+	.reviews-btn #reviews-btn-2{
+		border-radius: 15px;
+		width: 30%;
+		height: auto;
+			}
 
 }
 @media (max-width:320px){
