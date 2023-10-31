@@ -1312,13 +1312,23 @@ font-size: 20px;
 	.google-reviews .reviews-row ul{
 		display: flex;
 		flex-wrap: wrap;
-		margin-left: 60px;
+		margin-left: 20px;
 		margin-top: 20px;
 		
 	}
 	.reviews-star{
+		font-size: small;
 		background-color: yellow;
-		margin-left: 130px;
+		margin-left: 120px;
+	}
+
+	.reviews-star h2{
+		margin-left: 30px;
+	}
+
+	.reviews-star .fa-star{
+		font-size: medium;
+	
 	}
 	.google-reviews .reviews-row ul li img{
 		width: 340px;
