@@ -1294,6 +1294,7 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
+		background-color: red;
 		margin-left: 130px;
 	}
 	.google-reviews .reviews-row ul li img{
@@ -1316,6 +1317,7 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
+		background-color: yellow;
 		margin-left: 130px;
 	}
 	.google-reviews .reviews-row ul li img{
@@ -1338,6 +1340,7 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
+		background-color: green;
 		margin-left: 80px;
 	}
 	.google-reviews .reviews-row ul li img{
