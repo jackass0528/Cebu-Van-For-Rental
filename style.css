@@ -136,6 +136,18 @@ margin: 10px;
 	}
 
 }
+@media (max-width: 470px){
+	.moving-text{
+		top: 42px;
+	}
+
+}
+@media (max-width: 375px){
+	.moving-text{
+		top: 34px;
+	}
+
+}
 
 
 
@@ -269,8 +281,6 @@ flex-wrap: wrap;
 		
 	}
 
-	
-
 }
 
 @media (max-width: 375px){
@@ -278,13 +288,13 @@ flex-wrap: wrap;
 	.headrer-contact-and-map span{
 		margin-top: 5px;
 		font-size: x-small;
-		margin-left: 60px;
+		margin-left: 90px;
 			
 	}
 
 	.headrer-contact-and-map ul{
 		font-size: x-small;
-		margin-left: 30px;
+		margin-left: 60px;
 	}
 	
 
