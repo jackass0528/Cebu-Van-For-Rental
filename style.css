@@ -1319,7 +1319,7 @@ font-size: 20px;
 	.reviews-star{
 		font-size: small;
 		background-color: yellow;
-		margin-left: 120px;
+		margin-left: 80px;
 	}
 
 	.reviews-star h2{
@@ -1331,13 +1331,13 @@ font-size: 20px;
 	
 	}
 	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
+		width: 300px;
+	     height: auto;
 		
 	}
 	.reviews-btn{
 	
-		margin-left: 130px;
+		margin-left: 80px;
 	}
 
 }
