@@ -143,6 +143,12 @@ margin: 10px;
 	}
 
 }
+@media (max-width: 320px){
+	.moving-text{
+		top: 54px;
+	}
+
+}
 
 
 
