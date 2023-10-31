@@ -677,7 +677,7 @@ margin: 0 auto;
 text-align: center;
 }
 .heading{
-	font-size: large;
+	font-size: 28px;
 	margin: 0 auto;
     text-align: center;
     background-color: #000000e3;
@@ -707,16 +707,19 @@ a{
     text-align: center;
     color: rgba(12, 12, 12, 0.897);
     padding: 20px 40px;
-	font-size: large;	
+	font-size: 25px;	
 }
-@media(min-width: 992px){
+@media(max-width: 992px){
 	.heading-Book-Now{
-		margin: 0 auto;
-		text-align: center;
-		color: rgba(12, 12, 12, 0.897);
-		padding: 20px 40px;
-		font-size: 25px;	
+
+		font-size: large;	
 	}
+}
+
+@media(max-width: 992px){
+	.heading{
+	font-size: large;
+}
 }
 
 .container .box-container{
@@ -921,7 +924,7 @@ margin-top: 20px;
     background-size: cover;
     background-attachment: fixed;
     padding-top: 10% 0 10% 0;
-    margin-top: 140px;
+    margin-top: 120px;
     }
     
     .banner-highlights-1{
@@ -936,23 +939,27 @@ margin-top: 20px;
         font-size: 40px;
     }
 
-    
-    
-    @media (min-width:320px){
-    
-    .container-1{
-        padding-top: 10%;    
-    }
- 
-    .container-1 h2{
-        font-size: x-large;
-    }
 	.container-1 p{
-        font-size: small;
+        font-size: 20px;
     }
 
+	@media (max-width: 475px){
+        .banner-1{
+			margin-top: 160px;
+		}
 
-}
+		.container-1 h2{
+			font-size: large;
+		}
+	
+		.container-1 p{
+			font-size: small;
+		}
+
+	}
+    
+    
+
     /* Header 2 Section*/
 .header-2{
     margin: auto;
