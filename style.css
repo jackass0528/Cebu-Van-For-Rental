@@ -17,40 +17,128 @@ body.hidden-scrolling{
 
 /* Header 3 payment Section*/
 .container-payment{
-margin: auto;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-padding-top: 40px;
+	margin-top: 80px;
+
 }
-.payment-title{
-text-align: center;
-}
-.payment ul{
-   margin: 10px;
-   padding: 10px;
-   text-align: center;
-    }
-
-.payment ul li{
-display: inline;
-list-style: none;
-margin: 10px 20px;
-    }
-
-.payment ul li img{
-width: 150px;
-height: 100px;
-margin: 10px;
-    }
-
-
-   .accept-payment {
+.accept-payment{
     width: 100%;
-    margin: auto;
-    text-align: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 20px 0 20px 0;
     }
+	.container-payment h2{
+		font-size: 26px;
+		font-weight: 600;
+		margin-left: 43%;
+	}
+	.payment-2 h2{
+		padding-left: 100px;
+		font-size: 18px;
+	}
+	.payment-2 ul {
+		padding-left: 280px;
+	}
+	.payment-2 ul li {
+		display: inline;
+	}
+	.payment-2 ul li img{
+	 
+		width: 150px;
+		height: auto;
+}
 
+.container-payment 	.accept-payment {
+padding-left: 22%;
+
+}
+
+
+.payment-1 ul li {
+	display: inline;
+}
+.payment-1 ul li img{
+	 
+		width: 200px;
+		height: auto;
+}
+.payment-1 h2{
+	font-size: 18px;
+}
+
+
+
+	@media (max-width: 320px){
+		.container-payment{
+			margin-top: 50px;
+		
+		}
+
+		.container-payment .accept-payment{
+			margin-left: -20px;
+		}
+		.container-payment h2{
+			font-size: 16px;
+			font-weight: 600;
+			margin-left: 60px;
+		}
+		.payment-2 h2{
+			
+			margin-left: -90px;
+			font-size: 15px;
+		}
+		.payment-2 ul {
+			padding-left: 50px;
+		}
+		.payment-2 ul li {
+			display: inline;
+		}
+		.payment-2 ul li img{
+			width: 100px;
+			height: auto;
+	}
+
+	.payment-1 ul{
+		padding-left: -20px;
+	}
+	.payment-1 ul li img{
+		 
+			width: 100px;
+			height: auto;
+	}
+	.payment-1 h2{
+		font-size: 16px;
+	}
+	}
+	@media (max-width: 375px){
+
+		.container-payment .accept-payment{
+			margin-left: -20px;
+		}
+		.container-payment h2{
+			font-size: 16px;
+			font-weight: 600;
+			margin-left: 110px;
+		}
+		.payment-2 h2{
+			
+			margin-left: -80px;
+			font-size: 15px;
+		}
+
+		.payment-2 h2{
+			
+			margin-left: -50px;
+			font-size: 15px;
+		}
+		.payment-2 ul {
+			padding-left: 50px;
+		}
+		.payment-1 ul{
+			padding-left: 20px;
+		}
+		
+	}
+	
 
 
 /* end Header 3 payment Section*/
