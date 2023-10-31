@@ -1294,7 +1294,6 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
-		background-color: red;
 		margin-left: 130px;
 	}
 	.google-reviews .reviews-row ul li img{
@@ -1318,8 +1317,7 @@ font-size: 20px;
 	}
 	.reviews-star{
 		font-size: small;
-		background-color: yellow;
-		margin-left: 80px;
+		margin-left: 60px;
 	}
 
 	.reviews-star h2{
@@ -1337,7 +1335,7 @@ font-size: 20px;
 	}
 	.reviews-btn{
 	
-		margin-left: 80px;
+		margin-left: 60px;
 	}
 
 }
@@ -1350,7 +1348,6 @@ font-size: 20px;
 		
 	}
 	.reviews-star{
-		background-color: green;
 		margin-left: 80px;
 	}
 	.google-reviews .reviews-row ul li img{
@@ -1367,7 +1364,6 @@ font-size: 20px;
 @media (max-width:320px){
 
 	.google-reviews .reviews-row ul li img{
-	background-color: red;
 		width: 120px;
 		height: 80px;
 	}
