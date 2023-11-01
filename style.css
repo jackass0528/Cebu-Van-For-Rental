@@ -91,7 +91,7 @@ padding-left: 22%;
 			display: inline;
 		}
 		.payment-2 ul li img{
-			width: 100px;
+			width: 80px;
 			height: auto;
 	}
 
@@ -99,7 +99,7 @@ padding-left: 22%;
 		padding-left: 70px;
 	}
 	.payment-1 ul li img{ 
-			width: 100px;
+			width: 80px;
 			height: auto;
 	}
 	.payment-1 #Ewallet{
@@ -115,10 +115,10 @@ padding-left: 22%;
 		.container-payment .accept-payment{
 			margin-left: -20px;
 		}
-		.container-payment #Payment-Ewallets-Bank{
+		.container-payment #Payment-Ewallets-Bank b{
 			font-size: 15px;
 			font-weight: 600;
-			margin-left: 30px;
+			margin-left: -8px;
 		}
 		.payment-2 #Bank{
 			
@@ -132,7 +132,7 @@ padding-left: 22%;
 			display: inline;
 		}
 		.payment-2 ul li img{
-			width: 100px;
+			width: 80px;
 			height: auto;
 	}
 
