@@ -16,272 +16,227 @@ body.hidden-scrolling{
 
 
 /* Header 3 payment Section*/
-.container-payment{
-	margin-top: 80px;
+.payment{
+margin-top: 50px;
 
 }
-.accept-payment{
-    width: 100%;
-	display: inline-flex;
+.payment .accept-title{
+	margin-left: 44%;
+}
+
+.payment-Ewallet-bank{
+	display: flex;
 	flex-wrap: wrap;
-	margin: 20px 0 20px 0;
-    }
-	.container-payment #Payment-Ewallets-Bank{
-		font-size: 25px;
-		font-weight: 600;
-		margin-left: 44%;
-	}
-	.payment-2  #Bank{
-		padding-left: 320px;
-		font-size: 18px;
-	}
-	.payment-2 ul {
-		padding-left: 280px;
-	}
-	.payment-2 ul li {
-		display: inline;
-	}
-	.payment-2 ul li img{
-	 margin-top: 20px;
-		width: 150px;
-		height: auto;
+	margin-left: 30%;
+	
+}
+.payment-ewallet #Ewallet{
+	padding-left: 60px;
 }
 
-.container-payment 	.accept-payment {
-padding-left: 22%;
+.payment-ewallet .ewallet-header-1{
+	padding-left: 80px;
+}
+
+.img-ewallet img{
+	width: 150px;
+	height: 100px;
+}
+
+.payment-Bank  .Bank-header-2{
+padding-left: 160px;
 
 }
 
-.payment-1  #Ewallet{
-	padding-left: 140px;
-	font-size: 18px;
-}
-.payment-1 ul li {
-	display: inline;
-}
-.payment-1 ul li img{
-	 margin-top: 20px;
-		width: 200px;
-		height: auto;
+.payment-Bank .img-Bank{
+	padding-left: 180px;
 }
 
+.img-Bank img{
+	margin: 10px;
+	width: 100px;
+	height: 80px;
+}
+.payment-Bank{
+	padding-left: 80px;
+}
 
-	@media (max-width: 320px){
-		.container-payment{
-			margin-top: 50px;
+@media (max-width: 320px){
+	.payment{
+		margin-top: 20px;
 		
 		}
-
-		.container-payment .accept-payment{
-			margin-left: -20px;
-		}
-		.container-payment #Payment-Ewallets-Bank b{
-			font-size: 16px;
-			margin-left: -10px;
-		}
-		.payment-2 #Bank{
-			
-			padding-left: 20px;
-			font-size: 15px;
-		}
-		.payment-2 ul {
-			padding-left: 50px;
-		}
-		.payment-2 ul li {
-			display: inline;
-		}
-		.payment-2 ul li img{
-			width: 80px;
-			height: auto;
+	.payment .accept-title{
+		font-size: 17px;
+		margin-left: 70px;
+	}
+	.payment-Ewallet-bank{
+		margin-left: -20px;	
 	}
 
-	.payment-1 #Ewallet{
-		padding-left: 70px;
+.payment-ewallet  .ewallet-header-1{
+	font-size: 12px;
+	margin-left: 70px;
+	
 	}
-	.payment-1 ul li img{ 
-			width: 80px;
-			height: auto;
+	.payment-ewallet .img-ewallet{
+		margin-left: 100px;
 	}
-	.payment-1 #Ewallet{
-		font-size: 15px;
+
+	.img-ewallet img{
+		width: 80px;
+		height: 50px;
 	}
-	}
-	@media (max-width: 375px){
-		.container-payment{
-			margin-top: 50px;
+
+
+	.payment-Bank  .Bank-header-2{
+		font-size: 12px;
+		padding-left: 10px;
 		
 		}
-
-		.container-payment .accept-payment{
-			margin-left: -20px;
-		}
-		.container-payment #Payment-Ewallets-Bank b{
-			font-size: 15px;
-			font-weight: 600;
-			margin-left: -8px;
-		}
-		.payment-2 #Bank{
-			
-			padding-left: 30px;
-			font-size: 15px;
-		}
-		.payment-2 ul {
-			padding-left: 20px;
-		}
-		.payment-2 ul li {
-			display: inline;
-		}
-		.payment-2 ul li img{
-			width: 80px;
-			height: auto;
+	.payment-Bank .img-Bank{
+		padding-left: 20px;
 	}
-
-	.payment-1 #Ewallet{
-		padding-left: 80px;
-	}
-	.payment-1 ul {
-		padding-left: 20PX;
-	}
-	.payment-1 ul li img{ 
-			width: 100px;
-			height: auto;
-	}
-	.payment-1 #Ewallet{
-		font-size: 15px;
+	.img-Bank img{
+		margin: 10px;
+		width: 60px;
+		height: 30px;
 	}
 	
-	}
-	@media (max-width: 470px){
-		.container-payment{
-			margin-top: 50px;
+}
+@media (max-width: 375px){
+	.payment{
+		margin-top: 20px;
 		
 		}
-
-		.container-payment .accept-payment{
-			margin-left: -20px;
-		}
-		.container-payment #Payment-Ewallets-Bank{
-			font-size: 22px;
-			margin-left: 90px;
-		}
-		.payment-2 #Bank{
-			
-			padding-left: 30px;
-			font-size: 15px;
-		}
-		.payment-2 ul {
-			padding-left: 20px;
-		}
-		.payment-2 ul li {
-			display: inline;
-		}
-		.payment-2 ul li img{
-			width: 200px;
-			height: auto;
+	.payment .accept-title{
+		font-size: 17px;
+		margin-left: 70px;
+	}
+	.payment-Ewallet-bank{
+		margin-left: -20px;	
 	}
 
-	.payment-1 #Ewallet{
-		padding-left: 80px;
-	}
-	.payment-1 ul {
-		padding-left: 20PX;
-	}
-	.payment-1 ul li img{ 
-			width: 200px;
-			height: auto;
-	}
-	.payment-1 #Ewallet{
-		font-size: 15px;
-	}
+.payment-ewallet  .ewallet-header-1{
+	font-size: 12px;
+	margin-left: 70px;
 	
 	}
-	@media (max-width: 600px){
-		.container-payment{
-			margin-top: 50px;
+	.payment-ewallet .img-ewallet{
+		margin-left: 100px;
+	}
+
+	.img-ewallet img{
+		width: 80px;
+		height: 50px;
+	}
+
+
+	.payment-Bank  .Bank-header-2{
+		font-size: 12px;
+		padding-left: 10px;
 		
 		}
-
-		.container-payment .accept-payment{
-			margin-left: -20px;
-		}
-		.container-payment #Payment-Ewallets-Bank b{
-			font-size: 22px;
-			margin-left: -70px;
-		}
-		.payment-2 #Bank{
-			padding-left: 110px;
-			font-size: 16px;
-		}
-		.payment-2 ul {
-			padding-left: 20px;
-		}
-		.payment-2 ul li {
-			display: inline;
-		}
-		.payment-2 ul li img{
-			width: 200px;
-			height: auto;
+	.payment-Bank .img-Bank{
+		padding-left: 20px;
 	}
-
-	.payment-1 #Ewallet{
-		padding-left: 160px;
-	}
-	.payment-1 ul {
-		padding-left: 20PX;
-	}
-	.payment-1 ul li img{ 
-			width: 200px;
-			height: auto;
-	}
-	.payment-1 #Ewallet{
-		font-size: 15px;
+	.img-Bank img{
+		margin: 10px;
+		width: 60px;
+		height: 30px;
 	}
 	
-	}
-	@media (max-width: 740px){
-		.container-payment{
-			margin-top: 50px;
+}
+@media (max-width: 470px){
+	.payment{
+		margin-top: 40px;
 		
 		}
-
-		.container-payment .accept-payment{
-			margin-left: -20px;
-		}
-		.container-payment #Payment-Ewallets-Bank b{
-			font-size: 22px;
-			margin-left: -70px;
-		}
-		.payment-2 #Bank{
-			padding-left: 130px;
-			font-size: 16px;
-		}
-		.payment-2 ul {
-			padding-left: 20px;
-		}
-		.payment-2 ul li {
-			display: inline;
-		}
-		.payment-2 ul li img{
-			width: 200px;
-			height: auto;
+	.payment .accept-title{
+		font-size: 17px;
+		margin-left: 90px;
+	}
+	.payment-Ewallet-bank{
+		margin-left: -20px;	
 	}
 
-	.payment-1 #Ewallet{
-		padding-left: 190px;
-	}
-	.payment-1 ul {
-		padding-left: 20PX;
-	}
-	.payment-1 ul li img{ 
-			width: 200px;
-			height: auto;
-	}
-	.payment-1 #Ewallet{
-		font-size: 15px;
-	}
+.payment-ewallet  .ewallet-header-1{
+	font-size: 12px;
+	margin-left: 70px;
 	
 	}
+	.payment-ewallet .img-ewallet{
+		margin-left: 100px;
+	}
+
+	.img-ewallet img{
+		width: 120px;
+		height: 80px;
+	}
+
+
+	.payment-Bank  .Bank-header-2{
+		font-size: 12px;
+		padding-left: 10px;
+		
+		}
+	.payment-Bank .img-Bank{
+		padding-left: 20px;
+	}
+	.img-Bank img{
+		margin: 10px;
+		width: 80px;
+		height: 60px;
+	}
 	
+}
+@media (max-width: 470px){
+	.payment{
+		margin-top: 40px;
+		
+		}
+	.payment .accept-title{
+		font-size: 17px;
+		margin-left: 90px;
+	}
+	.payment-Ewallet-bank{
+		margin-left: -20px;	
+	}
+
+.payment-ewallet  .ewallet-header-1{
+	font-size: 12px;
+	margin-left: 70px;
+	
+	}
+	.payment-ewallet .img-ewallet{
+		margin-left: 100px;
+	}
+
+	.img-ewallet img{
+		width: 120px;
+		height: 80px;
+	}
+
+
+	.payment-Bank  .Bank-header-2{
+		font-size: 12px;
+		padding-left: 10px;
+		
+		}
+	.payment-Bank .img-Bank{
+		padding-left: 20px;
+	}
+	.img-Bank img{
+		margin: 10px;
+		width: 80px;
+		height: 60px;
+	}
+	
+}
+
+
+
+
 
 
 /* end Header 3 payment Section*/
