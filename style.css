@@ -75,10 +75,9 @@ padding-left: 22%;
 		.container-payment .accept-payment{
 			margin-left: -20px;
 		}
-		.container-payment #Payment-Ewallets-Bank{
+		.container-payment #Payment-Ewallets-Bank b{
 			font-size: 16px;
-			font-weight: 600;
-			margin-left: 70px;
+			margin-left: -10px;
 		}
 		.payment-2 #Bank{
 			
@@ -117,9 +116,9 @@ padding-left: 22%;
 			margin-left: -20px;
 		}
 		.container-payment #Payment-Ewallets-Bank{
-			font-size: 16px;
+			font-size: 15px;
 			font-weight: 600;
-			margin-left: 85px;
+			margin-left: 30px;
 		}
 		.payment-2 #Bank{
 			
@@ -163,7 +162,6 @@ padding-left: 22%;
 		}
 		.container-payment #Payment-Ewallets-Bank{
 			font-size: 22px;
-			font-weight: 600;
 			margin-left: 90px;
 		}
 		.payment-2 #Bank{
