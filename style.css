@@ -1203,9 +1203,10 @@ font-size: 20px;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-.google-reviews .reviews-row ul{
+.classs-reviews-group ul{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin-top: 20px; 
 
 }
