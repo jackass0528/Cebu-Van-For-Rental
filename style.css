@@ -39,8 +39,8 @@ margin-top: 50px;
 	padding-left: 80px;
 }
 
-.img-ewallet .img-ewallet{
-	width: 100%;
+.img-ewallet ul img{
+	width: 350px;
 	height: auto;
 }
 
@@ -53,9 +53,9 @@ padding-left: 160px;
 	padding-left: 140px;
 }
 
-.payment-Bank .img-Bank img{
+.payment-Bank .img-Bank ul img{
 	margin: 10px;
-	width: 100%;
+	width: 350px;
 	height: 60px;
 }
 .payment-Bank{
