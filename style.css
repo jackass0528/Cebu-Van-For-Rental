@@ -16,9 +16,9 @@ body.hidden-scrolling{
 
 
 /* Header 3 payment Section*/
-.payment-section h3{
+.payment-header{
      margin-top: 50px;
-	font-size: 25px;
+	font-size: 20px;
 	padding-left: 42%;
 }
 
@@ -28,8 +28,7 @@ body.hidden-scrolling{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 5rem;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 .payment img{
@@ -59,15 +58,10 @@ body.hidden-scrolling{
 }
 
 @media (max-width: 320px){
-	.payment-section h3{
-		margin-top: 30px;
-	   font-size: 16px;
-	   padding-left: 22%;
+	.payment-header{
+	   font-size: 14px;
+	   padding-left: 20%;
    }
-	.payment{
-		margin-top: 20px;
-		gap: 1rem;
-	}
 	.payment img{
 		width: 100px;
 		height: auto;
@@ -78,20 +72,16 @@ body.hidden-scrolling{
 	}
 	.payment-item-2 b{
 		font-size: small;
-		padding-left: 60px;
+		padding-left: 50px;
 	}
 }
 
 @media (max-width: 375px){
-	.payment-section h3{
-		margin-top: 30px;
-	    font-size: 12px;
+	.payment-header{
+		background-color: #333333;
+	   font-size: 14px;
 	   padding-left: 22%;
    }
-	.payment{
-		margin-top: 20px;
-		gap: 1rem;
-	}
 	.payment img{
 		width: 100px;
 		height: auto;
@@ -102,69 +92,13 @@ body.hidden-scrolling{
 	}
 	.payment-item-2 b{
 		font-size: small;
-		padding-left: 60px;
+		padding-left: 50px;
 	}
-}
-@media (max-width: 470px){
-	.payment-section h3{
-		margin-top: 30px;
-	    font-size: 14px;
-	   padding-left: 32%;
-   }
-   .payment{
-	margin-top: 20px;
-	gap: 1rem;
 }
 
-	.payment-item-1 b{
-		font-size: small;
-		padding-left: 125px;
-	}
-	.payment-item-2 b{
-		font-size: small;
-		padding-left: 90px;
-	}
-}
-@media (max-width: 600px){
-	.payment-section h3{
-		margin-top: 30px;
-	    font-size: 14px;
-	   padding-left: 32%;
-   }
-   .payment{
-	margin-top: 20px;
-	gap: 1rem;
-}
 
-	.payment-item-1 b{
-		font-size: small;
-		padding-left: 125px;
-	}
-	.payment-item-2 b{
-		font-size: small;
-		padding-left: 90px;
-	}
-}
-@media (max-width: 740px){
-	.payment-section h3{
-		margin-top: 30px;
-	    font-size: 14px;
-	   padding-left: 35%;
-   }
-   .payment{
-	margin-top: 20px;
-	gap: 1rem;
-}
 
-	.payment-item-1 b{
-		font-size: small;
-		padding-left: 125px;
-	}
-	.payment-item-2 b{
-		font-size: small;
-		padding-left: 90px;
-	}
-}
+
 
 
 
