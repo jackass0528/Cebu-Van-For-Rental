@@ -59,8 +59,8 @@ body.hidden-scrolling{
 
 @media (max-width: 320px){
 	.payment-header{
-	   font-size: 14px;
-	   padding-left: 20%;
+	   font-size: 12px;
+	   padding-left: 70px;
    }
 	.payment img{
 		width: 100px;
@@ -78,9 +78,9 @@ body.hidden-scrolling{
 
 @media (max-width: 375px){
 	.payment-header{
-		background-color: #333333;
 	   font-size: 14px;
-	   padding-left: 22%;
+	   background-color: green;
+	 padding-left: 70px;
    }
 	.payment img{
 		width: 100px;
@@ -94,6 +94,13 @@ body.hidden-scrolling{
 		font-size: small;
 		padding-left: 50px;
 	}
+}
+
+@media (max-width: 470px){
+	.payment-header{
+	   font-size: 14px;
+	   align-items: center;
+   }
 }
 
 
