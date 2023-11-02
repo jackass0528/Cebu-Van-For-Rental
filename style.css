@@ -1198,6 +1198,11 @@ font-size: 20px;
 	justify-content: center;
 }
 
+.classs-reviews-group{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .google-reviews .reviews-row ul{
 	display: flex;
 	flex-wrap: wrap;
