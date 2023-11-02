@@ -1175,12 +1175,33 @@ font-size: 20px;
 	margin-top: 50px;
 
 }
+.reviews-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.reviews-star{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.reviews-row span{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 10px;
+}
+.reviews-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .google-reviews .reviews-row ul{
 	display: flex;
 	flex-wrap: wrap;
-    margin-left: 180px;
-	margin-top: 20px;
-	 
+	margin-top: 20px; 
 
 }
 .google-reviews .reviews-row ul li{
@@ -1191,6 +1212,11 @@ font-size: 20px;
 .google-reviews .reviews-row ul li img{
 	width: 320px;
 	height: auto;
+}
+.reviews-class{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .reviews-btn{
 	display: flex;
@@ -1217,238 +1243,10 @@ font-size: 20px;
 	color: #fff;
 }
 
-.reviews-star{
-	margin-left: 740px;
-}
-.reviews-star h2{
-	margin-left: 12px;
-}
-.reviews-star span{
-	margin-left: 20px;
-}
-
-@media (max-width:992px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 20px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		margin-left: 100px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-
-}
-
-@media (max-width:740px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 180px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		margin-left: 260px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-
-}
-@media (max-width:600px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 120px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		margin-left: 200px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-
-}
-@media (max-width:475px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 60px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		margin-left: 130px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-
-}
-@media (max-width:470px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 50px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		font-size: small;
-		margin-left: 110px;
-	}
-
-	.reviews-star h2{
-		margin-left: 30px;
-	}
-
-	.reviews-star .fa-star{
-		font-size: medium;
-	
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 300px;
-	     height: auto;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-	.reviews-btn .booking-btn a{
-		font-size: x-small;
-	}
-	.reviews-btn #reviews-btn-1{
-border-radius: 15px;
-width: 30%;
-height: auto;
-	}
-	.reviews-btn #reviews-btn-2{
-		border-radius: 15px;
-		width: 30%;
-		height: auto;
-			}
-	
-
-}
-@media (max-width:375px){
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 10px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star{
-		margin-left: 80px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 340px;
-	     height: 300px;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
-	.reviews-btn .booking-btn a{
-		font-size: x-small;
-	}
-	.reviews-btn #reviews-btn-1{
-border-radius: 15px;
-width: 30%;
-height: auto;
-	}
-	.reviews-btn #reviews-btn-2{
-		border-radius: 15px;
-		width: 30%;
-		height: auto;
-			}
-
-}
-@media (max-width:320px){
-
-	.google-reviews .reviews-row ul li img{
-		width: 120px;
-		height: 80px;
-	}
-	.google-reviews .reviews-row ul{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: 30px;
-		margin-top: 20px;
-		
-	}
-	.reviews-star .fa-star{
-		font-size: small;
-	
-	}
-
-	.reviews-star h2{
-		font-size: large;
-		margin-left: 30px;
-	}
-	.google-reviews .reviews-row ul li img{
-		width: 250px;
-	     height: auto;
-		
-	}
-	.reviews-btn{
-		display: flex;
-		justify-content: center;
-		gap: 1rem;
-	}
- 
-	.reviews-btn .booking-btn a{
-		font-size: x-small;
-	}
-	.reviews-btn #reviews-btn-1{
-border-radius: 15px;
-width: 30%;
-height: auto;
-	}
-	.reviews-btn #reviews-btn-2{
-		border-radius: 15px;
-		width: 30%;
-		height: auto;
-			}
+.reviews-row .reviews-class{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 /*end google reviews*/
 
