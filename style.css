@@ -65,6 +65,7 @@ body.hidden-scrolling{
 	   padding-left: 22%;
    }
 	.payment{
+		margin-top: 20px;
 		gap: 1rem;
 	}
 	.payment img{
@@ -81,14 +82,14 @@ body.hidden-scrolling{
 	}
 }
 
-
 @media (max-width: 375px){
 	.payment-sectiion h3{
 		margin-top: 30px;
-	   font-size: 16px;
+	   font-size: 14px;
 	   padding-left: 22%;
    }
 	.payment{
+		margin-top: 20px;
 		gap: 1rem;
 	}
 	.payment img{
