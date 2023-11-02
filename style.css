@@ -17,10 +17,6 @@ body.hidden-scrolling{
 
 /* Header 3 payment Section*/
 
-.payment-section{
-
-	background-color: greenyellow;
-}
  .payment-header{
      margin-top: 50px;
 	font-size: 20px;
@@ -61,17 +57,6 @@ body.hidden-scrolling{
 .payment-item-2 b{
     padding-left: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* end Header 3 payment Section*/
