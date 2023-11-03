@@ -86,79 +86,27 @@ body.hidden-scrolling{
 
 /* Navar Section*/
 
-/* Moving text */
+/*Start Moving text */
 .moving-text{
-	position: absolute;
-	top: 24px;
 	left: 0;
 	width: 100%;
-	height: 30px;
 	background-color: #fefffd;
 	font-weight: 500;
 	font-style: unset;
 	
 }
-/*  
 .moving-text marquee b{
 	color: rgb(65, 62, 62);
-}*/
+}
 
-.moving-text marquee span{
+.moving-text span{
 	margin-left: 20%;
 	font-weight: 600;
 	color: rgb(248, 10, 10);
 }
-@media (max-width: 992px){
-	.moving-text{
-		font-size: 14px;
-	}
-
-}
-
-@media (max-width: 768px){
-	.moving-text{
-		top: 48px;
-	}
 
 
-}
-@media (max-width: 740px){
-	.moving-text{
-		top: 48px;
-	}
-
-
-}
-
-
-@media (max-width: 600px){
-	.moving-text{
-		top: 50px;
-	}
-
-
-}
-@media (max-width: 475px){
-	.moving-text{
-		top: 43px;
-	}
-
-}
-
-@media (max-width: 375px){
-	.moving-text{
-		top: 34px;
-	}
-
-}
-@media (max-width: 320px){
-	.moving-text{
-		top: 54px;
-	}
-
-}
-
-
+/* End Moving text */
 
 
 
@@ -169,6 +117,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: auto;
+font-size: small;
 font-weight: 400;
 background-color: #000000; 
 }
@@ -177,159 +126,25 @@ background-color: #000000;
 display: flex;
 flex-wrap: wrap;
 }
-.headrer-contact-and-map ul{
-	margin-left: 54%;
-	
+
+.header-contact-phone-number ul li{
+	display: inline-flex;
+	flex-wrap: nowrap;
+}
+.header-contact-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    margin: 10px;
 }
 
-.headrer-contact-and-map ul li{
-	display: inline;
-	
-	}	
-
-.headrer-contact-and-map span{
-	margin-left: 70px;
-	
-}
-
-.headrer-contact-and-map span a{
+.header-contact-box span a{
 	color: white;
 }
 
-
-.headrer-contact-and-map ul li a{
+.header-contact-box ul li a{
 	color: white;
 }
-
-
-
-@media (max-width: 992px){
-
-	.headrer-contact-and-map span {
-		margin-left: 80px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		margin-left: 16%;
-	}
-	.headrer-contact-and-map ul li{
-		margin-left: 10px;
-	}
-
-}
-
-@media (max-width: 740px){
-
-
-	.headrer-contact-and-map span{
-		margin-left: 200px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		margin-left: 22%;
-	}
-	.headrer-contact-and-map ul li{
-		margin-left: 10px;
-	}
-
-}
-
-
-@media (max-width: 768px){
-
-	.headrer-contact-and-map span{
-		margin-left: 200px;
-		
-			
-	}
-
-	.headrer-contact-and-map ul{
-		margin-left: 22%;
-	}
-
-
-}
-@media (max-width: 600px){
-	.header-contact{
-		height: auto;
-	}
-
-	.headrer-contact-and-map span{
-		font-size: 16px;
-		margin-left: 140px;
-				
-	}
-
-	.headrer-contact-and-map ul{
-		font-size: large;
-		margin-left:  100px;
-	}
-	
-
-}
-
-
-
-@media (max-width: 475px){
-	.header-contact{
-		height: auto;
-	}
-
-	.headrer-contact-and-map span{
-		margin-top: 5px;
-		font-size: small;
-		margin-left: 80px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		font-size: small;
-		margin-left: 45px;
-		
-	}
-
-}
-
-@media (max-width: 375px){
-
-	.headrer-contact-and-map span{
-		margin-top: 5px;
-		font-size: x-small;
-		margin-left: 90px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		font-size: x-small;
-		margin-left: 60px;
-	}
-	
-
-}
-
-
-@media (max-width: 320px){
-
-	.headrer-contact-and-map span{
-		font-size: x-small;
-		margin-top: 24px;
-		margin-left: 60px;
-			
-	}
-
-	.headrer-contact-and-map ul{
-		font-size: x-small;
-		margin-left: 30px;
-	}
-
-	.headrer-contact-and-map ul li{
-		margin-left: 10px;
-	}
-
-}
-
 
 
 
