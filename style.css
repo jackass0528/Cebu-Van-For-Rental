@@ -1086,17 +1086,47 @@ text-align: center;
 
 /* footer Reviews*/
 .footer{
-    padding: 50px 20px 20px;
-    background-image: linear-gradient(#0f0f0faf,#49484896);
-    color: #fff;
-
+background-image: linear-gradient(#0f0f0faf,#49484896);
+padding: 20px 150px 20px;
+color: #fff;
 }
 
+.container-footer{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 5px;
+	
+}
+
+.footer-row-main{
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-row-main ul li a{
+	color: #f7f2f2;
+}
+
+
+.footer-row-logo-copyrigth{
+    background-color: green;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.col-md-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
 .footer-logo{
 width: 75px;
 height: 50px;
-margin-top: 15px;
 margin-bottom: 15px;
 
 }
@@ -1107,63 +1137,34 @@ margin-top: 15px;
 margin-bottom: 25px;
 }
 
-.footer p{
+.footer li{
     font-size: 14px;
-    text-align: justify;
-	
 }
 
-.footer p a{
-	margin-left: 15px;
-}
-.footer .row .fa{
-padding-right: 10px;
+.footer .footer-row-main .fa{
 font-size: 20px;
 }
 .footer .fa-phone-square img{
     width: 20px;
     height: 20px;
 }
-.footer .fa-enevelope img{
-    width: 20px;
-    height: 20px;
 
-}
-
-.footer .fa-home img{
-    width: 20px;
-    height: 20px;
-
-}
-.footer .fa-facebook img{
-    width: 20px;
-    height: 20px; 
-	
-}
-
-.footer .fa-youtube-play img{
-    width: 20px;
-    height: 20px; 
-}
-
-
-.footer .fa-instagram img{
-    width: 20px;
-    height: 20px;
-
-}
-
-.row .col-md-3 p a{
-	color: #ffffff;
-	
-}
-
-@media (max-width: 740px){
-	.row .col-md-3 p i a{
-		color: #ffffff;
-		padding-left: 10px;
+@media(max-width: 320px){
+	.footer{
+		padding: 20px 20px 20px;
 	}
-}
+} 
+@media(max-width: 375px){
+	.footer{
+		padding: 20px 10px 20px;
+	}
+} 
+@media(max-width: 470px){
+	.footer{
+		padding: 20px 10px 20px;
+	}
+} 
+
 
 
 
