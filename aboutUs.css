@@ -189,9 +189,9 @@ text-align: center;
 
 /* Start Contact us*/
 .contact-us-main{
-    margin: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
  
 }
 .contact-Us-main-list-1{

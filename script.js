@@ -111,8 +111,10 @@ window.scrollTo(0, 0);
   }
   
 
-
-
+//credentials property
+  const myRequest = new Request("BPI.jpg,");
+  const myCred = myRequest.credentials; // returns "same-origin" by default
+  
 
 
   
