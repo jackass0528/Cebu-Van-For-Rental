@@ -442,13 +442,13 @@ tr{
 
   /*Start popup message*/
   .popup{
-    background-color: rgb(158, 158, 153);
+    background-color: rgba(255, 255, 0, 0.747);
     width: 450px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 50%;
+    top: 60%;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -468,6 +468,8 @@ tr{
 }
 
 #popup-Atag{
+  color: white;
+  font-weight: 600;
   display: block;
   width: 150px;
   position: relative;
