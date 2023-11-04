@@ -464,6 +464,7 @@ tr{
 .popup p{
   font-size: 14px;
   text-align: justify;
+  font-weight: 600;
   margin: 20px 0;
 }
 
