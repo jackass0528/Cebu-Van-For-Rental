@@ -17,19 +17,23 @@ body.hidden-scrolling{
 /**Start Donate Section**/
 .btn-donate{
 	background-color: red;
+	box-shadow: 0 0 5px red, 
+	0 0 25px red;
 	align-items: center;
-	padding: 0 20px;
-	border-radius: 1px;
+	padding: 5px 30px;
+	border-radius: 0;
 }
 .btn-donate a{
-	font-size: 14px;
+	font-size: 16px;
 	color: #c5c5c5;
 	font-weight: 600;
 }
 
 .btn-donate:hover{
 	background-color: #f04343;
-	color: wheat;
+	box-shadow: 0 0 5px red, 
+	0 0 25px red, 0 0 50px red,
+	0 0 100px red, 0 0 200px red;
 }
 
 
