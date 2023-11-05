@@ -14,6 +14,25 @@ body.hidden-scrolling{
 	overflow-y: hidden;
 }
 
+/**Start Donate Section**/
+.btn-donate{
+	background-color: red;
+	align-items: center;
+	padding: 0 20px;
+	border-radius: 1px;
+}
+.btn-donate a{
+	font-size: 14px;
+	color: #c5c5c5;
+	font-weight: 600;
+}
+
+.btn-donate:hover{
+	background-color: #f04343;
+	color: wheat;
+}
+
+
 
 /* Header 3 payment Section*/
 
