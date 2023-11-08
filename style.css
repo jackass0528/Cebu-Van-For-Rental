@@ -16,6 +16,16 @@ body.hidden-scrolling{
 }
 
 /**Start Donate Section**/
+.donate-button{
+	position: absolute;
+	padding-left: 54%;
+	padding-top: 75px;
+}
+.container .nav-menu .donate-button{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 .btn-donate{
 	background-color: red;
 	box-shadow: 0 0 5px red, 
@@ -31,13 +41,52 @@ body.hidden-scrolling{
 }
 
 .btn-donate:hover{
-	background-color: #f04343;
-	box-shadow: 0 0 5px red, 
-	0 0 25px red, 0 0 50px red,
-	0 0 100px red, 0 0 200px red;
+	background-color: #f71717;
+	box-shadow: 0 0 5px rgb(187, 255, 0), 
+	0 0 25px rgb(187, 255, 0), 0 0 50px rgb(187, 255, 0),
+	0 0 100px rgb(187, 255, 0), 0 0 200px rgb(187, 255, 0);
 }
 
-
+@media (max-width: 320px){
+	.donate-button{
+		padding-left: 22%;
+		padding-top: 15px;
+	}
+}
+@media (max-width: 375px){
+	.donate-button{
+		padding-left: 22%;
+		padding-top: 15px;
+	}
+}
+@media (max-width: 470px){
+	.donate-button{
+		
+		padding-left: 22%;
+		padding-top: 15px;
+	}
+}
+@media (max-width: 600px){
+	.donate-button{
+		
+		padding-left: 22%;
+		padding-top: 15px;
+	}
+}
+@media (max-width: 740px){
+	.donate-button{
+		
+		padding-left: 26%;
+		padding-top: 15px;
+	}
+}
+@media (max-width: 992px){
+	.donate-button{
+		
+		padding-left: 26%;
+		padding-top: 15px;
+	}
+}
 
 /* Header 3 payment Section*/
 
