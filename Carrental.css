@@ -352,6 +352,15 @@ tr{
     }
 
 }
+@media (max-width: 320px){
+    .timeline-main .timeline-content img{
+       
+        width: 100px;
+        height: 250px;
+    }
+  
+
+}
 
 .timeline-main ul {
   list-style: none;
