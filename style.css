@@ -16,75 +16,75 @@ body.hidden-scrolling{
 }
 
 /**Start Donate Section**/
-.donate-button{
+
+/*Start Desktop*/
+.desktop-donate-button{
 	position: absolute;
-	padding-left: 54%;
+	padding-left: 70%;
 	padding-top: 75px;
 }
-.container .nav-menu .donate-button{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.desktop-donate-button .btn-donate{
+	background-color: red;
+	padding: 5px 30px;
+	border-radius: 0;
 }
-.btn-donate{
+.desktop-donate-button .btn-donate a{
+	color: white;
+	font-weight: 600;
+}
+
+.desktop-donate-button .btn-donate:hover{
 	background-color: red;
 	box-shadow: 0 0 5px red, 
 	0 0 25px red;
-	align-items: center;
+}
+
+/*Start Mobile*/
+.btn-donate{
+	background-color: red;
 	padding: 5px 30px;
 	border-radius: 0;
 }
 .btn-donate a{
-	font-size: 16px;
-	color: #c5c5c5;
+	color: white;
 	font-weight: 600;
 }
-
 .btn-donate:hover{
-	background-color: #f71717;
-	box-shadow: 0 0 5px rgb(187, 255, 0), 
-	0 0 25px rgb(187, 255, 0), 0 0 50px rgb(187, 255, 0),
-	0 0 100px rgb(187, 255, 0), 0 0 200px rgb(187, 255, 0);
+	background-color: red;
+	box-shadow: 0 0 5px red, 
+	0 0 25px red;
+
 }
 
+
 @media (max-width: 320px){
-	.donate-button{
-		padding-left: 22%;
-		margin-top: -55px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 @media (max-width: 375px){
-	.donate-button{
-		padding-left: 22%;
-		margin-top: -55px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 @media (max-width: 470px){
-	.donate-button{
-		
-		padding-left: 20%;
-		margin-top: -55px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 @media (max-width: 600px){
-	.donate-button{
-		
-		padding-left: 22%;
-		margin-top: -55px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 @media (max-width: 740px){
-	.donate-button{
-		
-		padding-left: 26%;
-		margin-top: -55px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 @media (max-width: 992px){
-	.donate-button{
-		
-		padding-left: 26%;
-		margin-top: -120px;
+	.desktop-donate-button{
+     visibility: hidden;
 	}
 }
 
@@ -375,9 +375,12 @@ flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
+
 .header .close-nav-menu img{
 	width: 16px;
 }
+
+
 .header .menu-overlay{
 	position: fixed;
 	z-index: 999;
