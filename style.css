@@ -56,35 +56,35 @@ body.hidden-scrolling{
 @media (max-width: 375px){
 	.donate-button{
 		padding-left: 22%;
-		padding-top: 15px;
+		margin-top: -55px;
 	}
 }
 @media (max-width: 470px){
 	.donate-button{
 		
-		padding-left: 22%;
-		padding-top: 15px;
+		padding-left: 20%;
+		margin-top: -55px;
 	}
 }
 @media (max-width: 600px){
 	.donate-button{
 		
 		padding-left: 22%;
-		padding-top: 15px;
+		margin-top: -55px;
 	}
 }
 @media (max-width: 740px){
 	.donate-button{
 		
 		padding-left: 26%;
-		padding-top: 15px;
+		margin-top: -55px;
 	}
 }
 @media (max-width: 992px){
 	.donate-button{
 		
 		padding-left: 26%;
-		padding-top: 15px;
+		margin-top: -120px;
 	}
 }
 
