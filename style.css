@@ -50,7 +50,7 @@ body.hidden-scrolling{
 @media (max-width: 320px){
 	.donate-button{
 		padding-left: 22%;
-		padding-top: 15px;
+		margin-top: -55px;
 	}
 }
 @media (max-width: 375px){
@@ -258,6 +258,7 @@ flex-wrap: wrap;
 .header .nav-menu{
 	padding: 0 15px;
 }
+
 .header .menu > .menu-item{
 	padding-top: 10px;
 	display: inline-block;
@@ -504,9 +505,7 @@ flex-wrap: wrap;
 	opacity: 1;
 }
 
-#hide{
-visibility: hidden;
-}
+
 	.header .nav-menu{
 		position: fixed;
 		right: -280px;
