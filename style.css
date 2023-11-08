@@ -153,6 +153,7 @@ flex-wrap: wrap;
 
 .header-contact-phone-number ul li{
 	display: inline-flex;
+	margin: 0 5px;
 	flex-wrap: nowrap;
 }
 .header-contact-box{
