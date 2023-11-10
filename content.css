@@ -437,6 +437,7 @@ background-color: #0000004d;
     .table-content ul li{
         margin: 10px;
         list-style: inside;
+
     }
 
 
@@ -523,6 +524,16 @@ background-color: #0000004d;
     flex: 1;
   
  
+}
+
+.Table-rate-rental tr td ul li {
+    list-style: none;
+    margin: 10px;
+    text-align: start;
+}
+#Excess-hour li{
+text-align: center;
+list-style: none;
 }
 
 
