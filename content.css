@@ -441,6 +441,9 @@ background-color: #0000004d;
     }
 
 
+.list-rate-expect ul li{
+    list-style: none;
+}
 
 
     @media(max-width: 992px) {
@@ -524,6 +527,11 @@ background-color: #0000004d;
     flex: 1;
   
  
+}
+
+.CityDrive-Table-rate-rental tbody tr td{
+    border-radius: 1px solid black;
+    
 }
 
 .Table-rate-rental tr td ul li {
