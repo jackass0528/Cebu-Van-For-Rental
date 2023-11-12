@@ -445,6 +445,11 @@ background-color: #0000004d;
     list-style: none;
 }
 
+.Cebu-Itenerary-table-content{
+margin-top: 20px;
+
+}
+
 
     @media(max-width: 992px) {
         .table-content{
