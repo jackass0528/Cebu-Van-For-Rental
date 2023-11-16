@@ -796,6 +796,31 @@ list-style: inside;
 
         /*hide and show*/
      
-
-
-     
+        .destination-map{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            
+        }
+       
+        @media(max-width: 320px){
+            .destination-map iframe{
+            margin: 20px 0 50px 0;
+            width: 350px;
+            height: 500px;
+        }
+    }
+    @media(max-width: 375px){
+        .destination-map iframe{
+        margin: 20px 0 50px 0;
+        width: 350px;
+        height: 500px;
+    }
+}
+@media(max-width: 470px){
+    .destination-map iframe{
+    margin: 20px 0 50px 0;
+    width: 450px;
+    height: 500px;
+}
+}
