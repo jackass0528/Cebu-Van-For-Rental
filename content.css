@@ -561,6 +561,7 @@ list-style: inside;
 }
 
 .list-expect{
+    margin-top: 20px;
     display: block;
 }
 .list-expect img{
@@ -796,29 +797,45 @@ list-style: inside;
 
         /*hide and show*/
      
-        .destination-map{
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: column;
-            
-        }
+          .destination-map {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+          }
+          
+          /* Then style the iframe to fit in the container div with full height and width */
+          .responsive-iframe {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            bottom: 0;
+            right: 0;
+            width: 80%;
+            height: 80%;
+          }
        
         @media(max-width: 320px){
-            .destination-map iframe{
+            .destination-map .responsive-iframe{
             margin: 20px 0 50px 0;
-            width: 350px;
+            width: 300px;
             height: 500px;
+        }
+        
+        .responsive-iframe {
+            top: 10px;
+            left: 0;
         }
     }
     @media(max-width: 375px){
-        .destination-map iframe{
+        .destination-map .responsive-iframe{
         margin: 20px 0 50px 0;
         width: 350px;
         height: 500px;
     }
 }
 @media(max-width: 470px){
-    .destination-map iframe{
+    .destination-map .responsive-iframe{
     margin: 20px 0 50px 0;
     width: 450px;
     height: 500px;
