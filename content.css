@@ -830,7 +830,7 @@ list-style: inside;
     @media(max-width: 375px){
         .destination-map .responsive-iframe{
         margin: 20px 0 50px 0;
-        width: 350px;
+        width: 300px;
         height: 500px;
     }
 }
