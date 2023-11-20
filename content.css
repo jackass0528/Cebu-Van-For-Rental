@@ -323,7 +323,7 @@ background-color: #0000004d;
                   
                     width: 100px;
                     height: 80px;
-                    margin: 20px auto 0 12%;
+                    margin: 20px auto 0 16%;
                     }
                 
                     .slide > img {
@@ -447,6 +447,21 @@ background-color: #0000004d;
     .Duration-time{
         margin-top: 140px; 
         padding-left: 120px;  
+    
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+       
+    }
+
+
+}
+
+@media(max-width: 375px){
+
+    .Duration-time{
+        margin-top: 100px; 
+        padding-left: 110px;  
     
     }
     .Duration-time .fa-calendar{
