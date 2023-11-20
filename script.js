@@ -98,7 +98,7 @@ const backToTopButton = document.querySelector("#back-to-top-btn");
 window.addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-  if (window.scrollY > 600) { // show backToTopButton
+  if (window.scrollY > 3000) { // show backToTopButton
     backToTopButton.style.display = "block"
   }
   else { // Hide BackToTopButton
