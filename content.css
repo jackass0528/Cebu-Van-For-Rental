@@ -603,6 +603,11 @@ margin: 20px 20px;
  
 }
 
+.Table-rate-rental{
+    width: 350px;
+    height: auto;
+}
+
 .CityDrive-Table-rate-rental tbody tr td{
     border-radius: 1px solid black;
     
