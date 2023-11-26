@@ -510,6 +510,10 @@ background-color: #0000004d;
     list-style: none;
 }
 
+.list-1-Cebu-itenerary li{
+    list-style: inside;
+}
+
 .Cebu-Itenerary-table-content{
 margin: 20px 20px;
 

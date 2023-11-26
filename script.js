@@ -39,6 +39,7 @@
           }
         }
     });
+
     function collapseSubMenu(){
       navMenu.querySelector(".menu-item-has-children.active .sub-menu")
       .removeAttribute("style");
@@ -56,7 +57,7 @@
             
           }    
     }
-      
+    
   
     window.addEventListener("resize", function(){
       if(this.innerWidth > mediaSize){
