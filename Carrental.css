@@ -29,20 +29,14 @@
 }
 
 .rate-prov-main{
-    width: 800px;
+    width: 100%;
     height: auto;
+    margin-inline: auto;
     overflow-x: scroll;
-    padding-left: 80px;
   
 }
 
-#rate-prov{
-    min-height: 600px;
-    font-size: small;
-    margin: 20px;
 
- 
-}
 
 #rate-prov table tr td{
     display: fixed;
@@ -87,7 +81,7 @@ tr{
       .rate-prov-main{
         width: 350px;
         height: auto;
-        margin: 10px;
+        margin-inline: auto;
     
     }
     .CityDrive-rate-prov-main{

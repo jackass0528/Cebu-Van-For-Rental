@@ -505,6 +505,7 @@ background-color: #0000004d;
 
     }
 
+  
 
 .list-rate-expect ul li{
     list-style: none;
@@ -623,6 +624,10 @@ text-align: center;
 list-style: none;
 }
 
+.sample{
+ margin-inline: auto;
+ object-fit: cover;
+}
 
 .sample li{
 list-style: inside;
@@ -631,6 +636,7 @@ list-style: inside;
 .saple iframe{
     width: 500px;
     height: 646px;
+
 
 }
 
