@@ -1224,31 +1224,6 @@ margin-top: -10px;
 
 /*Start popup message*/
 
-/* Start Package number*/
-.package-number {
-	position: absolute;
-	margin: -295px 90px;
-
-}
-.package-number .fa{
-font-size: 90px;
-color: rgb(248, 240, 240);
-}
-.package-number b{
-	color: #0c0c0c;
-	font-size: 20px;
-	position: absolute;
-	margin: 25px -55px;
-
-}
-.package-number b p{
-font-size: 12px;	
-margin-top: -10px;
-}
-
-
-/*End package number*/
-
 
 .popup{
     background-color: rgba(255, 255, 0, 0.747);

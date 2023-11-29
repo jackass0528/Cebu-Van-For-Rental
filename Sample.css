@@ -1,360 +1,64 @@
-
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Slab', serif;
-    box-sizing: border-box;
+.main-container{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: red;
 }
 
+@media (min-width: 320px){
+  .main-container{
 
+    background-color: rgb(30, 255, 0);
+  }
+}
 
-/* Start Baner Section 1 */   
+.main-table-content-rigth{
+  width: 90%;
+  margin-inline: auto;
+  background-color: green;
+}
 
-.SectionContent-1{
-    max-width: 100%;
+.main-table-content-left{
+  width: 90%;
+  margin-inline: auto;
+  background-color: aqua;
+}
+
+.table-container{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+table{
+  width: 100%;
+  background-color: #323232; 
+  padding: 1rem;
   
 }
 
-.BannerContent{
-    background-position: center;
-    background-image: url(image/CCLEX.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 10% 0 10% 0;
-    margin-top: 120px;
-    
+caption{
+  text-align: left;
+  padding: 1rem;
 }
-.BannerContent-Slogan{
-    padding: 10%;
-    background: rgba(0,0,0,0.7);
-    text-align: center;
-    color: #fff;
+th{
+  background-color: hsla(0, 13%, 87%, 0.5);
 }
+
+tr:nth-of-type(2n){
+  background-color: hsla(0, 13%, 87%, 0.5);
+}
+
+.rigth-side-list-fb-post{
+  width: 100%;
+  background-color: blue;
+}
+
 
 @media (min-width: 320px){
-    .BannerContent{
-        margin-top: 210px;
-        width: 100%;
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-
-@media (min-width: 475px){
-    .BannerContent{
-        background-position: center;
-        background-image: url(image/CCLEX.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        padding-top: 10% 0 10% 0;
-        margin-top: 220px;
-        
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-@media (min-width: 640px){
-    .BannerContent{
-        background-position: center;
-        background-image: url(image/CCLEX.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        padding-top: 10% 0 10% 0;
-        margin-top: 205px;
-        
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-@media (min-width: 768px){
-    .BannerContent{
-        background-position: center;
-        background-image: url(image/CCLEX.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        padding-top: 10% 0 10% 0;
-        margin-top: 200px;
-        
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-@media (min-width: 1024px){
-    .BannerContent{
-        background-position: center;
-        background-image: url(image/CCLEX.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        padding-top: 10% 0 10% 0;
-        margin-top: 160px;
-        
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-@media (min-width: 1280px){
-    .BannerContent{
-        background-position: center;
-        background-image: url(image/CCLEX.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        padding-top: 10% 0 10% 0;
-        margin-top: 140px;
-        
-    }
-    .BannerContent-Slogan{
-        padding: 8%;
-        background: rgba(0,0,0,0.7);
-        text-align: center;
-        color: #fff;
-    }
-
-}
-/* End Baner Section 1 */   
-
-
-
-/* Start Slider SectionContent-2 */   
-
-.SectionContent-2{
-max-width: 100%;
-
-}
-.carousel {
-    width: 400px;
-    height: 360px;
+  .fb-post {
+    overflow: hidden;
     position: relative;
-     margin-left: 35%;
-     margin-top: 20px;
-   
- 
- }
-
- .carousel > ul {
-margin: 0;
-padding: 0;
-list-style: none;
-
- }
-
- .slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
- }
-
- .slide > img {
-    display: block;
-    width: 500px;
-    height: 300px;
-    margin-top: 0px;
-    object-fit: cover;
-    object-position: center;
-
- }
-
- .slide[data-active] {
-opacity: 1;
- }
-
- .carousel-button {
-position: absolute;
-z-index: 2;
-background: none;
-border: none;
-font-size: 4rem;
-top: 20%;
-transform: translateY(-5%);
-color: rgba(12, 12, 12, 0.719);
-cursor: pointer;
-border-radius: .25rem;
-padding: 0 .5rem;
-background-color: #0000004d;
- }
-
- .carousel-button:hover,
- .carousel-button:focus {
-    color: white;
-    background-color: rgba(51, 51, 68, 0.486);
- }
-.carousel-button:focus {
-    outline: 1px solid black;
+  } 
+  
 }
 
-.carousel-button.prev {
-
-    left: -4.8rem;
-    margin-top: 40px;
-}
-.carousel-button.next {
-
-    right: -11rem;
-    margin-top: 40px;
-}
-
-@media (min-width: 320px){
-    .SectionContent-2{
-        max-width: 100%;
-        
-        }
-        .carousel {
-            width: 400px;
-            height: 360px;
-            position: relative;
-             margin-left: 25%;
-             margin-top: 20px;
-           
-         
-         }
-        
-         .carousel > ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        
-         }
-        
-         .slide {
-            position: absolute;
-            inset: 0;
-            opacity: 0;
-         }
-        
-         .slide > img {
-            display: block;
-            width: 250px;
-            height: 180px;
-            margin-top: 0px;
-            object-fit: cover;
-            object-position: center;
-        
-         }
-        
-         .slide[data-active] {
-        opacity: 1;
-         }
-        
-         .carousel-button {
-        position: absolute;
-        z-index: 2;
-        background: none;
-        border: none;
-        font-size: 2rem;
-        top: 8%;
-        transform: translateY(-5%);
-        color: rgba(12, 12, 12, 0.719);
-        cursor: pointer;
-        border-radius: .25rem;
-        padding: 0 .5rem;
-        background-color: #0000004d;
-         }
-        
-         .carousel-button:hover,
-         .carousel-button:focus {
-            color: white;
-            background-color: rgba(51, 51, 68, 0.486);
-         }
-        .carousel-button:focus {
-            outline: 1px solid black;
-        }
-        
-        .carousel-button.prev {
-        
-            left: -1rem;
-            margin-top: 40px;
-        }
-        .carousel-button.next {
-        
-            right: 8rem;
-            margin-top: 40px;
-        }
-
-        .carousel .carousel-button button,
-        .carousel .carousel-button button {
-        width: 20px;
-        height: 20px;
-        }
-
-       
-
-
-}
-@media (min-width: 475px){
-    
-}
-@media (min-width: 640px){
-    
-}
-@media (min-width: 768px){
-    
-}
-@media (min-width: 1040px){
-    
-}
-@media (min-width: 1280px){
-    
-}
-
-
-/* End Slider SectionContent-2 */   
-
-
-
-
-
-
-
-/* Start Footer Section */   
-
-.Sample-footer{
-    max-width: 100%;
-    background-color: gray;
-}
-
-@media (min-width: 320px){
-
-}
-@media (min-width: 475px){
-    
-}
-@media (min-width: 640px){
-    
-}
-@media (min-width: 768px){
-    
-}
-@media (min-width: 1040px){
-    
-}
-@media (min-width: 1280px){
-    
-}
-
-
-/* End Footer Section */   
