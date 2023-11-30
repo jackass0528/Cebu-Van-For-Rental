@@ -1,7 +1,8 @@
 .main-container{
-  margin: 20px;
+  margin: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
   background-color: red;
 }
 
@@ -13,13 +14,13 @@
 }
 
 .main-table-content-rigth{
-  width: 90%;
+  width: 100%;
   margin-inline: auto;
   background-color: green;
 }
 
 .main-table-content-left{
-  width: 90%;
+  width: 100%;
   margin-inline: auto;
   background-color: aqua;
 }
@@ -48,17 +49,31 @@ tr:nth-of-type(2n){
   background-color: hsla(0, 13%, 87%, 0.5);
 }
 
-.rigth-side-list-fb-post{
+.similar-tour-pages{
+  background-color: #323232;
   width: 100%;
-  background-color: blue;
 }
 
+.main-table-content-left{
+  width: 100%;
+  
+}
+
+.form-content iframe{
+  border: none;
+  width: 100%;
+  height: 2200px;
+}
+
+.rigth-side-list-fb-post{
+  width: 100%;
+}
 
 @media (min-width: 320px){
-  .fb-post {
-    overflow: hidden;
-    position: relative;
-  } 
+
+.rigth-side-list-fb-post iframe{
+  width: 100%;
   
+}
 }
 

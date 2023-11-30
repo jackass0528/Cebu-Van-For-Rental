@@ -566,19 +566,6 @@ a{
     padding: 20px 40px;
 	font-size: 25px;	
 }
-@media(max-width: 992px){
-	.heading-Book-Now{
-
-		font-size: large;	
-	}
-}
-
-@media(max-width: 992px){
-	.heading{
-	font-size: large;
-}
-}
-
 
 .container .box-container{
 display: grid;
@@ -756,8 +743,9 @@ font-weight: 600;
 
 				
 .container .box-container .box{
-	width: 90%;
+	width: 80%;
 	height: 100%;
+	margin: 10px;
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 5px;
