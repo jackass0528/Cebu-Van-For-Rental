@@ -1,28 +1,27 @@
+
+/*********************** Start  Main container Content, table content and facebook pages********************************/
 .main-container{
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  background-color: red;
 }
 
-@media (min-width: 320px){
-  .main-container{
-
-    background-color: rgb(30, 255, 0);
-  }
-}
 
 .main-table-content-rigth{
   width: 100%;
   margin-inline: auto;
-  background-color: green;
 }
 
 .main-table-content-left{
   width: 100%;
   margin-inline: auto;
-  background-color: aqua;
+ 
+}
+
+/*********************** Start Table container********************************/
+.main-tabale-container h2{
+  margin: 10px;
 }
 
 .table-container{
@@ -34,25 +33,48 @@ table{
   width: 100%;
   background-color: #323232; 
   padding: 1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
   
 }
 
 caption{
   text-align: left;
   padding: 1rem;
+  color: black;
 }
 th{
-  background-color: hsla(0, 13%, 87%, 0.5);
+  background-color: hsla(0, 88%, 53%, 0.5);
 }
 
 tr:nth-of-type(2n){
-  background-color: hsla(0, 13%, 87%, 0.5);
+  background-color: hsla(0, 9%, 98%, 0.5);
 }
 
-.similar-tour-pages{
-  background-color: #323232;
+/*********************** End Table container********************************/
+
+/*************Start Facebook pages iframe*****************/
+.rigth-side-list-fb-post{
   width: 100%;
 }
+
+@media (min-width: 320px){
+
+.rigth-side-list-fb-post iframe{
+  width: 100%;
+  
+}
+}
+/*************End Facebook pages iframe*****************/
+
+/*********************** Start  Main container Content, table content and facebook pages********************************/
+
+
+
+
+
+/*********************** Start Main table content Left Form content and Similar tour********************************/
+
 
 .main-table-content-left{
   width: 100%;
@@ -65,15 +87,7 @@ tr:nth-of-type(2n){
   height: 2200px;
 }
 
-.rigth-side-list-fb-post{
-  width: 100%;
-}
 
-@media (min-width: 320px){
+/*********************** End Main table content Left Form content and Similar tour********************************/
 
-.rigth-side-list-fb-post iframe{
-  width: 100%;
-  
-}
-}
 
