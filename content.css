@@ -511,6 +511,10 @@ background-color: #0000004d;
     list-style: none;
 }
 
+.list-destinations ul li{
+    list-style: inside;
+}
+
 .list-1-Cebu-itenerary li{
     list-style: inside;
 }
@@ -615,7 +619,7 @@ margin: 20px 20px;
 }
 
 .Table-rate-rental tr td ul li {
-    list-style: none;
+    list-style: inside;
     margin: 10px;
     text-align: start;
 }
@@ -624,21 +628,6 @@ text-align: center;
 list-style: none;
 }
 
-.sample{
- margin-inline: auto;
- object-fit: cover;
-}
-
-.sample li{
-list-style: inside;
-
-}
-.saple iframe{
-    width: 500px;
-    height: 646px;
-
-
-}
 
 .list-expect{
     margin-top: 20px;
