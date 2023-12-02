@@ -18,7 +18,7 @@
  
 }
 
-/************* Start TERMS AND RATE INCLUSIONS *****************/
+/************* Start Table li ul id tag *****************/
 #terms-and-inclusion{
   list-style: inside ;
 }
@@ -26,7 +26,7 @@
 #Excess-hour{
   list-style: none;
 }
-/************* End TERMS AND RATE INCLUSIONS *****************/
+/************* End Table li ul id tag *****************/
 
 /*********************** Start Table container********************************/
 .main-tabale-container h2{
@@ -60,7 +60,6 @@ th{
 tr:nth-of-type(2n){
   background-color: hsla(0, 9%, 98%, 0.5);
 }
-
 /*********************** End Table container********************************/
 
 /*************Start Facebook pages iframe*****************/
