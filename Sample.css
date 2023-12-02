@@ -1,10 +1,9 @@
 
 /*********************** Start  Main container Content, table content and facebook pages********************************/
 .main-container{
-  margin: 10px;
+  margin: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding-left: 5rem;
   gap: 30px;
 }
 
@@ -19,11 +18,11 @@
  
 }
 
-@media (min-width: 320px){
-  .main-container{
-padding-left: 0;
-  }
-  }
+/************* Start TERMS AND RATE INCLUSIONS *****************/
+#terms-and-inclusion{
+  list-style: inside ;
+}
+/************* End TERMS AND RATE INCLUSIONS *****************/
 
 /*********************** Start Table container********************************/
 .main-tabale-container h2{
@@ -51,6 +50,7 @@ caption{
 }
 th{
   background-color: hsla(0, 88%, 53%, 0.5);
+
 }
 
 tr:nth-of-type(2n){
@@ -73,8 +73,9 @@ tr:nth-of-type(2n){
 }
 /*************End Facebook pages iframe*****************/
 
-/*********************** Start  Main container Content, table content and facebook pages********************************/
 
+
+/*********************** Start  Main container Content, table content and facebook pages********************************/
 
 
 
