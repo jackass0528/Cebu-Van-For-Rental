@@ -26,6 +26,10 @@
 #Excess-hour{
   list-style: none;
 }
+
+#Province-Termsandinclusions ul li{
+  list-style: inside ;
+}
 /************* End Table li ul id tag *****************/
 
 /*********************** Start Table container********************************/
