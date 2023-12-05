@@ -136,9 +136,8 @@ position: absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: auto;
-font-size: small;
-font-weight: 400;
+font-size: large;
+font-weight: 600;
 background-color: #000000; 
 }
 
@@ -156,7 +155,7 @@ flex-wrap: wrap;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-    margin: 10px;
+  margin: 10px;
 }
 
 .header-contact-box span a{
@@ -166,7 +165,11 @@ flex-wrap: wrap;
 .header-contact-box ul li a{
 	color: white;
 }
-
+@media (min-width: 320px){
+	.header-contact{
+font-size: small;
+	}
+}
 
 
 /*header*/
