@@ -82,13 +82,12 @@ tr:nth-of-type(2n){
 
 
 
-/*********************** Start  Main container Content, table content and facebook pages********************************/
+/*********************** End  Main container Content, table content and facebook pages********************************/
 
 
 
 
 /*********************** Start Main table content Left Form content and Similar tour********************************/
-
 
 .main-table-content-left{
   width: 100%;
@@ -101,6 +100,9 @@ tr:nth-of-type(2n){
   height: 2200px;
 }
 
+.City-Car-Rental-rigth-side-list{
+  padding: 1rem;
+}
 
 /*********************** End Main table content Left Form content and Similar tour********************************/
 
