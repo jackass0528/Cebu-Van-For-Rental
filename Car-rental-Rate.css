@@ -23,6 +23,12 @@
   list-style: inside ;
 }
 
+#terms-and-inclusion-Add-on{
+  list-style: circle ;
+  padding: 1rem;
+  padding-left: 50px;
+}
+
 #Excess-hour{
   list-style: none;
 }
@@ -30,6 +36,7 @@
 #Province-Termsandinclusions ul li{
   list-style: inside ;
 }
+
 /************* End Table li ul id tag *****************/
 
 /*********************** Start Table container********************************/
