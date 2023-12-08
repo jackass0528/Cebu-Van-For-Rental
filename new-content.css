@@ -1,0 +1,238 @@
+
+/***************************Slideshow************************************/
+
+.carousel {
+  width: 400px;
+  height: 360px;
+  position: relative;
+  margin-left: 35%;
+  margin-top: 20px;
+
+}
+
+.carousel > ul {
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+}
+
+.slide >img {
+  display: block;
+  width: 500px;
+  height: 300px;
+  margin-top: 0px;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.slide[data-active] {
+opacity: 1;
+}
+
+.carousel-button {
+position: absolute;
+z-index: 2;
+background: none;
+border: none;
+font-size: 4rem;
+top: 20%;
+transform: translateY(-5%);
+color: rgba(12, 12, 12, 0.719);
+cursor: pointer;
+border-radius: .25rem;
+padding: 0 .5rem;
+background-color: #0000004d;
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(51, 51, 68, 0.486);
+}
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+
+  left: -4.8rem;
+  margin-top: 40px;
+}
+.carousel-button.next {
+
+  right: -11rem;
+  margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 992px){
+  
+
+
+  .carousel-button.prev{
+      left: -2rem;
+      margin-top: 60px;
+  }
+  .carousel-button.next{
+      right: -14rem;
+      margin-top: 60px;
+  
+  }
+ 
+
+  .carousel-button:hover, 
+  .carousel-button:focus {
+      color: white;
+      background-color: rgba(51, 51, 68, 0.486);
+     
+  }  
+
+.carousel{
+  width: 100px;
+  height: 80px;
+  margin: 20px auto 0 32%;
+  }
+
+  .slide > img {
+      display: block;
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      object-position: center;
+  
+   }
+
+}
+@media only screen and (max-width: 768px){
+  
+
+.carousel{
+
+  width: 100px;
+  height: 80px;
+  margin: 20px auto 0 30%;
+  }
+
+}
+@media only screen and (max-width: 600px){
+
+
+.carousel{
+  width: 100px;
+  height: 80px;
+  margin: 20px auto 0 15%;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 320px){
+
+
+  .carousel{
+    
+      width: 100px;
+      height: 80px;
+      margin: 20px auto 0 12%;
+      }
+  
+      .slide > img {
+          display: block;
+          width: 250px;
+          height: 150px;
+          object-fit: cover;
+          object-position: center;
+      
+        }
+
+        .carousel-button.prev {
+
+          left: -1rem;
+          margin-top: 20px;
+      }
+      .carousel-button.next {
+      
+          right: -10.4rem;
+          margin-top: 20px;
+      }
+      .carousel-button {
+          position: absolute;
+          z-index: 2;
+          background: none;
+          border: none;
+          font-size: 2rem;
+          top: 20%;
+          transform: translateY(-5%);
+          color: rgba(12, 12, 12, 0.719);
+          cursor: pointer;
+          border-radius: .25rem;
+          padding: 0 .5rem;
+          background-color: #0000004d;
+            }
+    
+  } 
+  
+@media only screen and (max-width: 375px){
+
+
+  .carousel{
+    
+      width: 100px;
+      height: 80px;
+      margin: 20px auto 0 16%;
+      }
+  
+      .slide > img {
+          display: block;
+          width: 250px;
+          height: 150px;
+          object-fit: cover;
+          object-position: center;
+      
+        }
+
+        .carousel-button.prev {
+
+          left: -1rem;
+          margin-top: 20px;
+      }
+      .carousel-button.next {
+      
+          right: -10.4rem;
+          margin-top: 20px;
+      }
+      .carousel-button {
+          position: absolute;
+          z-index: 2;
+          background: none;
+          border: none;
+          font-size: 2rem;
+          top: 20%;
+          transform: translateY(-5%);
+          color: rgba(12, 12, 12, 0.719);
+          cursor: pointer;
+          border-radius: .25rem;
+          padding: 0 .5rem;
+          background-color: #0000004d;
+            }
+  
+  
+  }        
+
+/****************************End Slideshow**************************************/
+
+.table-content-Whale-shark-watching{
+  display: grid;
+  grid-template-columns: repeat(2, 100%);
+  padding: 1rem;
+  background-color: tomato;
+}
