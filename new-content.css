@@ -230,13 +230,49 @@ background-color: #0000004d;
 
 /****************************End Slideshow**************************************/
 
-.table-content-Whale-shark-watching{
+.main-container-page{
+  margin: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 100%);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 1rem;
+  gap: 10px;
   background-color: tomato;
+}
+
+
+.main-left-side-page{
+  width: 100%;
+  margin-inline: auto;
+  background-color: aqua;
 }
 
 .Note-policy{
   padding: 1rem;
+}
+
+table tr td{
+  border: 1px solid black;
+ padding: 1rem;
+}
+
+.What-to-expect-page img{
+  width: 500px;
+  height: 300px;
+
+}
+
+.maps-title-page iframe{
+  width: 100%;
+  height:  500PX;
+}
+
+.form-content{
+  padding: 2rem;
+  padding-left: 140px;
+}
+
+.form-content iframe{
+  width: 80%;
+  height: 2400px;
+
 }
