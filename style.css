@@ -165,7 +165,19 @@ flex-wrap: wrap;
 .header-contact-box ul li a{
 	color: white;
 }
+
+@media (width <= 300px){
+	.header-contact{
+font-size: xx-small;
+	}
+}
+
 @media (min-width: 320px){
+	.header-contact{
+font-size: small;
+	}
+}
+@media (min-width: 375px){
 	.header-contact{
 font-size: small;
 	}
