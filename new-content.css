@@ -231,11 +231,10 @@ background-color: #0000004d;
 /****************************End Slideshow**************************************/
 
 .main-container-page{
-  margin: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 1rem;
-  gap: 10px;
+  padding: 2rem;
+  gap: 50px;
 }
 
 
