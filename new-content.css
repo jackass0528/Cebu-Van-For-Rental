@@ -236,14 +236,12 @@ background-color: #0000004d;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 1rem;
   gap: 10px;
-  background-color: tomato;
 }
 
 
 .main-left-side-page{
   width: 100%;
   margin-inline: auto;
-  background-color: aqua;
 }
 
 .Note-policy{
@@ -266,13 +264,38 @@ table tr td{
   height:  500PX;
 }
 
-.form-content{
+/**********************Google Form ************************/
+
+.new-form-conten{
   padding: 2rem;
   padding-left: 140px;
 }
 
-.form-content iframe{
+.new-form-content iframe{
   width: 80%;
   height: 2400px;
 
+}
+
+@media (max-width: 320px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
+}
+@media (max-width: 375px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
 }
