@@ -233,7 +233,6 @@ background-color: #0000004d;
 .main-container-page{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 2rem;
   gap: 50px;
 }
 
