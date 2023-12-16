@@ -233,14 +233,12 @@ background-color: #0000004d;
 .main-container-page{
   max-width: 1400px;
   margin: 0 auto;
-  text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 
 }
-@media (max-width: 320px){
-  
+@media (300px <= max-width <= 600px){
 .main-container-page{
   margin: 10px;
 }
