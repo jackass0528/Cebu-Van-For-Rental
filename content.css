@@ -504,6 +504,12 @@ background-color: #0000004d;
         margin: 10px;
     }
 }
+@media (max-width: 375px){
+    .table-content{
+        width: fit-content;
+        margin: 10px;
+    }
+}
 
 
     .table-content ul li{
