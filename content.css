@@ -500,7 +500,8 @@ background-color: #0000004d;
 
 @media (300px <= width <= 600px){
     .table-content{
-        margin: 20px;
+        width: fit-content;
+        margin: 10px;
     }
 }
 
