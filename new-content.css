@@ -236,13 +236,13 @@ background-color: #0000004d;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
-  padding: 1rem;
   background-color: red;
 
 }
 
 .main-container-page-group{
 background-color: green;
+padding: 1rem;
 
 }
 @media (300px <= max-width <= 600px){
@@ -250,6 +250,12 @@ background-color: green;
   margin: 10px;
 }
 }
+
+@media (375px <= max-width <= 900px){
+  .main-container-page{
+    margin: 10px;
+  }
+  }
 
 .main-left-side-page{
   background-color: aqua;
@@ -302,6 +308,50 @@ table tr td{
   }
 }
 @media (max-width: 375px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
+}
+@media (max-width: 425px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
+}
+@media (max-width: 740px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
+}
+@media (max-width: 768px){
+  .new-form-content iframe{
+    width: 100%;
+    height: 2400px;
+  
+  }
+  .What-to-expect-page img{
+ width: 300px;
+ height: 200px;
+  }
+}
+@media (max-width: 992px){
   .new-form-content iframe{
     width: 100%;
     height: 2400px;
