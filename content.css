@@ -491,11 +491,10 @@ background-color: #0000004d;
 
     
   .table-content{
-    padding: 40px 40px ;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  
     
     }
 
@@ -506,6 +505,7 @@ background-color: #0000004d;
     }
 
   
+
 
 .list-rate-expect ul li{
     list-style: none;
@@ -604,8 +604,6 @@ margin: 20px 20px;
 .list-1{
 
     flex: 1;
-  
- 
 }
 
 .Table-rate-rental{
@@ -663,7 +661,10 @@ list-style: none;
         }
     }
 
-
+.form-content{
+    padding-left: 20px;
+}
+    
     #form-content{
         display: flex;
         flex-wrap: wrap;
@@ -671,10 +672,13 @@ list-style: none;
         width: 80%;
         height: 100vh;
         border: none;
+       
             }
     
     .list-2{
-        flex: 1;
+        background-color: green;
+        max-width: 800px;
+        margin: 0 10px auto;
 
     }
 
