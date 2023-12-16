@@ -603,7 +603,6 @@ list-style: none;
     #form-content{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
         height: 2400px;
         border: none;
@@ -614,6 +613,15 @@ list-style: none;
         max-width: 800px;
         margin: 0 10px auto;
 
+    }
+
+    @media (300px <= width <= 600px){
+        #form-content{
+            width: 100%;
+            height: 2400px;
+            border: none;
+           
+                }
     }
 
 
