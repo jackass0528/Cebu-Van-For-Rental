@@ -501,13 +501,13 @@ background-color: #0000004d;
 @media (max-width: 320px){
     .table-content{
         width: fit-content;
-        margin: 10px;
+        margin: 20px;
     }
 }
 @media (max-width: 375px){
     .table-content{
         width: fit-content;
-        margin: 10px;
+        margin: 20px;
     }
 }
 
@@ -839,7 +839,7 @@ list-style: none;
         @media(max-width: 320px){
             .destination-map .responsive-iframe{
             margin: 20px 0 50px 0;
-            width: 300px;
+            width: 80%;
             height: auto;
         }
         
@@ -851,7 +851,7 @@ list-style: none;
     @media(max-width: 375px){
         .destination-map .responsive-iframe{
         margin: 20px 0 50px 0;
-        width: 300px;
+        width: 80%;
         height: auto;
     }
 }
