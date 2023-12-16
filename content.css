@@ -493,11 +493,9 @@ background-color: #0000004d;
   .table-content{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
     }
 
     .rigth-side{
-        background-color: green;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
