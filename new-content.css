@@ -231,10 +231,13 @@ background-color: #0000004d;
 /****************************End Slideshow**************************************/
 
 .main-container-page{
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
-  margin: 20px;
+
 }
 @media (max-width: 320px){
   
