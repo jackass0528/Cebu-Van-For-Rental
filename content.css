@@ -498,6 +498,13 @@ background-color: #0000004d;
     
     }
 
+@media (300px <= width <= 600px){
+    .table-content{
+        margin: 10px;
+    }
+}
+
+
     .table-content ul li{
         margin: 10px;
         list-style: inside;
