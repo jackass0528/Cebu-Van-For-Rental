@@ -479,7 +479,7 @@ background-color: #0000004d;
 .Table-rate{
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
    
 }
 
@@ -493,11 +493,27 @@ background-color: #0000004d;
   .table-content{
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1rem;
-    
+    background-color: red;
     }
+
+    .rigth-side{
+        background-color: green;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 2px solid rgb(15, 15, 15);
+        padding: 1rem;
+   
+    }
+
+@media (max-width: 320px){
+    .rigth-side{
+        padding: 1rem;
+        overflow: auto;
+    }
+}
+
+
 
 
 
@@ -570,12 +586,7 @@ list-style: none;
     height: 600px;
 }
 
-    .rigth-side{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-   
-    }
+  
 
     @media (max-width: 992px) {
         #list-expect-JVR img{
