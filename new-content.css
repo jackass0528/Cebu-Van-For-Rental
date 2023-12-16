@@ -236,6 +236,13 @@ background-color: #0000004d;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
+  padding: 1rem;
+  background-color: red;
+
+}
+
+.main-container-page-group{
+background-color: green;
 
 }
 @media (300px <= max-width <= 600px){
@@ -244,8 +251,8 @@ background-color: #0000004d;
 }
 }
 
-
 .main-left-side-page{
+  background-color: aqua;
   width: 100%;
   margin-inline: auto;
 }
