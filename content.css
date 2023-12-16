@@ -498,19 +498,6 @@ background-color: #0000004d;
     
     }
 
-@media (max-width: 320px){
-    .table-content{
-        width: fit-content;
-        margin: 20px;
-    }
-}
-@media (max-width: 375px){
-    .table-content{
-        width: fit-content;
-        margin: 20px;
-    }
-}
-
 
     .table-content ul li{
         margin: 10px;
@@ -540,10 +527,7 @@ margin: 20px 20px;
 
 
 
-
-
 .list-1{
-
     flex: 1;
 }
 
