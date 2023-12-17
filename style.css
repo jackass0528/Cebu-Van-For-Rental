@@ -454,16 +454,6 @@ font-size: small;
 						}
 
 
-/*home section*/
-.home-section{
-	width: 100%;
-	display: block;
-	min-height: 100vh;
-	background-image: url('../img/home.jpg');
-	background-position: center top;
-	background-size: cover;
-}
-
 
 /* responsive */
 
