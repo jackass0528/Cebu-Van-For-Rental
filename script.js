@@ -135,5 +135,6 @@ fs.readdirSync(directory).forEach(file => {
     .toFile(`${directory}/${file}-small.jpg`);
   });
 
+  
 
   
