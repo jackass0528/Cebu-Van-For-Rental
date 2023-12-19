@@ -616,7 +616,7 @@ list-style: none;
             }
     
     .list-2{
-        margin: 0 auto;
+        margin: 10px;
     }
 
     @media (300px <= width <= 600px){
