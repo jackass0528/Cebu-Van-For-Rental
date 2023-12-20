@@ -124,6 +124,9 @@ document.querySelector('.popup').style.display = 'none';
 
 
 
+
+
+
 //Image sharp
 /** 
 const sharp = require('sharp');
@@ -137,6 +140,10 @@ fs.readdirSync(directory).forEach(file => {
   });
   **/
 
+  document.addEventListener('lazybeforesizes', function(e){
+    //calculate the size as a number
+    e.detail.width =  yourCalculation(e.target) || e.detail.width;
+  });
   
 
   
