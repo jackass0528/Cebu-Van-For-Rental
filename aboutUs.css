@@ -304,10 +304,11 @@ margin: 20px;
 .terms-section-faq{
     max-width: 1200px;
     margin: 0 auto;
+  
 }
 
 .terms-section-faq .terms{
-   margin-top: 40px;
+  margin: 20px;
 }
 
 
