@@ -280,6 +280,111 @@ table tr td{
   height:  500PX;
 }
 
+/*Start Duration*/
+
+.Duration-time{
+  padding-left: 28%;
+  margin-bottom: 30px;
+  
+}
+
+.Duration-time ul li{
+  display: inline; 
+  margin: 40px; 
+
+}
+
+.Duration-time .fa-clock-o{
+  font-size: 30px;
+ 
+}
+.Duration-time .fa-calendar{
+  font-size: 30px;
+ 
+}
+.Duration-time .fa-close{
+  font-size: 30px;
+ 
+}
+
+
+
+@media(max-width: 992px) {
+
+   .Duration-time{
+  padding-left: 22%;
+  margin-top: 140px;   
+   
+}
+
+
+.Duration-time ul li{
+  display: inline-block; 
+  margin: 12px; 
+  font-size: 12px;
+}
+.Duration-time .fa-clock-o{
+  font-size: 20px;
+ 
+}
+.Duration-time .fa-calendar{
+  font-size: 20px;
+
+ 
+}
+.Duration-time .fa-close{
+  font-size: 20px;
+ 
+}
+}
+
+
+@media(max-width: 600px) {
+
+  .Duration-time{
+      padding-left: 120px;
+      margin-top: 140px;   
+  }
+  .Duration-time .fa-calendar{
+      font-size: 20px;
+      padding-left: 0px;
+     
+  }
+}
+
+@media(max-width: 768px){
+
+  .Duration-time{
+      margin-top: 140px; 
+      padding-left: 120px;  
+  
+  }
+  .Duration-time .fa-calendar{
+      font-size: 20px;
+     
+  }
+
+
+}
+
+@media(max-width: 375px){
+
+  .Duration-time{
+      margin-top: 100px; 
+      padding-left: 110px;  
+  
+  }
+  .Duration-time .fa-calendar{
+      font-size: 20px;
+     
+  }
+
+
+}
+
+
+/*End Duration*/
+
 /**********************Google Form ************************/
 
 .new-form-conten{
