@@ -820,6 +820,7 @@ list-style: none;
             position: relative;
             overflow: hidden;
             width: 100%;
+            height: 500px;
             padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
           }
           
