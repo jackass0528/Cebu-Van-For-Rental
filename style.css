@@ -962,7 +962,7 @@ color: #fff;
 .col-md-1 {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 20px;
 }
 
 .footer-logo{
