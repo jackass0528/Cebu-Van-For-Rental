@@ -145,7 +145,7 @@ fs.readdirSync(directory).forEach(file => {
     e.detail.width =  yourCalculation(e.target) || e.detail.width;
   });
   
-  
+  /****
   var span = document.getElementsByTagName('span')[0];
 span.textContent = 'interactive'; // change DOM text content
 span.style.display = 'inline'; // change CSSOM property
@@ -155,4 +155,5 @@ loadTime.textContent = 'You loaded this page on: ' + new Date();
 loadTime.style.color = 'blue';
 document.body.appendChild(loadTime);
 
+****/
   
