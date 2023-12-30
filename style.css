@@ -1225,13 +1225,13 @@ margin-top: -10px;
 
 
 .popup{
-    background-color: rgba(255, 255, 0, 0.747);
-    width: 450px;
+    background-color: white;
+    max-width: 1200px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 60%;
+    top: 50%;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -1239,7 +1239,7 @@ margin-top: -10px;
   display: block;
   margin: 0 0 20px auto;
   font-size: 30px;
-  color: #c5c5c5;
+  color: #363535;
   border: none;
   outline: none;
   cursor: pointer;
@@ -1268,9 +1268,9 @@ margin-top: -10px;
     margin-left: 50px;
   }
 
+	
 @media (max-width: 320px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         width: 300px;
         padding: 30px 40px;
         position: absolute;
@@ -1288,7 +1288,6 @@ margin-top: -10px;
 
 @media (max-width: 375px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         width: 250px;
         padding: 30px 40px;
         position: absolute;
@@ -1305,7 +1304,6 @@ margin-top: -10px;
 }
 @media (max-width: 470px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         width: 320px;
         padding: 30px 40px;
         position: absolute;
@@ -1322,7 +1320,6 @@ margin-top: -10px;
 }
 @media (max-width: 600px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         top: 80%;
   
       }
@@ -1333,7 +1330,6 @@ margin-top: -10px;
 }
 @media (max-width: 768px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         top: 80%;
      
       }
@@ -1341,11 +1337,11 @@ margin-top: -10px;
 }
 @media (max-width: 992px){
     .popup{
-        background-color: rgba(255, 255, 0, 0.747);
         top: 80%;
      
       }
 
 }
+
 
 /*End popup message*/
