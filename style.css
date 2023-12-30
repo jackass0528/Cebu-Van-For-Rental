@@ -1231,7 +1231,7 @@ margin-top: -10px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 50%;
+    top: 40%;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
   }
@@ -1277,7 +1277,7 @@ margin-top: -10px;
         position: absolute;
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 80%;
+        top: 40%;
         border-radius: 8px;
         font-family: 'Courier New', Courier, monospace;
       }
@@ -1292,7 +1292,7 @@ margin-top: -10px;
         position: absolute;
         transform: translate(-50%,-50%);
         left: 50%;
-        top: 80%;
+        top: 40%;
         border-radius: 8px;
         font-family: 'Courier New', Courier, monospace;
       }
