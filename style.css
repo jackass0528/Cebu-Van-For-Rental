@@ -1271,6 +1271,7 @@ margin-top: -10px;
 	
 @media (max-width: 320px){
     .popup{
+			background-color: white;
         width: 300px;
         padding: 30px 40px;
         position: absolute;
@@ -1280,14 +1281,12 @@ margin-top: -10px;
         border-radius: 8px;
         font-family: 'Courier New', Courier, monospace;
       }
-      .popup img{
-        width: 250px;
-        margin-left: -10px;
-      }
+  
 }
 
 @media (max-width: 375px){
     .popup{
+			background-color: white;
         width: 250px;
         padding: 30px 40px;
         position: absolute;
@@ -1297,13 +1296,11 @@ margin-top: -10px;
         border-radius: 8px;
         font-family: 'Courier New', Courier, monospace;
       }
-      .popup img{
-        width: 250px;
-    
-      }
+
 }
 @media (max-width: 470px){
     .popup{
+			background-color: white;
         width: 320px;
         padding: 30px 40px;
         position: absolute;
@@ -1313,20 +1310,14 @@ margin-top: -10px;
         border-radius: 8px;
         font-family: 'Courier New', Courier, monospace;
       }
-      .popup img{
-        width: 250px;
-        margin-left: -10px;
-      }
+
 }
 @media (max-width: 600px){
     .popup{
         top: 80%;
   
       }
-      .popup img{
-        width: 250px;
-        margin: 10px;
-      }
+
 }
 @media (max-width: 768px){
     .popup{
