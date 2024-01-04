@@ -139,12 +139,14 @@ fs.readdirSync(directory).forEach(file => {
     .toFile(`${directory}/${file}-small.jpg`);
   });
   **/
-
+ 
+ /****
   document.addEventListener('lazybeforesizes', function(e){
     //calculate the size as a number
     e.detail.width =  yourCalculation(e.target) || e.detail.width;
   });
-  
+  ****/
+
   /****
   var span = document.getElementsByTagName('span')[0];
 span.textContent = 'interactive'; // change DOM text content
