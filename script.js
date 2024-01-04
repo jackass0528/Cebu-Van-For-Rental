@@ -139,7 +139,7 @@ fs.readdirSync(directory).forEach(file => {
     .toFile(`${directory}/${file}-small.jpg`);
   });
   **/
- 
+
  /****
   document.addEventListener('lazybeforesizes', function(e){
     //calculate the size as a number
@@ -158,4 +158,6 @@ loadTime.style.color = 'blue';
 document.body.appendChild(loadTime);
 
 ****/
+
+
   
