@@ -734,6 +734,10 @@ list-style: none;
         
         /*end table content*/
       
+        .fb-comments{
+            width: 100%;
+            margin: 0 auto;
+        }
 
         .accordion-distinaion{
     min-height: 100vh;
