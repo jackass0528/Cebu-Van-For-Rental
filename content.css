@@ -9,7 +9,7 @@
     
    /* content Section*/
 .container{
-max-width: 1200px;
+max-width: 1500px;
 margin: 0 auto;
 text-align: center;
 }
@@ -491,7 +491,7 @@ background-color: #0000004d;
 
     
   .table-content{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

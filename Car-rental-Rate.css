@@ -1,7 +1,7 @@
 
 /*********************** Start  Main container Content, table content and facebook pages********************************/
 .main-container{
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
   margin-top: 20px;
   display: grid;
@@ -101,6 +101,7 @@ tr:nth-of-type(2n){
 
 .main-table-content-left{
   width: 100%;
+
   
 }
 
