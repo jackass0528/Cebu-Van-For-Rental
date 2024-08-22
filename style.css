@@ -1334,6 +1334,8 @@ margin-top: -10px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin-top: 50%;
+	
 }
 
 .fab:hover{
@@ -1349,7 +1351,7 @@ margin-top: -10px;
 
 .box-1{
 	position: fixed;
-	bottom: 44px;
+	bottom: 24px;
 	right: 5px;
 	height: 0px;
 	transition-delay: 0.3s;
