@@ -1118,7 +1118,7 @@ font-size: 20px;
 	display: none;
 	position: fixed;
 	bottom: 20px;
-	right: 20px;
+	left: 20px;
 	font-size: 26px;
 	width: 50px;
 	height: 50px;
@@ -1316,3 +1316,99 @@ margin-top: -10px;
 
 
 /*End popup message*/
+
+/*start floting chatbox*/
+
+
+.fab{
+	position: fixed;
+	bottom: 32px;
+	right: 32px;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	background: #f44336;
+	box-shadow: 1px 2px 4px gray;
+	z-index: 3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.fab:hover{
+	cursor: pointer;
+}
+
+.fab img{
+	width: 60%;
+	transform: rotate(0deg);
+	transition: 0.4s;
+	
+}
+
+.box-1{
+	position: fixed;
+	bottom: 44px;
+	right: 5px;
+	height: 0px;
+	transition-delay: 0.3s;
+	width: 80px;
+	transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.item {
+	overflow: hidden;
+	border-radius: 50%;
+	transition: 0.4s ease-in;
+	width: 44px;
+	height: 44px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 1px 1px 3px gray;
+}
+
+.item1 {
+	transition: 0.2s;
+	background-color: #1565c0;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.item2{
+	transition: 0.2s;
+	background-color: #2bf335;
+	margin-bottom: 10px;
+}
+.item3{
+	transition: 0.2s;
+	background-color: #0db829;
+	margin-bottom: 10px;
+}
+
+.item:hover{
+	cursor: pointer;
+}
+
+.item:hover img{
+	transform: rotate(360deg);
+	transition: all 0.5s;
+}
+
+.box-1-active {
+	height: 290px;
+}
+.fab-active img{
+	transition: rotate(270deg);
+	width: 40%;
+}
+
+
+
+/*end floting chatbox*/
