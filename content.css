@@ -207,22 +207,29 @@ background-color: #0000004d;
 
 
     .carousel-button.prev{
-        left: -2rem;
+        left: 1rem;
         margin-top: 60px;
     }
     .carousel-button.next{
-        right: -14rem;
+        right: -11rem;
         margin-top: 60px;
     
     }
    
 
-    .carousel-button:hover, 
-    .carousel-button:focus {
-        color: white;
-        background-color: rgba(51, 51, 68, 0.486);
-       
-    }  
+    .carousel-button {
+        position: absolute;
+        z-index: 2;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        top: 20%;
+    
+      
+         }
+         .carousel-button:focus {
+            outline: none;
+        }
 
 .carousel{
     width: 100px;
