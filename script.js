@@ -124,11 +124,7 @@ document.querySelector('.popup').style.display = 'none';
 
 
 
-
-
-
 //Image sharp
-/** 
 const sharp = require('sharp');
 const fs = require('fs');
 const directory = './images';
@@ -138,7 +134,7 @@ fs.readdirSync(directory).forEach(file => {
     .resize(200, 100) // width, height
     .toFile(`${directory}/${file}-small.jpg`);
   });
-  **/
+
 
  /****
   document.addEventListener('lazybeforesizes', function(e){
