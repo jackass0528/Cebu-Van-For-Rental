@@ -277,53 +277,20 @@ background-color: #0000004d;
             
             }
 
-            @media only screen and (max-width: 320px){
-    
-
+            @media only screen and (max-width: 470px){
                 .carousel{
-                  
                     width: 100px;
                     height: 80px;
-                    margin: 20px auto 0 12%;
+                    margin: 20px auto 0 20%;
                     }
                 
-                    .slide > img {
-                        display: block;
-                        width: 250px;
-                        height: 150px;
-                        object-fit: cover;
-                        object-position: center;
-                    
-                     }
-
-
-                     .carousel-button.prev {
-
-                        left: 1rem;
-                        margin-top: 30px;
-                    }
-                    .carousel-button.next {
-                    
-                        right: -8.4rem;
-                        margin-top: 30px;
-                    }
-                    .carousel-button {
-                        position: absolute;
-                        z-index: 2;
-                        background: none;
-                        border: none;
-                        font-size: 2rem;
-                        top: 20%;
-                    
-                      
-                         }
-                         .carousel-button:focus {
-                            outline: none;
-                        }
                 
                 
-                } 
-             
+                }
+
+         
+     
+                
             @media only screen and (max-width: 375px){
     
 
@@ -371,7 +338,52 @@ background-color: #0000004d;
 
                 }        
        
+                @media only screen and (max-width: 320px){
+    
 
+                    .carousel{
+                      
+                        width: 100px;
+                        height: 80px;
+                        margin: 20px auto 0 12%;
+                        }
+                    
+                        .slide > img {
+                            display: block;
+                            width: 250px;
+                            height: 150px;
+                            object-fit: cover;
+                            object-position: center;
+                        
+                         }
+    
+    
+                         .carousel-button.prev {
+    
+                            left: 1rem;
+                            margin-top: 30px;
+                        }
+                        .carousel-button.next {
+                        
+                            right: -8.4rem;
+                            margin-top: 30px;
+                        }
+                        .carousel-button {
+                            position: absolute;
+                            z-index: 2;
+                            background: none;
+                            border: none;
+                            font-size: 2rem;
+                            top: 20%;
+                        
+                          
+                             }
+                             .carousel-button:focus {
+                                outline: none;
+                            }
+                    
+                    
+                    } 
     
 
 /*End Slideshow*/
@@ -464,7 +476,20 @@ background-color: #0000004d;
 
 
 }
+@media(max-width: 470px){
 
+    .Duration-time{
+        margin-top: 140px; 
+        padding-left: 180px;  
+    
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+       
+    }
+
+
+}
 
 
 @media(max-width: 375px){
