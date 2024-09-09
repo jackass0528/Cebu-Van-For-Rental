@@ -277,16 +277,32 @@ background-color: #0000004d;
             
             }
 
-       
+            @media only screen and (max-width: 470px){
+                .slider-sec{
+                    background-color: #132ec5;
+
+                }
+                .carousel{
+                    width: 100px;
+                    height: 80px;
+                    margin: 20px auto 0 20%;
+                    }
+                
+                
+                
+                }
 
          
      
                 
             @media only screen and (max-width: 375px){
     
+                .slider-sec{
+                    background-color: #ff0202;
 
+                }
                 .carousel{
-                  
+                 
                     width: 100px;
                     height: 80px;
                     margin: 20px auto 0 15%;
@@ -331,7 +347,10 @@ background-color: #0000004d;
        
                 @media only screen and (max-width: 320px){
     
-
+                    .slider-sec{
+                        background-color: #a6df0a;
+    
+                    }
                     .carousel{
                       
                         width: 100px;
@@ -467,7 +486,20 @@ background-color: #0000004d;
 
 
 }
+@media(max-width: 470px){
 
+    .Duration-time{
+        margin-top: 140px; 
+        padding-left: 180px;  
+    
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+       
+    }
+
+
+}
 
 
 @media(max-width: 375px){
