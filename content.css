@@ -278,10 +278,7 @@ background-color: #0000004d;
             }
 
             @media only screen and (max-width: 470px){
-                .slider-sec{
-                    background-color: #132ec5;
-
-                }
+          
                 .carousel{
                     width: 100px;
                     height: 80px;
@@ -297,10 +294,7 @@ background-color: #0000004d;
                 
             @media only screen and (max-width: 375px){
     
-                .slider-sec{
-                    background-color: #ff0202;
-
-                }
+             
                 .carousel{
                  
                     width: 100px;
@@ -347,10 +341,7 @@ background-color: #0000004d;
        
                 @media only screen and (max-width: 320px){
     
-                    .slider-sec{
-                        background-color: #a6df0a;
-    
-                    }
+               
                     .carousel{
                       
                         width: 100px;
@@ -475,7 +466,7 @@ background-color: #0000004d;
 @media(max-width: 768px){
 
     .Duration-time{
-        margin-top: 140px; 
+        margin-top: 120px; 
         padding-left: 120px;  
     
     }
@@ -489,8 +480,8 @@ background-color: #0000004d;
 @media(max-width: 470px){
 
     .Duration-time{
-        margin-top: 140px; 
-        padding-left: 180px;  
+        margin-top: 120px; 
+        padding-left: 170px;  
     
     }
     .Duration-time .fa-calendar{
@@ -505,7 +496,7 @@ background-color: #0000004d;
 @media(max-width: 375px){
 
     .Duration-time{
-        margin-top: 100px; 
+        margin-top: 80px; 
         padding-left: 110px;  
     
     }
