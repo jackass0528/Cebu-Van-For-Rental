@@ -476,20 +476,7 @@ background-color: #0000004d;
 
 
 }
-@media(max-width: 470px){
 
-    .Duration-time{
-        margin-top: 140px; 
-        padding-left: 180px;  
-    
-    }
-    .Duration-time .fa-calendar{
-        font-size: 20px;
-       
-    }
-
-
-}
 
 
 @media(max-width: 375px){
