@@ -247,6 +247,8 @@ background-color: #0000004d;
      }
 
 }
+
+
 @media only screen and (max-width: 768px){
     
 
@@ -261,13 +263,14 @@ background-color: #0000004d;
 
 }
 
+
         @media only screen and (max-width: 600px){
             
         
             .carousel{
                 width: 100px;
                 height: 80px;
-                margin: 20px auto 0 15%;
+                margin: 20px auto 0 30%;
                 }
             
             
@@ -320,7 +323,7 @@ background-color: #0000004d;
                 
                 
                 } 
-                
+             
             @media only screen and (max-width: 375px){
     
 
@@ -328,7 +331,7 @@ background-color: #0000004d;
                   
                     width: 100px;
                     height: 80px;
-                    margin: 20px auto 0 16%;
+                    margin: 20px auto 0 15%;
                     }
                 
                     .slide > img {
@@ -375,6 +378,7 @@ background-color: #0000004d;
 
 /*Start Duration*/
 
+
  .Duration-time{
     padding-left: 28%;
     margin-bottom: 30px;
@@ -406,7 +410,8 @@ background-color: #0000004d;
 
      .Duration-time{
     padding-left: 22%;
-    margin-top: 140px;   
+    margin-top: 140px;  
+
      
  }
 
@@ -459,6 +464,8 @@ background-color: #0000004d;
 
 
 }
+
+
 
 @media(max-width: 375px){
 
