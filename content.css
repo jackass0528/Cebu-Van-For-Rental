@@ -469,8 +469,7 @@ background-color: #0000004d;
 
     .Duration-time{
         margin-top: 140px; 
-        padding-left: 120px;  
-        background-color: yellow;  
+        padding-left: 120px;   
     
     }
     .Duration-time .fa-calendar{
@@ -484,8 +483,7 @@ background-color: #0000004d;
 
     .Duration-time{
         margin-top: 140px; 
-        padding-left: 150px;
-        background-color: gray;  
+        padding-left: 150px;      
     
     }
     .Duration-time .fa-calendar{
@@ -504,7 +502,6 @@ background-color: #0000004d;
     .Duration-time{
         margin-top: 80px; 
         padding-left: 110px;  
-        background-color: blue;
     
     }
     .Duration-time .fa-calendar{
@@ -519,7 +516,6 @@ background-color: #0000004d;
     .Duration-time{
         margin-top: 80px; 
         padding-left: 80px;  
-        background-color: green;
     
     }
     .Duration-time .fa-calendar{
