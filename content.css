@@ -509,6 +509,20 @@ background-color: #0000004d;
 
 
 }
+@media(max-width: 320px){
+
+    .Duration-time{
+        margin-top: 80px; 
+        padding-left: 80px;  
+    
+    }
+    .Duration-time .fa-calendar{
+        font-size: 20px;
+       
+    }
+
+
+}
 
 
 /*End Duration*/
