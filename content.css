@@ -483,7 +483,8 @@ background-color: #0000004d;
 
     .Duration-time{
         margin-top: 140px; 
-        padding-left: 170px;  
+        padding-left: 170px;
+        background-color: gray;  
     
     }
     .Duration-time .fa-calendar{
@@ -496,10 +497,12 @@ background-color: #0000004d;
 
 
 @media(max-width: 375px){
+    
 
     .Duration-time{
         margin-top: 80px; 
         padding-left: 110px;  
+        background-color: blue;
     
     }
     .Duration-time .fa-calendar{
@@ -514,6 +517,7 @@ background-color: #0000004d;
     .Duration-time{
         margin-top: 80px; 
         padding-left: 80px;  
+        background-color: green;
     
     }
     .Duration-time .fa-calendar{
