@@ -660,6 +660,12 @@ list-style: none;
     margin-top: 20px;
 }
     
+
+    .list-2{
+        margin: 10px;
+        
+    }
+
     #form-content{
         display: flex;
         flex-wrap: wrap;
@@ -668,14 +674,6 @@ list-style: none;
         border: none;
        
             }
-
-.policy{
-    background-color: #333;
-}
-
-    .list-2{
-        margin: 10px;
-    }
 
 
 
