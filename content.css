@@ -669,17 +669,9 @@ list-style: none;
        
             }
 
-    @media (max-width: 320px) {
-        #list-expect-JVR img{
-            width: 320px;
-            height: auto;
-        }
-        .saple iframe{
-            width: 350px;
-            height: 200px;
-
-        }
-    }
+.policy{
+    background-color: #333;
+}
 
     .list-2{
         margin: 10px;
