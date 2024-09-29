@@ -544,7 +544,7 @@ font-size: small;
 /* content Section*/
 .container{
 max-width: 100%;
-margin: 0 180px;
+margin: 0 225px;
 text-align: center;
 }
 
@@ -560,6 +560,16 @@ text-align: center;
 
 
 }
+@media (max-width:375px){
+	.container{
+		margin: 0 20px;
+		
+	}
+	.logo img{
+		width: 250px;
+		height:  auto;
+	}
+}
 
 @media (max-width:470px){
 	.container{
@@ -573,6 +583,16 @@ text-align: center;
 }
 
 @media (max-width:600px){
+	.container{
+		margin: 0 20px;
+		
+	}
+	.logo img{
+		width: 260px;
+		height:  auto;
+	}
+}
+@media (max-width:992px){
 	.container{
 		margin: 0 20px;
 		
