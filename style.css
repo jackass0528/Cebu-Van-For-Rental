@@ -25,6 +25,8 @@ body.hidden-scrolling{
 	background-color: red;
 	padding: 5px 30px;
 	border-radius: 0;
+
+	
 }
 .btn-donate a{
 	color: white;
@@ -41,7 +43,7 @@ body.hidden-scrolling{
 /* Header 3 payment Section*/
 
  .payment-header{
-     margin-top: 50px;
+  margin-top: 50px;
 	font-size: 20px;
 	display: flex;
 	flex-wrap: wrap;
@@ -113,19 +115,19 @@ body.hidden-scrolling{
 .moving-text{
 	left: 0;
 	width: 100%;
-	background-color: #fefffd;
+	background-color: #ff0505;
 	font-weight: 500;
 	font-style: unset;
 	
 }
 .moving-text marquee b{
-	color: rgb(65, 62, 62);
+	color: rgb(5, 5, 5);
 }
 
 .moving-text span{
 	margin-left: 20%;
 	font-weight: 600;
-	color: rgb(248, 10, 10);
+	color: rgb(255, 255, 255);
 }
 
 
@@ -195,7 +197,7 @@ font-size: small;
 	top:0;
 	z-index: 99;
 	padding: 12px;
-	background-color: #fd0000;
+	background-color: white;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.137);
 }
 .header-main{
@@ -204,14 +206,18 @@ font-size: small;
 	align-items: center;
 	padding: 10px 0;
 	border-radius: 4px;
+	
+
 }
 .logo img{
 	border-color: 2px solid #f7f2f2;
-    width: 80px;
-    height: 50px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+    width: 280px;
+    height: 100px;
 }
 .header .logo img{
-	margin-top: 40px;
+	margin-top: 50px;
 
 }
 .header .logo a{
@@ -227,7 +233,7 @@ font-size: small;
 .header .menu > .menu-item{
 	padding-top: 10px;
 	display: inline-block;
-	margin-left: 30px;
+	margin-left: 11px;
 	position: relative;
 }
 .header .menu > .menu-item > a{
@@ -375,9 +381,8 @@ font-size: small;
 			padding-top: 70px;
 		}
 	
-		.header .logo{
-			padding-top: 20px;
-		}
+
+
 		.header .open-nav-menu{
 			margin-top: 30px;
 		}
@@ -538,10 +543,51 @@ font-size: small;
 
 /* content Section*/
 .container{
-max-width: 1200px;
-margin: 0 auto;
+max-width: 100%;
+margin: 0 180px;
 text-align: center;
 }
+
+@media (max-width:320px){
+	.container{
+		margin: 0 20px;
+	}
+	.logo img{
+		width: 160px;
+		height:  auto;
+		
+	}
+
+
+}
+
+@media (max-width:470px){
+	.container{
+		margin: 0 20px;
+		
+	}
+	.logo img{
+		width: 250px;
+		height:  auto;
+	}
+}
+
+@media (max-width:600px){
+	.container{
+		margin: 0 20px;
+		
+	}
+	.logo img{
+		width: 260px;
+		height:  auto;
+	}
+}
+
+
+
+
+
+
 .heading{
 	font-size: 28px;
 	margin: 0 auto;
@@ -822,10 +868,25 @@ margin-top: 20px;
 	.container-1 p{
         font-size: 20px;
     }
+		@media (max-width: 992px){
+			.banner-1{
+		margin-top: 250px;
+	}
+	}
+		@media (max-width: 700px){
+			.banner-1{
+		margin-top: 250px;
+	}
+	}	
+		@media (max-width: 600px){
+			.banner-1{
+		margin-top: 250px;
+	}
+	}
 
-	@media (max-width: 475px){
+	@media (max-width: 470px){
         .banner-1{
-			margin-top: 160px;
+			margin-top: 220px;
 		}
 
 		.container-1 h2{
@@ -837,6 +898,13 @@ margin-top: 20px;
 		}
 
 	}
+
+	
+	@media (max-width: 375px){
+		.banner-1{
+	margin-top: 220px;
+}
+}
     
     
 
