@@ -114,13 +114,6 @@ window.scrollTo(0, 0);
   
 
 
-//Pop-up message
-document.querySelector('#close').addEventListener
-('click', function(){
-document.querySelector('.popup').style.display = 'none';
-
-});
-
 
 
 //Image sharp
