@@ -624,30 +624,6 @@
   <!---end Chatbox Section---->
   <button id="back-to-top-btn" title="back-to-top"><img src="image/arrow.png" loading="lazy" role="presentation" alt="back to top"></button>
 
-  <script>
-     const imageSearch = require('image-search-google');
- 
- const client = new imageSearch('Cebu Van for Rental', 'AIzaSyB__XfrDLsOcgAuD8HZv60PTa88N8E--d0');
- const options = {page:1};
- client.search('Cebu Van for Rental', options)
-     .then(images => {
-         /*
-         [{
-             'url': item.link,
-             'thumbnail':item.image.thumbnailLink,
-             'snippet':item.title,
-             'context': item.image.contextLink
-         }]
-          */
-     })
-     .catch(error => console.log(error));
-  
- // search for certain size
- client.search('Cebu Van for Rental', {size: 'large'});
-  
- // search for certain type
- client.search('Cebu Van for Rental', {type: 'Cebu Tourist Spot'});
-  </script>
 
 </body>
 
