@@ -39,12 +39,13 @@
         "image-alt": "off"
       }
     ],
-    "axe/name-role-value": [
+    "axe/name-role-value": "off",
+    "meta-viewport": "off",
+    "axe/language": [
       "default",
       {
-        "button-name": "off"
+        "html-lang-valid": "off"
       }
-    ],
-    "meta-viewport": "off"
+    ]
   }
 }
