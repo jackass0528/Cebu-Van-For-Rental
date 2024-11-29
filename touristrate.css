@@ -1,0 +1,40 @@
+#main{
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+#rate-prov{
+  min-height: 600px;
+  margin-bottom: 10px;
+
+}
+
+#rate-prov table tr td{
+border: 1px solid black;
+  text-align: center;
+  background-color: lightgrey;
+}
+
+
+#Rate-Mactan{
+min-height: 600px;
+}
+
+#Rate-Mactan table tr td{
+border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(255, 252, 252);
+  
+}
+
+@media only screen and (max-width: 375px){
+  #main-table{
+
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+}
