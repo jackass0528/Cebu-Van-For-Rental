@@ -19,6 +19,18 @@ padding-right: 80px;
   padding-left: 120px;
 }
 
+@media (max-width:992px){
+	.header .open-nav-menu{
+			margin-top: 30px;
+		}
+	.container .header-main{
+  width: 100%;
+ margin: 20px;
+ margin-left: -80px;
+}
+
+}
+
 .container .box-container{
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
