@@ -331,7 +331,17 @@ tr{
 
 /*Start How to book timeline*/
 
+.container{
+max-width: 100%;
+margin: 0 225px;
+text-align: center;
+padding-right: 100px;
+}
 
+.container .header-main{
+  width: 100%;
+padding-left: 100px;
+}
 .timeline-container {
     max-width: 1200px;
     margin: 0 auto;
