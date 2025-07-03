@@ -558,9 +558,13 @@ text-align: center;
 padding-right: 20px;
 }
 
-.container .header-main{
+.header-main{
   width: 100%;
 	margin-left: 100px;
+}
+
+.logo{
+margin-left: -250px;
 }
 
 @media (max-width:320px){
@@ -616,14 +620,15 @@ padding-right: 20px;
 		width: 260px;
 		height:  auto;
 	}
-	.header .logo img{
-	margin-top: 50px;
-	margin-left: 0;
 
-}
-	.container .header-main{
+
+.header-main{
   width: 100%;
-	margin-left: 0;
+	margin-left: 10px;
+}
+
+.logo{
+margin-left: 200px;
 }
 
 }
