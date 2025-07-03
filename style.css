@@ -206,7 +206,6 @@ font-size: small;
 	align-items: center;
 	padding: 10px 0;
 	border-radius: 4px;
-	
 
 }
 .logo img{
@@ -218,6 +217,7 @@ font-size: small;
 }
 .header .logo img{
 	margin-top: 50px;
+		margin-left: -200px;
 
 }
 .header .logo a{
@@ -368,6 +368,8 @@ font-size: small;
 
 
 
+
+
 	@media (min-width: 740px){
 		.header .menu > .menu-item-has-children:hover > .sub-menu{
 			transform: translateY(0);
@@ -380,12 +382,20 @@ font-size: small;
 		 .header .menu > .menu-item > a{
 			padding-top: 70px;
 		}
-	
-
 
 		.header .open-nav-menu{
 			margin-top: 30px;
 		}
+
+		.header .nav-menu{
+	margin-right: -10px;
+}
+a
+.header .logo img{
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
 		}
 
 		@media (min-width: 600px){
@@ -548,6 +558,11 @@ margin: 0 225px;
 text-align: center;
 }
 
+.container .header-main{
+  width: 100%;
+	margin-left: 100px;
+}
+
 @media (max-width:320px){
 	.container{
 		margin: 0 20px;
@@ -601,6 +616,16 @@ text-align: center;
 		width: 260px;
 		height:  auto;
 	}
+	.header .logo img{
+	margin-top: 50px;
+	margin-left: 0;
+
+}
+	.container .header-main{
+  width: 100%;
+	margin-left: 0;
+}
+
 }
 
 
