@@ -20,6 +20,9 @@ padding-right: 80px;
 }
 
 @media (max-width:992px){
+        .container{
+padding-top: 0px;
+}
 	.header .open-nav-menu{
 			margin-top: 30px;
 		}
@@ -45,6 +48,7 @@ padding-top: 0px;
 }
 
 }
+
 
 .container .box-container{
 display: grid;
