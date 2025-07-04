@@ -564,7 +564,7 @@ padding-right: 20px;
 }
 
 .logo{
-margin-left: -250px;
+margin-left: -280px;
 }
 
 @media (max-width:320px){
@@ -576,7 +576,6 @@ margin-left: -250px;
 		height:  auto;
 		
 	}
-
 
 }
 @media (max-width:375px){
@@ -631,9 +630,6 @@ margin-left: 200px;
 }
 
 }
-
-
-
 
 
 
