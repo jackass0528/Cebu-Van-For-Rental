@@ -367,7 +367,33 @@ font-size: small;
 }
 
 
+	@media (min-width: 992px){
+		.header .menu > .menu-item-has-children:hover > .sub-menu{
+			transform: translateY(0);
+			opacity: 1;
+			visibility: visible;
+		 }
+		 .header .menu > .menu-item-has-children:hover > a .plus:after{
+			transform: translate(-50%,-50%) rotate(0deg);		
+		 }
+		 .header .menu > .menu-item > a{
+			padding-top: 70px;
+		
+		}
 
+		.header .open-nav-menu{
+			margin-top: 30px;
+		}
+
+		.header .nav-menu{
+	margin-right: -10px;
+}
+.header .logo img{
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+		}
 
 
 	@media (min-width: 740px){
