@@ -878,8 +878,18 @@ font-weight: 600;
 
 
 /* end terms and conditions Section*/
+.banner {
+  background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg); 
+}
+@media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+  .banner {
+    background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg);
+  }
+}
 
-/* banner  Section*/
+/* banner  Section
 .banner{
 background-position: center;
 background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg);
@@ -889,6 +899,7 @@ padding: 20px 0 20px 0;
 margin-top: 40px;
 
 }
+*/
 
 .banner-highlights{
 padding: 10% ;
