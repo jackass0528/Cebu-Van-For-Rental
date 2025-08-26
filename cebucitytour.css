@@ -21,7 +21,6 @@ body{
     }
     
     .banner-highlights-1{
-    padding: 12%;
     background: rgba(0,0,0,0.7);
     text-align: center;
     color: #fff;
@@ -39,9 +38,7 @@ body{
     .container-1{
         padding-top: 20%;    
     }
-    .banner-1{
-        margin-top: 180px;
-    }
+  
     
     }
 
@@ -177,5 +174,30 @@ background-color: #8f8888;
     
     /*end content*/
     
-  
+  /* Start terms and Conditions us*/
+
+.terms-section-faq{
+margin-top: ;
+   
+}
+
+.terms-section-faq .terms{
+  margin: 20px;
+}
+
+
+/* End terms and Conditions us*/
+
+.banner-terms{
+    background-position: center;
+    background-image: url(image/aboutUS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 160px;
+   
+    }
+
+ 
 
