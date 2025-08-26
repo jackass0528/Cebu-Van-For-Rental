@@ -166,6 +166,22 @@ tr{
     }
 }
 
+.banner-car-aboutUs{
+    background-position: center;
+    background-image: url(image/aboutUS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 160px;
+    }
+    @media (max-width: 992px){
+        .banner-car-aboutUs{
+            margin-top: 250px;
+        }
+    }
+
+
 .banner-car-rental{
     background-position: center;
     background-image: url(image/Cebu\ Car\ Rental.jpg);
@@ -329,20 +345,8 @@ tr{
 
 /*End City limit Car and Van Rental*/
 
-/*Start How to book timeline*/
-
-.container{
-max-width: 100%;
-margin: 0 225px;
-text-align: center;
-padding-right: 100px;
-}
-
-.container .header-main{
-  width: 100%;
-padding-left: 100px;
-}
-.timeline-container {
+  /*end How to book timeline*/
+  .timeline-container {
     max-width: 1200px;
     margin: 0 auto;
 
@@ -474,7 +478,6 @@ padding-left: 100px;
   .timeline-main ul li:hover::before {
     background-color: aqua;
   }
-  /*end How to book timeline*/
 
   
 
