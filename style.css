@@ -312,7 +312,7 @@ font-size: small;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	background-color: white;
+	background-color: rgba(74, 71, 71, 0.146);
 }
 .header .open-nav-menu span{
 	display: block;
@@ -578,7 +578,6 @@ font-size: small;
 
 /* content Section*/
 .container{
-max-width: 100%;
 margin: 0 225px;
 text-align: center;
 padding-right: 20px;
@@ -865,64 +864,6 @@ font-weight: 600;
 /* content end Section*/
 
 
-/* start terms and conditions Section*/
-#termsAndconditions{
-	background-color: rgba(128, 128, 128, 0.5);
-	margin: 50px 50px ;
-	border-radius: 20px;
-	width: 80%;
-	height: 60px;
-	text-align: center;
-	padding-top: 8px;
-}
-
-
-/* end terms and conditions Section*/
-.banner {
-  background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg); 
-}
-@media 
-  (-webkit-min-device-pixel-ratio: 2), 
-  (min-resolution: 192dpi) { 
-  .banner {
-    background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg);
-  }
-}
-
-/* banner  Section
-.banner{
-background-position: center;
-background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg);
-background-size: cover;
-background-attachment: fixed;
-padding: 20px 0 20px 0;
-margin-top: 40px;
-
-}
-*/
-
-.banner-highlights{
-padding: 10% ;
-background: rgba(0,0,0,0.7);
-text-align: center;
-color: #fff;
-
-}
-
-.booking-btn{
-width: 120px;
-padding: 8px 0;
-outline: none !important;
-border: 2px solid #fff;
-border-radius: 50px;
-background: transparent;
-color: #fff;
-margin-top: 20px;
-
-}
-.booking-btn a{
-	color: #fff;
-}
 
 
 
@@ -968,8 +909,11 @@ margin-top: 20px;
 	}
 
 	@media (max-width: 470px){
+		.banner-highlights-1{
+			padding: 20%;
+		}
         .banner-1{
-			margin-top: 250px;
+			margin-top: 240px;
 		}
 
 		.container-1 h2{
@@ -989,6 +933,88 @@ margin-top: 20px;
 }
 }
     
+    /* banner 1 Section*/
+.banner-2{
+    background-position: center;
+    background-image: url(https://www.cebuvanforrental.com/image/CCLEX.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10% 0 10% 0;
+    margin-top: 120px;
+    }
+    
+    .banner-highlights-2 {
+    padding: 5%;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    
+    }
+
+    .container-2 h2{
+        font-size: 40px;
+    }
+
+	.container-2 p{
+        font-size: 20px;
+    }
+		@media (max-width: 992px){
+			.banner-2{
+		margin-top: 250px;
+	}
+	}
+		@media (max-width: 700px){
+			.banner-2{
+		margin-top: 250px;
+	}
+	}	
+		@media (max-width: 600px){
+			.banner-2{
+		margin-top: 250px;
+	}
+	}
+
+	@media (max-width: 470px){
+		.banner-highlights-2{
+			padding: 10%;
+		}
+        .banner-2{
+			margin-top: 50px;
+		}
+
+		.container-2 h2{
+			font-size: large;
+		}
+	
+		.container-2 p{
+			font-size: small;
+		}
+
+	}
+
+	
+	@media (max-width: 375px){
+		.banner-2{
+	margin-top: 220px;
+}
+}
+
+
+.booking-btn{
+width: 120px;
+padding: 8px 0;
+outline: none !important;
+border: 2px solid #fff;
+border-radius: 50px;
+background: transparent;
+color: #fff;
+margin-top: 20px;
+
+}
+.booking-btn a{
+	color: #fff;
+}
+
     
 
     /* Header 2 Section*/
