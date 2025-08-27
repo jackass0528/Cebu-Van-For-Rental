@@ -991,14 +991,24 @@ font-weight: 600;
 		}
 
 	}
-
 	
 	@media (max-width: 375px){
+	.banner-highlights-2{
+			padding: 10%;
+		}
 		.banner-2{
-	margin-top: 220px;
+	margin-top: 50px;
 }
 }
 
+	@media (max-width: 360px){
+	.banner-highlights-2{
+			padding: 10%;
+		}
+		.banner-2{
+	margin-top: 50px;
+}
+}
 
 .booking-btn{
 width: 120px;
