@@ -312,7 +312,8 @@ font-size: small;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
-	background-color: rgba(74, 71, 71, 0.146);
+	background-color: rgba(58, 52, 52, 0.164);
+padding: 2%;
 }
 .header .open-nav-menu span{
 	display: block;
@@ -756,7 +757,7 @@ color: #383838;
 	background-color: rgb(228, 35, 28);
     color: #fff;
     font-size: 18;
-	font-weight: 600;
+	  font-weight: 600;
 	
 	
 }
@@ -774,7 +775,7 @@ color: #383838;
     margin-top: 20px;
     padding-top: 15px;
     border-top: 1px solid #334;
-	background-color: #fff;
+	  background-color: #fff;
 }
 
 .container .box-container .box .content-box .icon span{
@@ -784,7 +785,7 @@ color: #777;
 
 .container .box-container .box .content-box .icon span i{
     color: rgb(44, 43, 43);
-  
+
     }
 
     #load-more{
@@ -846,6 +847,8 @@ font-weight: 600;
 				}
 
 				@media (max-width:320px){
+
+
 					.container .box-container .box .content-box h3{
 						font-size: small;
 						
