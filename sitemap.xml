@@ -10,6 +10,12 @@
 <url>
   <loc>https://www.cebuvanforrental.com/cebucitytour.html</loc>
   <lastmod>2024-01-12T00:34:52+00:00</lastmod>
+   <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/temple9.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/city%20tour.jpg</image:loc>
+    </image:image>
    <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -22,24 +28,48 @@
 <url>
   <loc>https://www.cebuvanforrental.com/Half-Day-Cebu-City-tour-with-Airport-Transfer.html</loc>
   <lastmod>2024-01-12T00:34:52+00:00</lastmod>
+     <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/magellan%20cross.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/Heritage.jpg</image:loc>
+    </image:image>
    <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://www.cebuvanforrental.com/CebuCityTour+Simala.html</loc>
   <lastmod>2024-01-12T00:34:52+00:00</lastmod>
+       <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/simala1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/City%20Tour%20+%20Simala%20Shrine%20.jpg</image:loc>
+    </image:image>
    <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://www.cebuvanforrental.com/Cebu-City-Tour-Mountain-Tour.html</loc>
   <lastmod>2024-01-12T00:34:52+00:00</lastmod>
+       <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/alejandra.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/kyoto.jpg</image:loc>
+    </image:image>
    <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://www.cebuvanforrental.com/3-days-2-nigths-Cebu-Tour-Package.html</loc>
   <lastmod>2024-01-12T00:34:52+00:00</lastmod>
+     <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/Cebu%20Sardines%20Run%20Moalboal.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.cebuvanforrental.com/image/Cebu-City-Tour-Simala-Shrine-Whale-Shark-Watching-Sumilon-Island-Tumalog-Falls-Kawasan-Falls-Moalboal-Sardines-Run.jpg</image:loc>
+    </image:image>
    <changefreq>monthly</changefreq>
   <priority>0.8</priority>
 </url>
