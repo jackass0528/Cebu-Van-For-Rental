@@ -5,9 +5,14 @@
 <loc>https://www.cebuvanforrental.com/</loc>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>1.0</priority>
+<product:description xmlns:product="https://www.cebuvanforrental.com/">
+<customer xmlns="https://www.cebuvanforrental.com/">
+  <name>Cebu Van For Rental</name>
+</customer>
 <description>
   The most affordable van rental service in Cebu City. We offer budget-friendly van rentals with professional drivers for city tours, airport transfers, and custom trips around Cebu.
 </description>
+</product:description>
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/index.html</loc>
