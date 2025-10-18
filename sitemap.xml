@@ -23,6 +23,14 @@
 <loc>https://www.cebuvanforrental.com/cebucitytour.html</loc>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>0.80</priority>
+<product:description xmlns:product="https://www.cebuvanforrental.com/cebucitytour.html">
+<customer xmlns="https://www.cebuvanforrental.com/cebucitytour.html">
+  <name>Cebu City Tour</name>
+</customer>
+<description>
+  Cebu City Tour that explores the historical attractions and cultural of the city of cebu,philippines. if you are not comfortable of traveling for more than 3 hours going to the southern or northern part of Cebu,then this tour package is for you.
+</description>
+</product:description>
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/City-Tour.html</loc>
