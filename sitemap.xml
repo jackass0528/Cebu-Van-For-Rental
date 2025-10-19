@@ -9,9 +9,6 @@
 <customer xmlns="https://www.cebuvanforrental.com/">
   <name>Cebu Van For Rental</name>
 </customer>
-<description>
-  The most affordable van rental service in Cebu City. We offer budget-friendly van rentals with professional drivers for city tours, airport transfers, and custom trips around Cebu.
-</description>
 </product:description>
 </url>
 <url>
@@ -27,9 +24,6 @@
 <customer xmlns="https://www.cebuvanforrental.com/cebucitytour.html">
   <name>Cebu City Tour</name>
 </customer>
-<description>
-  Cebu City Tour that explores the historical attractions and cultural of the city of cebu,philippines. if you are not comfortable of traveling for more than 3 hours going to the southern or northern part of Cebu,then this tour package is for you.
-</description>
 </product:description>
 </url>
 <url>
@@ -40,9 +34,6 @@
 <customer xmlns="https://www.cebuvanforrental.com/City-Tour.html">
   <name>Cebu City Tour</name>
 </customer>
-<description>
-  Cebu City Tour that explores the historical attractions and cultural of the city of cebu,philippines. if you are not comfortable of traveling for more than 3 hours going to the southern or northern part of Cebu,then this tour package is for you.
-</description>
 </product:description>
 </url>
 <url>
