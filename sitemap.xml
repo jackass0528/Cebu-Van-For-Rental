@@ -5,11 +5,6 @@
 <loc>https://www.cebuvanforrental.com/</loc>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>1.0</priority>
-<product:description xmlns:product="https://www.cebuvanforrental.com/">
-<customer xmlns="https://www.cebuvanforrental.com/">
-  <name>Cebu Van For Rental</name>
-</customer>
-</product:description>
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/index.html</loc>
@@ -20,21 +15,11 @@
 <loc>https://www.cebuvanforrental.com/cebucitytour.html</loc>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>0.80</priority>
-<product:description xmlns:product="https://www.cebuvanforrental.com/cebucitytour.html">
-<customer xmlns="https://www.cebuvanforrental.com/cebucitytour.html">
-  <name>Cebu City Tour</name>
-</customer>
-</product:description>
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/City-Tour.html</loc>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>0.80</priority>
-<product:description xmlns:product="https://www.cebuvanforrental.com/City-Tour.html">
-<customer xmlns="https://www.cebuvanforrental.com/City-Tour.html">
-  <name>Cebu City Tour</name>
-</customer>
-</product:description>
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/Half-Day-Cebu-City-tour-with-Airport-Transfer.html</loc>
