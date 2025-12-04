@@ -1622,6 +1622,7 @@ margin-top: -10px;
 .box-1-active {
 	height: 290px;
 }
+
 .fab-active img{
 	transition: rotate(270deg);
 	width: 40%;
