@@ -3,6 +3,10 @@
 <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
 <loc>https://www.cebuvanforrental.com/</loc>
+ <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.cebuvanforrental.com/"/>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>1.0</priority>
 </url>
@@ -13,6 +17,10 @@
 </url>
 <url>
 <loc>https://www.cebuvanforrental.com/cebucitytour.html</loc>
+ <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.cebuvanforrental.com/cebucitytour.html"/>
 <lastmod>2025-10-14T01:07:40+00:00</lastmod>
 <priority>0.80</priority>
 </url>
