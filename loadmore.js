@@ -1,6 +1,6 @@
 
 let loadMoreBtn = document.querySelector('#load-more');
-let currentItem = 3;
+let currentItem = 2;
 
 loadMoreBtn.onclick = () =>{
    let boxes =  [...document.querySelectorAll('.container .box-container .box')];
