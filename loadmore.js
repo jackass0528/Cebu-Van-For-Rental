@@ -12,7 +12,7 @@ if(currentItem >= boxes.length){
 loadMoreBtn.style.display = 'none';
 
 }
-}
+};
 
 
 
